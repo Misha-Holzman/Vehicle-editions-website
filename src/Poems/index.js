@@ -4,7 +4,7 @@ import './style.css'
 class Poems extends Component {
   render () {
     return (
-      <div className='main-page-container'>
+      <div className=''>
         <h1 className=''>Poems COMPONTENT</h1>
       </div>
     )

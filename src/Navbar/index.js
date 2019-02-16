@@ -28,7 +28,7 @@ import './style.css'
 class Navbar extends Component {
   render () {
     return (
-      <Router className='nav'>
+      <Router className='nav' style={{ borderBottom: '1px solid black' }}>
         <div className='nav-container'>
           <ul className='nav-bullets-container'>
             <li className='name-link'>
@@ -36,7 +36,7 @@ class Navbar extends Component {
                 <div className='section__item name-div'>
                   <a href='#changeMeToARouteLink' id='my-name'>
                     <Link className='home-link' to='/home'>
-                      <h1 id='name'>Annabel Lee</h1>
+                      <h1 id='annabel-name'>ANNABEL LEE</h1>
                     </Link>
                   </a>
                 </div>
@@ -50,7 +50,7 @@ class Navbar extends Component {
                       href='#about-page'
                       className='sm-link sm-link_padding-all sm-link1 nav-text-links'
                     >
-                      <span className='sm-link__label dropbtn'>Vehicle Editions <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' /></span>
+                      <span className='sm-link__label dropbtn'>Vehicle Editions </span>
                     </a>
                     <div className='dropdown-content'>
                       <Link className='dropdown-tabs' to='/grantsAndAwards'>Grants and Awards</Link>
@@ -71,7 +71,7 @@ class Navbar extends Component {
                       href='#about-page'
                       className='sm-link sm-link_padding-all sm-link1 nav-text-links'
                     >
-                      <span className='sm-link__label dropbtn'>Publications Consulting  <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' /></span>
+                      <span className='sm-link__label dropbtn'>Publications Consulting  </span>
                     </a>
                     <div className='dropdown-content' id='publications-drop'>
                       <Link className='dropdown-tabs' to='/consulting'>Consulting</Link>
@@ -90,7 +90,7 @@ class Navbar extends Component {
                       href='#about-page'
                       className='sm-link sm-link_padding-all sm-link1 nav-text-links'
                     >
-                      <span className='sm-link__label dropbtn'>Writing<img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' /></span>
+                      <span className='sm-link__label dropbtn'>Writing</span>
                     </a>
                     <div className='dropdown-content' id='writing-drop'>
                       <Link className='dropdown-tabs' to='/books'>Books</Link>
@@ -114,7 +114,7 @@ class Navbar extends Component {
                       href='#about-page'
                       className='sm-link sm-link_padding-all sm-link1 nav-text-links'
                     >
-                      <span className='sm-link__label dropbtn'>Music and Art<img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' /></span>
+                      <span className='sm-link__label dropbtn'>Music and Art</span>
                     </a>
                     <div className='dropdown-content'>
                       <Link className='dropdown-tabs' to='/music'>Music</Link>
@@ -222,7 +222,7 @@ export default Navbar
                     href='#about-page'
                     className='sm-link sm-link_padding-all sm-link1 nav-text-links'
                   >
-                    <span className='sm-link__label dropbtn'>Vehicle Editions <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' /></span>
+                    <span className='sm-link__label dropbtn'>Vehicle Editions </span>
                   </a>
                   <div className='dropdown-content'>
                     <a href='#' className='dropdown-tabs'>Grants and Awards</a>
@@ -242,7 +242,7 @@ export default Navbar
                     href='#about-page'
                     className='sm-link sm-link_padding-all sm-link1 nav-text-links'
                   >
-                    <span className='sm-link__label dropbtn'>Publications Consulting  <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' /></span>
+                    <span className='sm-link__label dropbtn'>Publications Consulting  </span>
                   </a>
                   <div className='dropdown-content'>
                     <a href='#' className='dropdown-tabs'>Consulting</a>
@@ -261,7 +261,7 @@ export default Navbar
                     href='#about-page'
                     className='sm-link sm-link_padding-all sm-link1 nav-text-links'
                   >
-                    <span className='sm-link__label dropbtn'>Writing  <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' /></span>
+                    <span className='sm-link__label dropbtn'>Writing  </span>
                   </a>
                   <div className='dropdown-content'>
                     <a href='#' className='dropdown-tabs'>Books</a>
@@ -284,7 +284,7 @@ export default Navbar
                     href='#about-page'
                     className='sm-link sm-link_padding-all sm-link1 nav-text-links'
                   >
-                    <span className='sm-link__label dropbtn'>Music and Art  <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' /></span>
+                    <span className='sm-link__label dropbtn'>Music and Art  </span>
                   </a>
                   <div className='dropdown-content'>
                     <a href='#' className='dropdown-tabs'>Music</a>
@@ -333,3 +333,14 @@ export default Navbar
           </li>
         </ul>
       </div> */ }
+
+
+
+// <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' />
+// <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' />
+// <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' />
+// <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' />
+// <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' />
+// <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' />
+// <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' />
+// <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' />

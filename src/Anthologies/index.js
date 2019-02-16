@@ -4,7 +4,7 @@ import './style.css'
 class Anthologies extends Component {
   render () {
     return (
-      <div className='main-page-container'>
+      <div className=''>
         <h1 className=''>Anthologies COMPONTENT</h1>
       </div>
     )

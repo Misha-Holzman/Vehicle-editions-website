@@ -4,7 +4,7 @@ import './style.css'
 class Continental34s extends Component {
   render () {
     return (
-      <div className='main-page-container'>
+      <div className=''>
         <h1 className=''>Continental34s COMPONTENT</h1>
       </div>
     )

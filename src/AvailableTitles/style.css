@@ -1,0 +1,145 @@
+.available-titles-main-container {
+  height: 910px;
+  width: 100%;
+
+}
+.car-photo {
+  height: 150px;
+  margin-bottom: 2%;
+}
+
+.available-titles-title-div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.available-titles-main-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  color: black;
+  font-weight: 200;
+  /* border-top: 2px solid black;
+  border-bottom: 2px solid black; */
+  width: 45%;
+}
+
+.available-titles-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.available-titles-container {
+  padding: 2%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.available-titles-container {
+  padding: 2%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.available-titles-info-div-signs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.available-titles-info-div-rudy {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+
+.available-titles-link-container {
+
+}
+
+.available-titles-signs-name {
+  font-family: "Montserrat", sans-serif;  
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20%; 
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+}
+
+.available-titles-rudy-name {
+  font-family: "Montserrat", sans-serif;  
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 7%; 
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+}
+
+.book-of-signs-img {
+  height: 300px;
+  margin: 0 auto;
+}
+
+.rudy-images-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.convo-with-rudy-img {
+  height: 300px;
+}
+
+.convo-with-rudy-2-img {
+  height: 300px;
+
+}
+
+
+
+.signs-dynamic-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.rudy-dynamic-div {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.rudy-photos-description1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.rudy-photos-description2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-style: italic;
+  margin-top: -1%;
+}

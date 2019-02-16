@@ -1,30 +1,172 @@
-.exhibitions-container {
+.exhibitions-main-container {
   /* background-image: url('https://i.imgur.com/0ht2wHa.jpg'); */
-  height: 1010px;
+  /* height: 1010px; */
   width: 100%;
-  border-top: black 2px solid;
 }
 
+.exhibitions-main-container {
+  height: 910px;
+  width: 100%;
+}
 
-/* .main-page-container {
-  background-image: url('https://i.imgur.com/0ht2wHa.jpg');
-  height: 610px;
-  width: 100%; */
-  /* background-repeat: no-repeat; */
-  /* background-size: contain;
+.car-photo {
+  height: 150px;
+  margin-bottom: 2%;
+}
+
+.benson-gallery-div {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 2%;
+}
+
+.benson-gallery-photo-left {
+  height: 300px;
+}
+
+.benson-gallery-photo-right {
+  height: 300px;
+}
+
+.train-ride-photo-bottom {
+  margin: 0 auto;
+  height: 400px;
+}
+
+.train-ride-photo-description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-style: italic;
+  margin-top: -2.5%;
+  margin-bottom: 4%;
+}
+
+.benson-images-description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-style: italic;
+  margin-top: -2.5%;
+  margin-bottom: 4%;
+}
+
+.exhibitions-title-div {
   display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
   flex-direction: column;
-} */
+}
 
-/* 
-.name-of-site {
-  font-family: 'Lato', sans-serif;
-  border: 2px solid white;
-  margin: 0 auto;
-  width: 23%;
+.exhibitions-main-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  color: black;
   font-weight: 200;
-  color: white;
-} */
+  /* border-top: 2px solid black;
+  border-bottom: 2px solid black; */
+  width: 45%;
+}
+
+.exhibitions-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.regular-exhibitions-container {
+  padding: 2%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+.regular-exhibitions-title {
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 1px solid rgb(167, 167, 167);  
+  margin-bottom: 7%;
+}
+.exhibitions-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.trade-shows-container {
+  padding: 2%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+.trade-show-title {
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 1px solid rgb(167, 167, 167);  
+  margin-bottom: -1%;
+  width: 73%;
+  margin: 0 auto;
+  margin-bottom: 2%;
+  margin-top: 15%;
+}
+
+.trade-show-title-container {
+  width: 100%;
+}
+
+.span-italic {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.exhibition-year {
+  margin-top: 7%;
+  font-family: "Montserrat", sans-serif;  
+  font-weight: 800;
+}
+.exhibition-name {
+  font-family: "Montserrat", sans-serif;  
+  font-weight: 200;
+  margin-top: -1%; 
+  font-size: 15px;
+}
+.exhibition-location {
+  margin-top: -3%;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;  
+  font-weight: 500;
+}
+
+.exhibition-name1 {
+  font-family: "Montserrat", sans-serif;  
+  font-size: 15px;
+  font-weight: 200;
+  margin-top: 3%; 
+}
+.exhibition-location1 {
+  margin-top: -3%;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;  
+  font-weight: 500;
+}
+.exhibition-location2 {
+  margin-top: -3%;
+  margin-bottom: 4%;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;  
+  font-weight: 500;
+}
+
+.bottom-div {
+  margin-bottom: 30%;
+}

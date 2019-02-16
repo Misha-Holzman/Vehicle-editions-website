@@ -4,8 +4,72 @@ import './style.css'
 class ConversationsWithRudy extends Component {
   render () {
     return (
-      <div className='main-page-container'>
-        <h1 className=''>ConversationsWithRudy COMPONTENT</h1>
+      <div className='convos-with-rudy-main-container'>
+        <h3>by Simon Pettet</h3>
+        <p>ISBN 0-931428-20-3</p>
+        <p>10 x 8 inches</p>
+        <p>72 pages</p>
+        <h3>$20</h3>
+        <p> Available for purchase from <a href='FIX' className='ilylali-link' target="_blank">movingvehicle@gmail.com</a> Printed in duotone offset in an edition of 2,000 copes by The Studley Press, Dalton, Massachusetts. 22 photographs included. Text stock is Warren Lustro Dull and endpapers are Curtis Flannel. Text type is Frutiger. Edition is smyth sewn. </p>
+        <p>
+        Conversations with Rudy Burckhardt includes an extensive interview with Simon Pettet and 22 photographs 
+        in duotone by the noted photographer, filmmaker and painter Rudy Burckhardt. The photographs, taken 
+        between 1930 and 1986, include his classic, much-admired image of the Flatiron Building, New York 1948, 
+        and photographs of rhapsodic beauty in Maine, gentle serenity in Naples, many humorous scenes 
+        (New York, Little Rock, Florence, etc.) and others. His images are all completely accessible and 
+        reflect his resolutely unpretentious style. The sprightly dialogue complements the photographs, with 
+        many discussed individually.
+        </p>
+        <p>
+        Rudy Burckhardt is, according to John Ashbery, “a subterranean monument.” Born in Basel, Switzerland 
+        in 1914, he came to New York City when he was 21. He soon established himself as a photographer and, 
+        in addition to his own photographic art, made a significant contribution documenting work for major 
+        galleries and art publications. His previous book, a memoir entitled Mobile Homes, was published by 
+        Z Press in1979, and photographs have been included in numerous volumes over the years, including 
+        the Complete Poems of Edwin Denby published by Random House in 1986. He died in August 1999 and is 
+        survived by his wife Yvonne Jacquette, his ex-wife Edith Schloss, his two sons Jacob and Tom Burckhardt 
+        and two grandsons.
+        </p>
+        <p>
+        Simon Pettet is a British poet living in New York City and is the author of several books 
+        (most recently, Hearth (Talisman, 2009)
+        </p>
+        <p>
+        The publication of Conversations with Rudy Burckhardt in 1987 honored the occasion of three significant 
+        events in New York City. After decades of relative obscurity, Rudy Burckhardt¹s devoted underground 
+        following was joined by many newfound admirers as a result of a major retrospective of 67 of his films 
+        at the Museum of Modern Art, and, concurrently, an exhibition of photographs at Brooke Alexander Gallery 
+        and a show of paintings at Blue Mountain Gallery.
+        </p>
+        <p>
+        As Phillip Lopate has remarked, “In the book, one is privileged to hear the artist¹s thoughts and 
+        doubts about living, making art, beauty, time, youth, aging, public acclaim, compositional techniques, 
+        Switzerland, parents, and the non-relationship between rapture and sorrow … The combination of beautiful, 
+        rarely-seen photographs and lively text make this an irresistible book.”
+        </p>
+        <p>
+        Rudy Burckhardt was a New York photographer, filmmaker and painter, whose work is currently enjoying 
+        great attention, with a Museum of Modern Art retrospective, and two shows at the Brooke Alexander and 
+        Blue Mountain galleries. These conversations with the poet Simon Pettet were held in New York City. 
+        They illuminate Burckhardt’s esthetic but also the general climate and philosophy of the New York School, 
+        particularly the part of it that included both artists and writers. Since the late 1950s painters and 
+        poets in New York have enjoyed the sort of friendships that define the entire atmosphere of an era. 
+        Among the most celebrated are the poet Frank O’Hara’s close ties to Jackson Pollock and Franz Kline, 
+        the poet Ted Berrigan’s intimacy with Joe Brainard and Alex Katz, and many others. Not coincidentally, 
+        this lovely book is dedicated to Edwin Denby, the late great New York poet and dance critic. “It’s true,” 
+        says Denby, “there is such a thing as real beauty, only it’s only a second that you see it. I mean, 
+        real beauty, in the sense of a fact. You look up and say ‘Oh’ and then it’s gone, because something 
+        else has happened….It isn’t an artifice, it’s just the way things are…. And Rudy sees so many of them.” 
+        Judging by the many photographs in this exquisitely made little book, Rudy Burckhardt certainly does. 
+        He sees something else too: the outlandish humor in the everyday. He is also remarkably free of the 
+        art-pretentious drivel one reads in the art magazines. “Haven’t you always had to deal with being 
+        underestimated?” Simon Pettet asks him.” I was never aware of that,” says Burckhardt, and he goes on 
+        to explain, “That’s a fiction…. Because, supposing a beautiful girl gives me a big smile. That’s enough. 
+        That can make my day. She’s not ‘underestimating.’ I don’t really feel the worth of achievement. 
+        You know, achieve a body of work and people have to admire it. That’s phony actually.” Rudy Burckhardt 
+        is anything but. What he is, is an artist, all the time, even when he talks.
+        </p>
+        <button className='buy-now-button'>Buy Now</button>
       </div>
     )
   }
