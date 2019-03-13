@@ -65,7 +65,7 @@ class Exhibitions extends Component {
             </div>
           </div>
 
-          <div className='benson-gallery-div'>
+          <div className='benson-gallery-div-2'>
             <img src='https://i.imgur.com/RXud8he.jpg' className='train-ride-photo-bottom' />
           </div>
           <p className='train-ride-photo-description'>Train Ride plate and artwork</p>

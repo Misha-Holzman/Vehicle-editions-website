@@ -1,0 +1,74 @@
+.poems-main-container {
+  height: 910px;
+  width: 100%;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+}
+.car-photo-poems {
+  height: 200px;
+  margin-bottom: 2%;
+  margin-top: -2%;
+}
+
+.poems-title-div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.poems-main-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  margin-top: 5%;
+  color: black;
+  font-weight: 200;
+  /* border-top: 2px solid black;
+  border-bottom: 2px solid black; */
+  width: 45%;
+  text-align: center;
+}
+
+.poems-info-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+.poems-links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.poems-dynamic-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  width: 40%;
+}
+
+.poems-links {
+  margin-right: 5%;
+
+}
+
+.titles-of-poems-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  color: black;
+  font-weight: 200;
+  border-bottom: 1px solid black;
+}

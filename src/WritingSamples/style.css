@@ -1,0 +1,56 @@
+.writing-samples-main-container {
+  height: 910px;
+  width: 100%;
+}
+.writing-samples-car-photo {
+  height: 115px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.writing-samples-title-div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.writing-samples-main-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  color: black;
+  font-weight: 200;
+  /* border-top: 2px solid black;
+  border-bottom: 2px solid black; */
+  width: 45%;
+  text-align: center;
+}
+
+.writing-samples-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+
+
+
+.writing-samples-main-div {
+
+}
+
+.donna-dennis-passage-div {
+  
+}
+
+
+
+
+
+
+

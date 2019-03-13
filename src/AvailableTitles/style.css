@@ -26,6 +26,7 @@
   /* border-top: 2px solid black;
   border-bottom: 2px solid black; */
   width: 45%;
+  text-align: center;
 }
 
 .available-titles-info-container {
@@ -98,7 +99,7 @@
 }
 
 .book-of-signs-img {
-  height: 300px;
+  height: 330px;
   margin: 0 auto;
 }
 
@@ -135,6 +136,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   font-style: italic;
+  text-align: center;
 }
 
 .rudy-photos-description2 {
@@ -142,4 +144,8 @@
   font-size: 13px;
   font-style: italic;
   margin-top: -1%;
+  text-align: center;
 }
+
+
+

@@ -7,7 +7,7 @@ import GrantsAndAwards from '../GrantsAndAwards'
 import Exhibitions from '../Exhibitions'
 import AvailableTitles from '../AvailableTitles'
 import OutOfPrintTitles from '../OutOfPrintTitles'
-import Consulting from '../Consulting'
+import EditorialProductionServices from '../EditorialProductionServices'
 import Clients from '../Clients'
 import Books from '../Books'
 import Magazines from '../Magazines'
@@ -28,14 +28,14 @@ import './style.css'
 class Navbar extends Component {
   render () {
     return (
-      <Router className='nav' style={{ borderBottom: '1px solid black' }}>
+      <Router className='nav'>
         <div className='nav-container'>
           <ul className='nav-bullets-container'>
             <li className='name-link'>
               <div className='section'>
                 <div className='section__item name-div'>
                   <a href='#changeMeToARouteLink' id='my-name'>
-                    <Link className='home-link' to='/home'>
+                    <Link className='home-link' to='/'>
                       <h1 id='annabel-name'>ANNABEL LEE</h1>
                     </Link>
                   </a>
@@ -47,12 +47,12 @@ class Navbar extends Component {
                 <div className='section__item'>
                   <div className='dropdown'>
                     <a
-                      href='#about-page'
+                      href=''
                       className='sm-link sm-link_padding-all sm-link1 nav-text-links'
                     >
                       <span className='sm-link__label dropbtn'>Vehicle Editions </span>
                     </a>
-                    <div className='dropdown-content'>
+                    <div className='dropdown-content' id='vehicle-tab-drop'>
                       <Link className='dropdown-tabs' to='/grantsAndAwards'>Grants and Awards</Link>
                       <Link className='dropdown-tabs' to='/exhibitions'>Exhibitions</Link>
                       <Link className='dropdown-tabs' to='/availableTitles'>Available Titles</Link>
@@ -71,10 +71,10 @@ class Navbar extends Component {
                       href='#about-page'
                       className='sm-link sm-link_padding-all sm-link1 nav-text-links'
                     >
-                      <span className='sm-link__label dropbtn'>Publications Consulting  </span>
+                      <span className='sm-link__label dropbtn'>Professional Services</span>
                     </a>
                     <div className='dropdown-content' id='publications-drop'>
-                      <Link className='dropdown-tabs' to='/consulting'>Consulting</Link>
+                      <Link className='dropdown-tabs' to='/editorialAndProductionServices'>Editorial and Production Services</Link>
                       <Link className='dropdown-tabs' to='/clients'>Clients</Link>
                       <Link className='dropdown-tabs' to='/writingsamples'>Writing Samples</Link>
                     </div>
@@ -116,7 +116,7 @@ class Navbar extends Component {
                     >
                       <span className='sm-link__label dropbtn'>Music and Art</span>
                     </a>
-                    <div className='dropdown-content'>
+                    <div className='dropdown-content' id='music-and-art-tab-drop'>
                       <Link className='dropdown-tabs' to='/music'>Music</Link>
                       <Link className='dropdown-tabs' to='/artWork'>Art Work</Link>
                       <Link className='dropdown-tabs' to='/artExhibits'>Art Exhibits</Link>
@@ -162,12 +162,12 @@ class Navbar extends Component {
               </div>
             </li>
           </ul>
-          <Route path='/home' component={HomePage} />
+          <Route path='/' component={HomePage} exact />
           <Route path='/grantsAndAwards' component={GrantsAndAwards} />
           <Route path='/exhibitions' component={Exhibitions} />
           <Route path='/availableTitles' component={AvailableTitles} />
           <Route path='/outOfPrintTitles' component={OutOfPrintTitles} />
-          <Route path='/consulting' component={Consulting} />
+          <Route path='/editorialAndProductionServices' component={EditorialProductionServices} />
           <Route path='/clients' component={Clients} />
           <Route path='/books' component={Books} />
           <Route path='/magazines' component={Magazines} />
@@ -189,14 +189,6 @@ class Navbar extends Component {
 }
 
 export default Navbar
-
-
-
-
-
-
-
-
 
 
 

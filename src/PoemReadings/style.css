@@ -1,0 +1,54 @@
+.poem-readings-main-container {
+  height: 910px;
+  width: 100%;
+
+}
+.car-photo-poem-readings {
+  height: 200px;
+  margin-bottom: 2%;
+  margin-top: -2%;
+}
+
+.poem-readings-title-div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.poem-readings-main-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  margin-top: 5%;
+  color: black;
+  font-weight: 200;
+  /* border-top: 2px solid black;
+  border-bottom: 2px solid black; */
+  width: 45%;
+  text-align: center;
+}
+
+.poem-readings-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.poem-readings-container {
+  padding: 2%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.poem-readings-title {
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 1px solid rgb(167, 167, 167);  
+  margin-bottom: -1%;
+}

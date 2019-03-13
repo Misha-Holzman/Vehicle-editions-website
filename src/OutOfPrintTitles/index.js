@@ -29,6 +29,7 @@ class OutOfPrintTitles extends Component {
 
           <div className='unavailable-titles-container'>
             <div className='unavailable-titles-left-container'>
+              {/* <h1 className='title-text-header'>Titles</h1> */}
               <div className='titles-links-left-1'>
                 <div className='unavailable-titles-divs'>
                   <h1 className='titles-name' id='no-link'>Airmail Postcards <span className='titles-author-span'>by Franco Beltrametti</span></h1>
@@ -87,7 +88,7 @@ class OutOfPrintTitles extends Component {
               <div className='titles-links-left-2'>
                 <div className='unavailable-titles-divs'>
                   <Link className='unavailable-titles-links' to='/smithsonianDepositions'>
-                    <h1 className='titles-name'>Smithsonian Depositions and Subject to a Film</h1>
+                    <h1 className='titles-name smithsonian-name'>Smithsonian Depositions and Subject to a Film</h1>
                   </Link>
                   <h3 className='titles-cover smithsonian-cover'>by Clark Coolidge</h3>
                 </div>
@@ -130,6 +131,7 @@ class OutOfPrintTitles extends Component {
               </div>
             </div>
             <div className='titles-dynamic-info-right'>
+              <h1 className='dynamic-info-title-text'>Title Information</h1>
               <Route path='/continental34s' component={Continental34s} />
               <Route path='/fastLanes' component={FastLanes} />
               <Route path='/counting' component={Counting} />

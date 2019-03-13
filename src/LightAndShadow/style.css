@@ -1,0 +1,25 @@
+
+.light-and-shadow-main-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.light-and-shadow-title-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  margin-top: 10%;
+}
+
+.light-and-shadow-author-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.light-and-shadow-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+}

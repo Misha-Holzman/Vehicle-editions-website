@@ -398,12 +398,21 @@ a.sm-link {
   background-color: white;
 }
 
+#vehicle-tab-drop {
+  width: 105%;
+}
+
 #writing-drop {
   width: 200%;
+  margin-left: -45%;
 }
 
 #publications-drop {
-  
+  width: 104%;
+}
+
+#music-and-art-tab-drop {
+  width: 105%; 
 }
 
 /* Links inside the dropdown */

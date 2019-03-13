@@ -9,48 +9,6 @@
   width: 100%;
 }
 
-.car-photo {
-  height: 150px;
-  margin-bottom: 2%;
-}
-
-.benson-gallery-div {
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  padding-right: 2%;
-}
-
-.benson-gallery-photo-left {
-  height: 300px;
-}
-
-.benson-gallery-photo-right {
-  height: 300px;
-}
-
-.train-ride-photo-bottom {
-  margin: 0 auto;
-  height: 400px;
-}
-
-.train-ride-photo-description {
-  font-family: "Montserrat", sans-serif;
-  font-size: 13px;
-  font-style: italic;
-  margin-top: -2.5%;
-  margin-bottom: 4%;
-}
-
-.benson-images-description {
-  font-family: "Montserrat", sans-serif;
-  font-size: 13px;
-  font-style: italic;
-  margin-top: -2.5%;
-  margin-bottom: 4%;
-}
-
 .exhibitions-title-div {
   display: flex;
   justify-content: center;
@@ -69,7 +27,62 @@
   /* border-top: 2px solid black;
   border-bottom: 2px solid black; */
   width: 45%;
+  text-align: center;
 }
+
+.car-photo {
+  height: 150px;
+  margin-bottom: 2%;
+}
+
+.benson-gallery-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 2%;
+}
+
+.benson-gallery-photo-left {
+  height: 300px;
+}
+
+.benson-gallery-photo-right {
+  height: 300px;
+}
+
+.benson-gallery-div-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.train-ride-photo-bottom {
+  height: 400px;
+
+}
+
+.train-ride-photo-description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-style: italic;
+  margin-top: -2.5%;
+  margin-bottom: 4%;
+}
+
+.benson-images-description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-style: italic;
+  margin-top: -2.5%;
+  margin-bottom: 4%;
+  text-align: center;
+}
+
+
 
 .exhibitions-info-container {
   display: flex;

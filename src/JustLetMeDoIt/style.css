@@ -1,0 +1,25 @@
+
+.just-let-me-do-it-main-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.just-let-me-do-it-title-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  margin-top: 10%;
+}
+
+.just-let-me-do-it-author-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.just-let-me-do-it-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+}

@@ -1,0 +1,25 @@
+
+.continental34s-main-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.continental34s-title-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  margin-top: 10%;
+}
+
+.continental34s-author-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.continental34s-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+}

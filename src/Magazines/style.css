@@ -1,0 +1,68 @@
+.magazines-main-container {
+  height: 910px;
+  width: 100%;
+
+}
+.car-photo-magazines {
+  height: 200px;
+  margin-bottom: 2%;
+  margin-top: -2%;
+}
+
+.magazines-title-div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.magazines-main-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  margin-top: 5%;
+  color: black;
+  font-weight: 200;
+  /* border-top: 2px solid black;
+  border-bottom: 2px solid black; */
+  width: 45%;
+  text-align: center;
+}
+
+.magazines-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.magazines-container {
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  padding: 1% 0;
+}
+
+.magazines-title {
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 1px solid rgb(167, 167, 167);  
+  margin-bottom: -1%;
+}
+
+
+.magazines-text {
+  font-weight: 200;
+  line-height: 170%;
+}
+
+.line {
+  margin: 0 auto;
+}
+
+.magazines-span-italic {
+  font-style: italic;
+}

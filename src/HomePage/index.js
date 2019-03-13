@@ -5,16 +5,22 @@ class HomePage extends Component {
   render () {
     return (
       <div className='main-page-container'>
-        <img className='homepage-img' src='https://i.imgur.com/0ht2wHa.jpg' />
-        <div className=''>
-          {/* <h1 className='name-of-site'>VEHICLE EDITIONS</h1> */}
+        <img className='homepage-img' src='https://i.imgur.com/U2obmgg.jpg' />
+        <div className='arrow-div'>
+          <a href='#bottom-of-homepage-arrow-link' id='link'>
+            <img
+              src='https://i.imgur.com/T5f8v9i.png'
+              height='30px'
+              className='arrow'
+            />
+          </a>
         </div>
-        {/* <p className='quote-for-site'>“So many books, so little time.” ― Frank Zappa</p> */}
+        <div className='bottom-homepage-container' id='bottom-of-homepage-arrow-link'>
+          <p>some stuff goes here</p>
+        </div>
       </div>
     )
   }
 }
 
 export default HomePage
-
-//           <p className="arrow-text">my work</p>

@@ -1,0 +1,119 @@
+.clients-main-container {
+  height: 910px;
+  width: 100%;
+}
+.clients-car-photo {
+  height: 115px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.clients-title-div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.clients-main-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  color: black;
+  font-weight: 200;
+  /* border-top: 2px solid black;
+  border-bottom: 2px solid black; */
+  width: 45%;
+  text-align: center;
+}
+.clients-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.regular-clients-container {
+  padding: 0 2% 2% 2%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.clients-info-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.regular-clients-title-container {
+  margin-top: 2%;
+}
+.regular-clients-title {
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 1px solid rgb(167, 167, 167);  
+}
+.clients-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+.clients-name {
+  font-family: "Montserrat", sans-serif;  
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.clients-car-photo-1 {
+  height: 160px;
+}
+.clients-car-photo-2 {
+  height: 190px;
+}
+.clients-car-photo-3 {
+  height: 175px;
+}
+.clients-car-photo-4 {
+  height: 170px;
+}
+.clients-car-photo-5 {
+  height: 175px;
+}
+.clients-car-photo-6 {
+  height: 130px;
+}
+.clients-car-photo-1-div {
+  margin: 5% 45% 30% 0;
+}
+.clients-car-photo-2-div {
+  margin: 5% 0 30% 0;
+}
+.clients-car-photo-3-div {
+  margin: 5% 45% 30% 0;
+}
+.clients-car-photo-4-div {
+  margin: 5% 0 30% 0;
+}
+.clients-car-photo-5-div {
+  margin: 5% 25% 5% 0;
+}
+.clients-car-photo-6-div {
+  margin: 5% 0 5% 0;
+}
+
+.client-pictures-div {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -115%;
+}

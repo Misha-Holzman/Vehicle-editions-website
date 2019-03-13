@@ -3,6 +3,8 @@
 
 .book-of-signs-main-container {
   margin-left: 3%;
+  width: 50%;
+  padding-left: 5%; 
 }
 
 .ilylali-link {
@@ -30,4 +32,89 @@
   background-color: white;
   color: black;
   border: rgb(172, 172, 172) solid 2px;
+}
+
+
+.signs-dynamic-div {
+  display: flex;
+  justify-content: center;
+}
+
+
+.text {
+  font-family: 'Cutive Mono', monospace;
+  font-weight: 200;
+  font-size: 17px;
+}
+
+.bold-text {
+  font-family: 'Cutive Mono', monospace;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+
+
+.cta {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  margin: auto;
+  padding-top: 12px;
+  padding-left: 4%;
+  padding-right: 4%;
+  transition: all 0.2s ease;
+}
+
+.buy-now-text {
+
+}
+
+.svg-buy-now {
+  margin-top: 4%;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: rgba(255, 171, 157, 0.5);
+  width: 46px;
+  height: 46px;
+  transition: all 0.3s ease;
+}
+.cta span {
+  position: relative;
+  /* font-family: 'Cutive Mono', monospace; */
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+.cta:hover:before {
+  width: 100%;
+  background: #ffab9d;
+}
+.cta:hover svg {
+  transform: translateX(0);
+}
+.cta:active {
+  transform: scale(0.96);
 }
