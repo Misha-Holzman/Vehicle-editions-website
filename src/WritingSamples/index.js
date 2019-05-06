@@ -14,7 +14,7 @@ class WritingSamples extends Component {
             <a href='' className='link-to-dennis-passage' target='_blank'><h3 className='dennis-passage-title'>Passage: Donna Dennis at Lesley Heller</h3></a>
             <p className='dennis-passage-author'>by Annabel Lee</p>
             <p className='dennis-passage-name-of-show'>Donna Dennis: Ship and Dock/Nights and Days or The Gazer at Lesley Heller Gallery</p>
-            <a href='https://www.lesleyheller.com/' target='_blank' className='dennis-passage-gallery-link'>
+            <a href='' target='_blank' className='dennis-passage-gallery-link'>
               <p className='dennis-passage-gallery'>Lesley Heller Gallery</p>
             </a>
             <p className='dennis-passage-date'>May 31 to June 30, 2018</p>

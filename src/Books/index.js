@@ -11,7 +11,7 @@ class Books extends Component {
         </div>
         <div className='books-container'>
           <div className='books-title-container'>
-            <h2 className='books-title'>Published writing by Annabel Lee</h2>
+            <h2 className='books-title'>Published Writing by Annabel Lee</h2>
           </div>
           <div className='books-info-container'>
             <p className='books-text'><span className='book-text-bold'>Minnesota Drift forthcoming chapbook of poems</span>, Wry, Longmont, Colorado, 2018</p>

@@ -3,6 +3,10 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 
 import HomePage from '../HomePage'
+import VehicleEditions from '../VehicleEditions'
+import ProfessionalServices from '../ProfessionalServices'
+import Writing from '../Writing'
+import MusicAndArt from '../MusicAndArt'
 import GrantsAndAwards from '../GrantsAndAwards'
 import Exhibitions from '../Exhibitions'
 import AvailableTitles from '../AvailableTitles'
@@ -50,7 +54,7 @@ class Navbar extends Component {
                       href=''
                       className='sm-link sm-link_padding-all sm-link1 nav-text-links'
                     >
-                      <span className='sm-link__label dropbtn'>Vehicle Editions </span>
+                      <span className='sm-link__label dropbtn'><Link className='top-link' to='/vehicleEditions'>Vehicle Editions</Link></span>
                     </a>
                     <div className='dropdown-content' id='vehicle-tab-drop'>
                       <Link className='dropdown-tabs' to='/grantsAndAwards'>Grants and Awards</Link>
@@ -71,7 +75,7 @@ class Navbar extends Component {
                       href='#about-page'
                       className='sm-link sm-link_padding-all sm-link1 nav-text-links'
                     >
-                      <span className='sm-link__label dropbtn'>Professional Services</span>
+                      <span className='sm-link__label dropbtn'><Link className='top-link' to='/professionalServices'>Professional Services</Link></span>
                     </a>
                     <div className='dropdown-content' id='publications-drop'>
                       <Link className='dropdown-tabs' to='/editorialAndProductionServices'>Editorial and Production Services</Link>
@@ -90,7 +94,7 @@ class Navbar extends Component {
                       href='#about-page'
                       className='sm-link sm-link_padding-all sm-link1 nav-text-links'
                     >
-                      <span className='sm-link__label dropbtn'>Writing</span>
+                      <span className='sm-link__label dropbtn'><Link className='top-link' to='/writing'>Writing</Link></span>
                     </a>
                     <div className='dropdown-content' id='writing-drop'>
                       <Link className='dropdown-tabs' to='/books'>Books</Link>
@@ -114,7 +118,7 @@ class Navbar extends Component {
                       href='#about-page'
                       className='sm-link sm-link_padding-all sm-link1 nav-text-links'
                     >
-                      <span className='sm-link__label dropbtn'>Music and Art</span>
+                      <span className='sm-link__label dropbtn'><Link className='top-link' to='/musicAndArt'>Music and Art</Link></span>
                     </a>
                     <div className='dropdown-content' id='music-and-art-tab-drop'>
                       <Link className='dropdown-tabs' to='/music'>Music</Link>
@@ -163,6 +167,11 @@ class Navbar extends Component {
             </li>
           </ul>
           <Route path='/' component={HomePage} exact />
+          <Route path='/vehicleEditions' component={VehicleEditions} />
+          <Route path='/professionalServices' component={ProfessionalServices} />
+          <Route path='/writing' component={Writing} />
+          <Route path='/musicAndArt' component={MusicAndArt} />
+
           <Route path='/grantsAndAwards' component={GrantsAndAwards} />
           <Route path='/exhibitions' component={Exhibitions} />
           <Route path='/availableTitles' component={AvailableTitles} />

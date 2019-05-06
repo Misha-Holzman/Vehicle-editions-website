@@ -36,6 +36,11 @@
   list-style: none;
 }
 
+.top-link {
+  text-decoration: none;
+  color: black;
+}
+
 #my-name .home-link {
   font-size: 20px;
   text-decoration: none;

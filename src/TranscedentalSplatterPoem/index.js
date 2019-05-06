@@ -6,7 +6,6 @@ class TranscedentalSplatterPoem extends Component {
     return (
       <div className='transcedentalSplatter-container'>
         <h1 className='transcedentalSplatter-title'>Transcedental Splatter Poem</h1>
-        <h1>this is the peom body</h1>
         <p className='transcedentalSplatter-text'>
           experience is what's snatched from danger
           
