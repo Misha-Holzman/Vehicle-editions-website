@@ -1,0 +1,41 @@
+.car-photo-vehicle-editions {
+  height: 110px;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
+.veh-ed-nav-info-container {
+  width: 100%;
+}
+
+.veh-ed-nav-container{
+  width: 100%;
+}
+.veh-ed-nav-bullets-div{
+  width: 100%;
+}
+.veh-ed-nav-ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 0;
+}
+.veh-ed-nav-li { 
+  margin: 3%;
+  border-bottom: 2px solid #1b8797;
+}
+.veh-ed-nav-link {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  color: black;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+
+.veh-ed-nav-li:hover {
+  border-bottom: none;
+}

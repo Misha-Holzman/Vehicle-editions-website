@@ -7,7 +7,7 @@ class GrantsAndAwards extends Component {
       <div className='grants-and-awards-main-container'>
         <div className='grants-and-awards-title-div'>
           <h1 className='grants-awards-main-title'>Grants and Awards</h1>
-          <img src='https://i.imgur.com/y7U8Hoh.png' className='car-photo' />
+          <img src='https://i.imgur.com/1KMe3ta.png' className='car-photo-vehicle-editions-grants' />
         </div>
 
         <div className='grants-and-awards-info-container'>

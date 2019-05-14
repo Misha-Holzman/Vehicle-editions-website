@@ -12,7 +12,7 @@ class AvailableTitles extends Component {
         <div className='available-titles-main-container'>
           <div className='available-titles-title-div'>
             <h1 className='available-titles-main-title'>Available Titles</h1>
-            <img src='https://i.imgur.com/y7U8Hoh.png' className='car-photo' />
+            <img src='https://i.imgur.com/1KMe3ta.png' className='car-photo-vehicle-editions-available' />
           </div>
           <div className='available-titles-info-container'>
             <div className='available-titles-container'>

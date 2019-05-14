@@ -3,9 +3,10 @@
   width: 100%;
 
 }
-.car-photo {
-  height: 150px;
-  margin-bottom: 2%;
+.car-photo-vehicle-editions-available {
+  height: 110px;
+  margin-top: 2%;
+  margin-bottom: 7%;
 }
 
 .available-titles-title-div {

@@ -41,7 +41,7 @@ input[type=submit]:hover {
   width: 15%;
   margin: 0 auto;
   text-align: center;
-  font-weight: 800;
+  font-weight: 400;
   margin-top: 5%;
 }
 
@@ -51,7 +51,7 @@ input[type=submit]:hover {
   font-size: 20px;
   text-align: center;
   margin-bottom: 2%;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 .social-container {

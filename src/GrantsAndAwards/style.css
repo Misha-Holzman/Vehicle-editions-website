@@ -3,9 +3,10 @@
   width: 100%;
 
 }
-.car-photo {
-  height: 150px;
-  margin-bottom: 2%;
+.car-photo-vehicle-editions-grants {
+  margin-top: 2%;
+  height: 110px;
+  margin-bottom: 7%;
 }
 
 .grants-and-awards-title-div {
@@ -23,8 +24,6 @@
   margin-bottom: 2%;
   color: black;
   font-weight: 200;
-  /* border-top: 2px solid black;
-  border-bottom: 2px solid black; */
   width: 45%;
   text-align: center;
 }

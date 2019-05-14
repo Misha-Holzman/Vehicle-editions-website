@@ -8,7 +8,7 @@ class Exhibitions extends Component {
       <div className='exhibitions-main-container'>
         <div className='exhibitions-title-div'>
           <h1 className='exhibitions-main-title'>Exhibitions</h1>
-          <img src='https:i.imgur.com/y7U8Hoh.png' className='car-photo' />
+          <img src='https://i.imgur.com/1KMe3ta.png' className='car-photo-vehicle-editions-exhibitions' />
         </div>
         <div className='benson-gallery-div'>
           <img src='https://i.imgur.com/QKrXcQp.jpg' className='benson-gallery-photo-left' />
