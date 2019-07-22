@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "babel": "^6.23.0",
-    "babel-core": "^6.26.3",
     "bootstrap": "^4.3.1",
     "bulma": "^0.7.2",
     "bulma-start": "^0.0.2",
@@ -30,5 +28,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
 }
