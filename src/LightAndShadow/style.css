@@ -8,7 +8,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 15px;
-  margin-top: 10%;
+  margin-top: 7%;
 }
 
 .light-and-shadow-author-text {
@@ -16,10 +16,16 @@
   font-weight: 200;
   font-size: 15px;
   font-style: italic;
+  margin-top: 1px;
 }
 
 .light-and-shadow-text {
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
   font-size: 15px;
+  margin-top: 1px;
+}
+
+.buy-on-amazon {
+  text-decoration: none;
 }

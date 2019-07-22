@@ -15,6 +15,7 @@ class Poems extends Component {
             <h1 className='poems-main-title'>Poems</h1>
             <img src='https://i.imgur.com/gZBy00w.png' className='car-photo-poems' />
           </div>
+          {/* THIS SHOULD BE LINKS TO NEW PAGES FOR EACH POEM SO THAT THERE IS ROOM. DO NOT DO ROUTES, JUST <a> TAGS */}
           <div className='poems-info-main-div'>
             <div className='poems-links-container'>
               <Link className='poems-links' to='/LearningToListenPoem'><span className='titles-of-poems-text'>Learning To Listen</span></Link>

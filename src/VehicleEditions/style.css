@@ -1,5 +1,5 @@
-.car-photo-vehicle-editions {
-  height: 110px;
+.car-photo-vehicle-editions-1 {
+  height: 150px;
   margin-bottom: 5%;
   margin-top: 2%;
 }
@@ -20,10 +20,13 @@
   justify-content: center;
   flex-flow: row wrap;
   padding: 0;
+  /* flex-direction: column;
+  align-content: center;
+  align-items: center; */
 }
 .veh-ed-nav-li { 
   margin: 3%;
-  border-bottom: 2px solid #1b8797;
+  /* border-bottom: 2px solid #1b8797; */
 }
 .veh-ed-nav-link {
   text-decoration: none;
@@ -31,11 +34,62 @@
   padding-bottom: 1px;
   padding-top: 1px;
   color: black;
-  font-size: 20px;
+  font-size: 22px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .veh-ed-nav-li:hover {
   border-bottom: none;
+}
+
+
+.veh-ed-main-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  margin-top: 7%;
+  margin-bottom: 4%;
+  color: rgba(0, 0, 0, .8);
+  font-weight: 200;
+  width: 33%;
+  text-align: center;
+}
+
+#links-pages-style {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  padding-left: 5px;
+  margin-left: -4px;
+  padding-right: 5px;
+}
+
+#links-pages-style::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(255, 212, 95, 0.7) 15%, transparent 10%);
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  z-index: -1;
+  will-change: width;
+  /* transform: rotate(-2deg); */
+  transform-origin: left bottom
+}
+  
+#links-pages-style:hover::before{
+  width: 0;
+}
+  
+  /*
+  * animation styles
+  */
+  
+#links-pages-style::before{
+  transition: width .1s ease-out;
+}
+
+#links-pages-style:hover::before{
+  transition-duration: .15s;
 }

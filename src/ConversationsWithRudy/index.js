@@ -10,7 +10,7 @@ class ConversationsWithRudy extends Component {
         <p>10 x 8 inches</p>
         <p>72 pages</p>
         <h3>$20</h3>
-        <p> Available for purchase from <a href='FIX' className='ilylali-link' target="_blank">movingvehicle@gmail.com</a> Printed in duotone offset in an edition of 2,000 copes by The Studley Press, Dalton, Massachusetts. 22 photographs included. Text stock is Warren Lustro Dull and endpapers are Curtis Flannel. Text type is Frutiger. Edition is smyth sewn. </p>
+        <p>Available for purchase from <a href='FIX' className='ilylali-link' target='_blank'>movingvehicle@gmail.com</a> Printed in duotone offset in an edition of 2,000 copes by The Studley Press, Dalton, Massachusetts. 22 photographs included. Text stock is Warren Lustro Dull and endpapers are Curtis Flannel. Text type is Frutiger. Edition is smyth sewn. </p>
         <p>
         Conversations with Rudy Burckhardt includes an extensive interview with Simon Pettet and 22 photographs 
         in duotone by the noted photographer, filmmaker and painter Rudy Burckhardt. The photographs, taken 
@@ -47,7 +47,7 @@ class ConversationsWithRudy extends Component {
         Switzerland, parents, and the non-relationship between rapture and sorrow … The combination of beautiful, 
         rarely-seen photographs and lively text make this an irresistible book.”
         </p>
-        <p>
+        <p className='rudy-last-p'>
         Rudy Burckhardt was a New York photographer, filmmaker and painter, whose work is currently enjoying 
         great attention, with a Museum of Modern Art retrospective, and two shows at the Brooke Alexander and 
         Blue Mountain galleries. These conversations with the poet Simon Pettet were held in New York City. 
@@ -69,7 +69,13 @@ class ConversationsWithRudy extends Component {
         You know, achieve a body of work and people have to admire it. That’s phony actually.” Rudy Burckhardt 
         is anything but. What he is, is an artist, all the time, even when he talks.
         </p>
-        <button className='buy-now-button'>Buy Now</button>
+        <a href='https://www.printedmatter.org/catalog/36249/' target='_blank' className='cta'>
+          <span className='buy-now-text'>Buy Now</span>
+          <svg width='13px' height='11px' viewBox='0 0 13 10' className='svg-buy-now'>
+            <path d='M1,5 L11,5' />
+            <polyline points='8 1 12 5 8 9' />
+          </svg>
+        </a>
       </div>
     )
   }

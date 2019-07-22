@@ -1,0 +1,27 @@
+.veh-ed-nav-bullets-div-writing {
+  width: 95%;
+  margin: 0 auto;
+}
+
+
+.writing-main-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  color: rgba(0, 0, 0, .8);
+  font-weight: 200;
+  width: 20%;
+  text-align: center;
+}
+
+.car-photo-writing {
+  width: 40%;
+  margin-bottom: 0%;
+  margin-top: -2%;
+}
+
+.car-pic-writing {
+  display: flex;
+  justify-content: center;
+}

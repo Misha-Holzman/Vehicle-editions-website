@@ -28,6 +28,7 @@ class AvailableTitles extends Component {
                 </div>
               </div>
 
+              {/* SEPERATE THE PHOTO OF RUDY FROM THE BOOK COVER AND PUT THE PHOTO FARTHER DOWN THE PAGE */}
               <div className='available-titles-info-div-rudy'>
                 <Link className='rudy-conversations-link' to='/conversationsWithRudy'>
                   <p className='available-titles-rudy-name'>Conversations with Rudy Burckhardt About Everything</p>

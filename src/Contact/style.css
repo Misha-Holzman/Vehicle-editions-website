@@ -26,32 +26,34 @@ input[type=submit]:hover {
 
 .contact-main-container {
   margin-top: 1%;
-  height: 650px;
+  height: 700px;
 }
 
 .contact-form-container {
-  width: 30%;
+  width: 50%;
   margin: 0 auto;
 }
 
 .contact-title {
   color: black;
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  width: 15%;
+  font-size: 50px;
+  width: 20%;
   margin: 0 auto;
   text-align: center;
   font-weight: 400;
   margin-top: 5%;
+  border-bottom: 1px solid rgb(107, 107, 107);
 }
 
 .contact-description {
   color: black;
-  font-family: 'Cutive Mono', monospace;
-  font-size: 20px;
+  font-family: 'Poiret One', cursive;
+  font-size: 25px;
   text-align: center;
-  margin-bottom: 2%;
-  font-weight: 200;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  font-weight: 400;
 }
 
 .social-container {
@@ -91,9 +93,9 @@ input[type=submit]:hover {
   height: 50px;
   border-radius: 100%;
   display: block;
-  background: -webkit-linear-gradient(45deg, rgb(0, 237, 245), #70d1bd );
-  background: -moz-linear-gradient(45deg, rgb(0, 237, 245), #70d1bd );
-  background: linear-gradient(45deg, rgb(0, 237, 245), #70d1bd );
+  background: -webkit-linear-gradient(45deg, rgb(0, 237, 245), #a5d6f5 );
+  background: -moz-linear-gradient(45deg, rgb(0, 237, 245), #a5d6f5 );
+  background: linear-gradient(45deg, rgb(0, 237, 245), #a5d6f5 );
   transition: all 265ms ease-out;
   border: 1px solid rgb(173, 173, 173);
 }
@@ -105,10 +107,10 @@ input[type=submit]:hover {
   transform: scale(2.1);
   -ms-transform: scale(2.1);
   -webkit-transform: scale(2.1);
-  color: #70d1bd;
-  background: -webkit-linear-gradient(45deg, #2dc7ff, #70d1bd );
-  background: -moz-linear-gradient(45deg, #2dc7ff, #70d1bd );
-  background: linear-gradient(45deg, #2dc7ff, #70d1bd );
+  color: #a5d6f5;
+  background: -webkit-linear-gradient(45deg, #2dc7ff, #a5d6f5 );
+  background: -moz-linear-gradient(45deg, #2dc7ff, #a5d6f5 );
+  background: linear-gradient(45deg, #2dc7ff, #a5d6f5 );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;

@@ -4,3 +4,14 @@
   margin-top: 2%;
 }
 
+.music-art-main-title {
+  font-family: 'Poiret One', cursive;
+  font-size: 50px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  color: rgba(0, 0, 0, .8);
+  font-weight: 200;
+  width: 27%;
+  text-align: center;
+  border-bottom: 1px solid rgb(107, 107, 107);
+}

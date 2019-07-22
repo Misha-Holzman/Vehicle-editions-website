@@ -66,7 +66,7 @@ class OutOfPrintTitles extends Component {
                 </div>
 
                 <div className='unavailable-titles-divs'>
-                  <h1 className='titles-name'>Score<span className='titles-author-span' id='titles-author-span-id' >by Lazy Madge, Annabel Lee, Douglas Dunn</span></h1>
+                  <h1 className='titles-name-score'>Score<span className='titles-author-span' id='titles-author-span-id' >by Lazy Madge, Annabel Lee, Douglas Dunn</span></h1>
                 </div>
 
                 <div className='unavailable-titles-divs'>
@@ -76,10 +76,10 @@ class OutOfPrintTitles extends Component {
                 </div>
 
                 <div className='unavailable-titles-divs'>
-                  <h1 className='titles-name'>Typings<span className='titles-author-span' id='titles-author-span-id' >by Christoper Knowles</span></h1>
+                  <h1 className='titles-name-typings'>Typings<span className='titles-author-span' id='titles-author-span-id' >by Christoper Knowles</span></h1>
                 </div>
                 <div className='unavailable-titles-divs last-titles-divs'>
-                  <Link className='unavailable-titles-links' to='/whenIWasAlive' style={{ color: 'black' }}>
+                  <Link className='unavailable-titles-links' to='/whenIWasAlive' style={{ color: 'black', marginBottom: '7px' }}>
                     <h1 className='titles-name'>When I Was Alive<span className='titles-author-span' id='titles-author-span-id' >by Alice Notley</span></h1>
                   </Link>
                 </div>

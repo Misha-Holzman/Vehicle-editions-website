@@ -54,23 +54,23 @@ class HomePage extends Component {
             </div>
           </div>
           <div className='homepage-news-main-container'>
-            <h1 className='news-title'>OTHER</h1>
-            <div className='news-boxes-main-container'>
-              <div className='news-container-boxes'>
-                <h3 className='news-container-box-title'>YO</h3>
-                <p className='news-container-box-text'>yo</p>
+            <h1 className='news-title'>TESTIMONIALS</h1>
+            <div className='testimonials-boxes-main-container'>
+              <div className='testimonials-container-boxes'>
+                <h3 className='testimonials-container-box-title'>YO</h3>
+                <p className='testimonials-container-box-text'>yo</p>
               </div>
-              <div className='news-container-boxes'>
-                <h3 className='news-container-box-title'>YO</h3>
-                <p className='news-container-box-text'>yo</p>
+              <div className='testimonials-container-boxes'>
+                <h3 className='testimonials-container-box-title'>YO</h3>
+                <p className='testimonials-container-box-text'>yo</p>
               </div>
-              <div className='news-container-boxes'>
-                <h3 className='news-container-box-title'>YO</h3>
-                <p className='news-container-box-text'>yo</p>
+              <div className='testimonials-container-boxes'>
+                <h3 className='testimonials-container-box-title'>YO</h3>
+                <p className='testimonials-container-box-text'>yo</p>
               </div>
-              <div className='news-container-boxes'>
-                <h3 className='news-container-box-title'>YO</h3>
-                <p className='news-container-box-text'>yo</p>
+              <div className='testimonials-container-boxes'>
+                <h3 className='testimonials-container-box-title'>YO</h3>
+                <p className='testimonials-container-box-text'>yo</p>
               </div>
             </div>
           </div>

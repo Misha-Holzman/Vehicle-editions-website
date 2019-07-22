@@ -7,8 +7,7 @@ class VehicleEditions extends Component {
 
       <div className='grants-and-awards-main-container'>
         <div className='grants-and-awards-title-div'>
-          <h1 className='grants-awards-main-title'>Vehicle Editions</h1>
-          <img src='https://i.imgur.com/1KMe3ta.png' className='car-photo-vehicle-editions' />
+          <h1 className='veh-ed-main-title'>Vehicle Editions</h1>
         </div>
 
         <div className='veh-ed-nav-info-container'>
@@ -16,20 +15,23 @@ class VehicleEditions extends Component {
             <div className='veh-ed-nav-bullets-div'>
               <ul className='veh-ed-nav-ul'>
                 <li className='veh-ed-nav-li'>
-                  <a href='#' className='veh-ed-nav-link'>Grants and Awards</a>
+                  <a href='/GrantsAndAwards' className='veh-ed-nav-link'><span id='links-pages-style'>Grants and Awards</span></a>
                 </li>
                 <li className='veh-ed-nav-li'>
-                  <a href='#' className='veh-ed-nav-link'>Exhibitions</a>
+                  <a href='/Exhibitions' className='veh-ed-nav-link'><span id='links-pages-style'>Exhibitions</span></a>
                 </li>
                 <li className='veh-ed-nav-li'>
-                  <a href='#' className='veh-ed-nav-link'>Available Titles</a>
+                  <a href='/AvailableTitles' className='veh-ed-nav-link'><span id='links-pages-style'>Available Titles</span></a>
                 </li>
                 <li className='veh-ed-nav-li'>
-                  <a href='#' className='veh-ed-nav-link'>Out of Print Titles</a>
+                  <a href='/OutOfPrintTitles' className='veh-ed-nav-link'><span id='links-pages-style'>Out of Print Titles</span></a>
                 </li>
               </ul>
             </div>
           </div>
+        </div>
+        <div className='grants-and-awards-title-div'>
+          <img src='https://i.imgur.com/1KMe3ta.png' className='car-photo-vehicle-editions-1' />
         </div>
       </div>
     )

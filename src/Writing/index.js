@@ -6,37 +6,39 @@ class Writing extends Component {
     return (
       <div className='books-main-container'>
         <div className='books-title-div'>
-          <h1 className='books-main-title'>Writing</h1>
-          <img src='https://i.imgur.com/gZBy00w.png' className='car-photo-books' />
+          <h1 className='writing-main-title'>Writing</h1>
         </div>
         <div className='veh-ed-nav-info-container'>
           <div className='veh-ed-nav-container'>
-            <div className='veh-ed-nav-bullets-div'>
+            <div className='veh-ed-nav-bullets-div-writing'>
               <ul className='veh-ed-nav-ul'>
                 <li className='veh-ed-nav-li'>
-                  <a href='#' className='veh-ed-nav-link'>Books</a>
+                  <a href='/Books' className='veh-ed-nav-link'><span id='links-pages-style'>Books</span></a>
                 </li>
                 <li className='veh-ed-nav-li'>
-                  <a href='#' className='veh-ed-nav-link'>Magazines</a>
+                  <a href='/Magazines' className='veh-ed-nav-link'><span id='links-pages-style'>Magazines</span></a>
                 </li>
                 <li className='veh-ed-nav-li'>
-                  <a href='#' className='veh-ed-nav-link'>Anthologies</a>
+                  <a href='/Anthologies' className='veh-ed-nav-link'><span id='links-pages-style'>Anthologies</span></a>
                 </li>
                 <li className='veh-ed-nav-li'>
-                  <a href='#' className='veh-ed-nav-link'>Poems</a>
+                  <a href='/Poems' className='veh-ed-nav-link'><span id='links-pages-style'>Poems</span></a>
                 </li>
                 <li className='veh-ed-nav-li'>
-                  <a href='#' className='veh-ed-nav-link'>Poem Readings</a>
+                  <a href='/PoemReadings' className='veh-ed-nav-link'><span id='links-pages-style'>Poem Readings</span></a>
                 </li>
                 <li className='veh-ed-nav-li'>
-                  <a href='#' className='veh-ed-nav-link'>Writing Samples</a>
+                  <a href='/WritingSamples' className='veh-ed-nav-link'><span id='links-pages-style'>Writing Samples</span></a>
                 </li>
                 <li className='veh-ed-nav-li'>
-                  <a href='#' className='veh-ed-nav-link'>Other Publications</a>
+                  <a href='/OtherPublications' className='veh-ed-nav-link'><span id='links-pages-style'>Other Publications</span></a>
                 </li>
               </ul>
             </div>
           </div>
+        </div>
+        <div className='car-pic-writing'>
+          <img src='https://i.imgur.com/gZBy00w.png' className='car-photo-writing' />
         </div>
       </div>
     )

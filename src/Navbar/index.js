@@ -26,6 +26,7 @@ import ArtExhibits from '../ArtExhibits'
 import Activism from '../Activism'
 import About from '../About'
 import Contact from '../Contact'
+import Testimonials from '../Testimonials'
 
 import './style.css'
 
@@ -81,6 +82,7 @@ class Navbar extends Component {
                       <Link className='dropdown-tabs' to='/editorialAndProductionServices'>Editorial and Production Services</Link>
                       <Link className='dropdown-tabs' to='/clients'>Clients</Link>
                       <Link className='dropdown-tabs' to='/writingsamples'>Writing Samples</Link>
+                      <Link className='dropdown-tabs' to='/testimonials'>Testimonials</Link>
                     </div>
                   </div>
                 </div>
@@ -103,8 +105,6 @@ class Navbar extends Component {
                       <Link className='dropdown-tabs' to='/poems'>Poems</Link>
                       <Link className='dropdown-tabs' to='/poemReadings'>Poem Readings</Link>
                       <Link className='dropdown-tabs' to='/writingSamples'>Writing Samples</Link>
-                      <Link className='dropdown-tabs' to='/otherPublications'>Other Publications</Link>
-
                     </div>
                   </div>
                 </div>
@@ -171,7 +171,6 @@ class Navbar extends Component {
           <Route path='/professionalServices' component={ProfessionalServices} />
           <Route path='/writing' component={Writing} />
           <Route path='/musicAndArt' component={MusicAndArt} />
-
           <Route path='/grantsAndAwards' component={GrantsAndAwards} />
           <Route path='/exhibitions' component={Exhibitions} />
           <Route path='/availableTitles' component={AvailableTitles} />
@@ -184,7 +183,7 @@ class Navbar extends Component {
           <Route path='/poems' component={Poems} />
           <Route path='/poemReadings' component={PoemReadings} />
           <Route path='/writingSamples' component={WritingSamples} />
-          <Route path='/otherPublications' component={OtherPublications} />
+          <Route path='/testimonials' component={Testimonials} />
           <Route path='/music' component={Music} />
           <Route path='/artWork' component={ArtWork} />
           <Route path='/artExhibits' component={ArtExhibits} />

@@ -1,5 +1,12 @@
 
+.light-and-shadow-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .quilts-image {
-  height: 200px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
 }
