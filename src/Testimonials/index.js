@@ -7,7 +7,7 @@ class Testimonials extends Component {
       <div className='clients-main-container'>
         <div className='clients-title-div'>
           <h1 className='testimonials-main-title'>Testimonials</h1>
-          <img src='https://i.imgur.com/q2NiKoA.jpg' className='clients-car-photo' />
+          <img src='https://i.imgur.com/q2NiKoA.jpg' className='clients-car-photo' alt='' />
         </div>
         <div className='testimonials-info-container'>
           <div className='testimonials-container'>

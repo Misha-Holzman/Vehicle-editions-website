@@ -7,7 +7,7 @@ class Magazines extends Component {
       <div className='magazines-main-container'>
         <div className='magazines-title-div'>
           <h1 className='magazines-main-title'>Magazines</h1>
-          <img src='https://i.imgur.com/gZBy00w.png' className='car-photo-magazines' />
+          <img src='https://i.imgur.com/gZBy00w.png' className='car-photo-magazines' alt='' />
         </div>
         <div className='magazines-info-container'>
           <img

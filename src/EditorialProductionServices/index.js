@@ -26,7 +26,7 @@ class EditorialProductionServices extends Component {
               <li className='pub-consulting-li'>Writing</li>
             </ul>
           </div>
-          <p className='pub-consulting-blurb'>I am highly experienced and skilled in these fields...write something here. Email me for professional inquaries.</p>
+          {/* <p className='pub-consulting-blurb'>I am highly experienced and skilled in these fields...write something here. Email me for professional inquaries.</p> */}
           <img src='https://i.imgur.com/cwf5lhD.png' className='heinkel-airplane-pic'/>
         </div>
       </div>

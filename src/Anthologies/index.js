@@ -17,7 +17,6 @@ class Anthologies extends Component {
               <h2 className='-title'>Published writing by Annabel Lee</h2>
             </div>
           </div>
-            
         </div>
 
       </div>

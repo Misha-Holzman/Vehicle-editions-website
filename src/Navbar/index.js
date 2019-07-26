@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
-import { Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 import HomePage from '../HomePage'
 import VehicleEditions from '../VehicleEditions'
@@ -17,9 +16,11 @@ import Books from '../Books'
 import Magazines from '../Magazines'
 import Anthologies from '../Anthologies'
 import Poems from '../Poems'
+import News from '../News'
+import Resume from '../Resume'
 import PoemReadings from '../PoemReadings'
 import WritingSamples from '../WritingSamples'
-import OtherPublications from '../OtherPublications'
+// import OtherPublications from '../OtherPublications'
 import Music from '../Music'
 import ArtWork from '../ArtWork'
 import ArtExhibits from '../ArtExhibits'
@@ -41,7 +42,7 @@ class Navbar extends Component {
                 <div className='section__item name-div'>
                   <a href='#changeMeToARouteLink' id='my-name'>
                     <Link className='home-link' to='/'>
-                      <h1 id='annabel-name'>ANNABEL LEE</h1>
+                      <h1 id='annabel-name'>Annabel Lee</h1>
                     </Link>
                   </a>
                 </div>
@@ -58,11 +59,11 @@ class Navbar extends Component {
                       <span className='sm-link__label dropbtn'><Link className='top-link' to='/vehicleEditions'>Vehicle Editions</Link></span>
                     </a>
                     <div className='dropdown-content' id='vehicle-tab-drop'>
+                      <Link className='dropdown-tabs' to='/news'>News</Link>
                       <Link className='dropdown-tabs' to='/grantsAndAwards'>Grants and Awards</Link>
                       <Link className='dropdown-tabs' to='/exhibitions'>Exhibitions</Link>
                       <Link className='dropdown-tabs' to='/availableTitles'>Available Titles</Link>
                       <Link className='dropdown-tabs' to='/outOfPrintTitles'>Out of Print Titles</Link>
-
                     </div>
                   </div>
                 </div>
@@ -79,6 +80,7 @@ class Navbar extends Component {
                       <span className='sm-link__label dropbtn'><Link className='top-link' to='/professionalServices'>Professional Services</Link></span>
                     </a>
                     <div className='dropdown-content' id='publications-drop'>
+                      <Link className='dropdown-tabs' to='/resume'>Resume</Link>
                       <Link className='dropdown-tabs' to='/editorialAndProductionServices'>Editorial and Production Services</Link>
                       <Link className='dropdown-tabs' to='/clients'>Clients</Link>
                       <Link className='dropdown-tabs' to='/writingsamples'>Writing Samples</Link>
@@ -110,7 +112,7 @@ class Navbar extends Component {
                 </div>
               </div>
             </li>
-            <li className='links'>
+            {/* <li className='links'>
               <div className='section'>
                 <div className='section__item'>
                   <div className='dropdown'>
@@ -121,6 +123,8 @@ class Navbar extends Component {
                       <span className='sm-link__label dropbtn'><Link className='top-link' to='/musicAndArt'>Music and Art</Link></span>
                     </a>
                     <div className='dropdown-content' id='music-and-art-tab-drop'>
+                      <Link className='dropdown-tabs noDropDown' to='/music'><span className='sm-link__label'>Music</span></Link>
+
                       <Link className='dropdown-tabs' to='/music'>Music</Link>
                       <Link className='dropdown-tabs' to='/artWork'>Art Work</Link>
                       <Link className='dropdown-tabs' to='/artExhibits'>Art Exhibits</Link>
@@ -128,8 +132,20 @@ class Navbar extends Component {
                   </div>
                 </div>
               </div>
-            </li>
+            </li> */}
             <li className='links'>
+              <div className='section'>
+                <div className='section__item'>
+                  <a
+                    href='#about-page'
+                    className='sm-link sm-link_padding-all sm-link1 nav-text-links'
+                  >
+                    <Link className='dropdown-tabs noDropDown' to='/music'><span className='sm-link__label'>Music</span></Link>
+                  </a>
+                </div>
+              </div>
+            </li>
+            {/* <li className='links'>
               <div className='section'>
                 <div className='section__item'>
                   <a
@@ -140,8 +156,8 @@ class Navbar extends Component {
                   </a>
                 </div>
               </div>
-            </li>
-            <li className='links'>
+            </li> */}
+            <li className='links-end-about'>
               <div className='section'>
                 <div className='section__item'>
                   <a
@@ -153,7 +169,7 @@ class Navbar extends Component {
                 </div>
               </div>
             </li>
-            <li className='links'>
+            <li className='links-end-contact'>
               <div className='section'>
                 <div className='section__item'>
                   <a
@@ -168,6 +184,8 @@ class Navbar extends Component {
           </ul>
           <Route path='/' component={HomePage} exact />
           <Route path='/vehicleEditions' component={VehicleEditions} />
+          <Route path='/news' component={News} />
+          <Route path='/resume' component={Resume} />
           <Route path='/professionalServices' component={ProfessionalServices} />
           <Route path='/writing' component={Writing} />
           <Route path='/musicAndArt' component={MusicAndArt} />
@@ -198,15 +216,7 @@ class Navbar extends Component {
 
 export default Navbar
 
-
-
-
-
-
-
-
-{ /*
-
+/*
     <div className='nav-container'>
         <div className='name-div'>
           <a href='#changeMeToARouteLink' id='my-name'>
@@ -332,9 +342,7 @@ export default Navbar
             </div>
           </li>
         </ul>
-      </div> */ }
-
-
+      </div> */
 
 // <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' />
 // <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' />
