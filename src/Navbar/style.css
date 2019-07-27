@@ -494,7 +494,9 @@ a.sm-link {
   opacity: .9;
   transition: 200ms;
   border-radius: 50%;
-  padding: 1px
+  padding: 1px;
+  -webkit-animation: home-img-opacity  2s 5s both;
+  animation: home-img-opacity  2s 5s both;
 }
 .home-img:hover {
   /* background-color: rgb(204,104,102); */
@@ -503,6 +505,24 @@ a.sm-link {
   border: 1px solid black;
   transition: 200ms;
 }
+
+@-webkit-keyframes home-img-opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes home-img-opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 /* Position and sizing of burger button */
 .bm-burger-button {
