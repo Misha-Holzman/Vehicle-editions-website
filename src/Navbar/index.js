@@ -20,7 +20,6 @@ import News from '../News'
 import Resume from '../Resume'
 import PoemReadings from '../PoemReadings'
 import WritingSamples from '../WritingSamples'
-// import OtherPublications from '../OtherPublications'
 import Music from '../Music'
 import ArtWork from '../ArtWork'
 import ArtExhibits from '../ArtExhibits'
@@ -31,11 +30,128 @@ import Testimonials from '../Testimonials'
 
 import './style.css'
 
+import { slide as Menu } from 'react-burger-menu'
+
 class Navbar extends Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      menuOpen: false
+    }
+  }
+
+  handleStateChange (state) {
+    this.setState({ menuOpen: state.isOpen })
+  }
+
+  closeMenu () {
+    this.setState({ menuOpen: false })
+  }
+
+  toggleMenu () {
+    this.setState(state => {
+      return ({ menuOpen: !state.menuOpen })
+    })
+  }
+
   render () {
     return (
       <Router className='nav'>
         <div className='nav-container'>
+          <Menu
+            isOpen={this.state.menuOpen}
+            onStateChange={(state) => this.handleStateChange(state)}
+          >
+            <div className='section menu-item item-1' id='hamburger-link-main-div'>
+              <div className='section__item menu-item' id='hamburger-link-secondary-div'>
+                <div className='dropdown menu-item' id='hamburger-link-third-div'>
+                  <a
+                    href=''
+                    className='sm-link sm-link_padding-all sm-link1 nav-text-links menu-item'
+                  >
+                    <span className='sm-link__label dropbtn menu-item'><Link className='top-link menu-item' to='/vehicleEditions' onClick={() => this.closeMenu()}>Vehicle Editions</Link></span>
+                  </a>
+                  <div className='dropdown-content menu-item' id='vehicle-tab-drop'>
+                    <Link className='dropdown-tabs' to='/news' onClick={() => this.closeMenu()}><span id='drop-link-hover'>News</span></Link>
+                    <Link className='dropdown-tabs' to='/grantsAndAwards' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Grants and Awards</span></Link>
+                    <Link className='dropdown-tabs' to='/exhibitions' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Exhibitions</span></Link>
+                    <Link className='dropdown-tabs' to='/availableTitles' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Available Titles</span></Link>
+                    <Link className='dropdown-tabs' to='/outOfPrintTitles' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Out of Print Titles</span></Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='section menu-item' id='hamburger-link-main-div'>
+              <div className='section__item'>
+                <div className='dropdown'>
+                  <a
+                    href='#about-page'
+                    className='sm-link sm-link_padding-all sm-link1 nav-text-links'
+                  >
+                    <span className='sm-link__label dropbtn' onClick={() => this.closeMenu()}><Link className='top-link' to='/professionalServices' onClick={() => this.closeMenu()}>Professional Services</Link></span>
+                  </a>
+                  <div className='dropdown-content' id='publications-drop'>
+                    <Link className='dropdown-tabs' to='/resume' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Resume</span></Link>
+                    <Link className='dropdown-tabs' id='e-and-p-services-link' to='/editorialAndProductionServices' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Editorial and Production Services</span></Link>
+                    <Link className='dropdown-tabs' to='/clients' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Clients</span></Link>
+                    <Link className='dropdown-tabs' to='/writingsamples' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Writing Samples</span></Link>
+                    {/* <Link className='dropdown-tabs' to='/testimonials' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Testimonials</span></Link> */}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='section menu-item' id='hamburger-link-main-div'>
+              <div className='section__item'>
+                <div className='dropdown'>
+                  <a
+                    href='#about-page'
+                    className='sm-link sm-link_padding-all sm-link1 nav-text-links'
+                  >
+                    <span className='sm-link__label dropbtn' onClick={() => this.closeMenu()}><Link className='top-link' to='/writing' onClick={() => this.closeMenu()}>Writing</Link></span>
+                  </a>
+                  <div className='dropdown-content' id='writing-drop'>
+                    <Link className='dropdown-tabs' to='/books' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Books</span></Link>
+                    <Link className='dropdown-tabs' to='/magazines' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Magazines</span></Link>
+                    {/* <Link className='dropdown-tabs' to='/anthologies' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Anthologies</span></Link> */}
+                    <Link className='dropdown-tabs' to='/poems' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Poems</span></Link>
+                    {/* <Link className='dropdown-tabs' to='/poemReadings' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Poem Readings</span></Link> */}
+                    <Link className='dropdown-tabs' to='/writingSamples' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Writing Samples</span></Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='section menu-item' id='hamburger-link-main-div'>
+              <div className='section__item'>
+                <a
+                  href='#about-page'
+                  className='sm-link sm-link_padding-all sm-link1 nav-text-links'
+                >
+                  <Link className='dropdown-tabs noDropDown' to='/music' onClick={() => this.closeMenu()}><span className='sm-link__label'>Music</span></Link>
+                </a>
+              </div>
+            </div>
+            <div className='section menu-item' id='hamburger-link-main-div'>
+              <div className='section__item'>
+                <a
+                  href='#about-page'
+                  className='sm-link sm-link_padding-all sm-link1 nav-text-links'
+                >
+                  <Link className='dropdown-tabs noDropDown' to='/about' onClick={() => this.closeMenu()}><span className='sm-link__label'>About</span></Link>
+                </a>
+              </div>
+            </div>
+            <div className='section menu-item' id='hamburger-link-main-div'>
+              <div className='section__item'>
+                <a
+                  href='#contact-page'
+                  className='sm-link sm-link_padding-all sm-link1 nav-text-links'
+                >
+                  <Link className='dropdown-tabs noDropDown' to='/contact' onClick={() => this.closeMenu()}><span className='sm-link__label'>Contact</span></Link>
+                </a>
+              </div>
+            </div>
+          </Menu>
+
           <ul className='nav-bullets-container'>
             <li className='name-link'>
               <div className='section'>
@@ -48,140 +164,10 @@ class Navbar extends Component {
                 </div>
               </div>
             </li>
-            <li className='links first-link'>
-              <div className='section'>
-                <div className='section__item'>
-                  <div className='dropdown'>
-                    <a
-                      href=''
-                      className='sm-link sm-link_padding-all sm-link1 nav-text-links'
-                    >
-                      <span className='sm-link__label dropbtn'><Link className='top-link' to='/vehicleEditions'>Vehicle Editions</Link></span>
-                    </a>
-                    <div className='dropdown-content' id='vehicle-tab-drop'>
-                      <Link className='dropdown-tabs' to='/news'>News</Link>
-                      <Link className='dropdown-tabs' to='/grantsAndAwards'>Grants and Awards</Link>
-                      <Link className='dropdown-tabs' to='/exhibitions'>Exhibitions</Link>
-                      <Link className='dropdown-tabs' to='/availableTitles'>Available Titles</Link>
-                      <Link className='dropdown-tabs' to='/outOfPrintTitles'>Out of Print Titles</Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li className='links'>
-              <div className='section'>
-                <div className='section__item'>
-                  <div className='dropdown'>
-                    <a
-                      href='#about-page'
-                      className='sm-link sm-link_padding-all sm-link1 nav-text-links'
-                    >
-                      <span className='sm-link__label dropbtn'><Link className='top-link' to='/professionalServices'>Professional Services</Link></span>
-                    </a>
-                    <div className='dropdown-content' id='publications-drop'>
-                      <Link className='dropdown-tabs' to='/resume'>Resume</Link>
-                      <Link className='dropdown-tabs' to='/editorialAndProductionServices'>Editorial and Production Services</Link>
-                      <Link className='dropdown-tabs' to='/clients'>Clients</Link>
-                      <Link className='dropdown-tabs' to='/writingsamples'>Writing Samples</Link>
-                      <Link className='dropdown-tabs' to='/testimonials'>Testimonials</Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li className='links'>
-              <div className='section'>
-                <div className='section__item'>
-                  <div className='dropdown'>
-                    <a
-                      href='#about-page'
-                      className='sm-link sm-link_padding-all sm-link1 nav-text-links'
-                    >
-                      <span className='sm-link__label dropbtn'><Link className='top-link' to='/writing'>Writing</Link></span>
-                    </a>
-                    <div className='dropdown-content' id='writing-drop'>
-                      <Link className='dropdown-tabs' to='/books'>Books</Link>
-                      <Link className='dropdown-tabs' to='/magazines'>Magazines</Link>
-                      <Link className='dropdown-tabs' to='/anthologies'>Anthologies</Link>
-                      <Link className='dropdown-tabs' to='/poems'>Poems</Link>
-                      <Link className='dropdown-tabs' to='/poemReadings'>Poem Readings</Link>
-                      <Link className='dropdown-tabs' to='/writingSamples'>Writing Samples</Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            {/* <li className='links'>
-              <div className='section'>
-                <div className='section__item'>
-                  <div className='dropdown'>
-                    <a
-                      href='#about-page'
-                      className='sm-link sm-link_padding-all sm-link1 nav-text-links'
-                    >
-                      <span className='sm-link__label dropbtn'><Link className='top-link' to='/musicAndArt'>Music and Art</Link></span>
-                    </a>
-                    <div className='dropdown-content' id='music-and-art-tab-drop'>
-                      <Link className='dropdown-tabs noDropDown' to='/music'><span className='sm-link__label'>Music</span></Link>
-
-                      <Link className='dropdown-tabs' to='/music'>Music</Link>
-                      <Link className='dropdown-tabs' to='/artWork'>Art Work</Link>
-                      <Link className='dropdown-tabs' to='/artExhibits'>Art Exhibits</Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li> */}
-            <li className='links'>
-              <div className='section'>
-                <div className='section__item'>
-                  <a
-                    href='#about-page'
-                    className='sm-link sm-link_padding-all sm-link1 nav-text-links'
-                  >
-                    <Link className='dropdown-tabs noDropDown' to='/music'><span className='sm-link__label'>Music</span></Link>
-                  </a>
-                </div>
-              </div>
-            </li>
-            {/* <li className='links'>
-              <div className='section'>
-                <div className='section__item'>
-                  <a
-                    href='#about-page'
-                    className='sm-link sm-link_padding-all sm-link1 nav-text-links'
-                  >
-                    <Link className='dropdown-tabs noDropDown' to='/activism'><span className='sm-link__label'>Activism</span></Link>
-                  </a>
-                </div>
-              </div>
-            </li> */}
-            <li className='links-end-about'>
-              <div className='section'>
-                <div className='section__item'>
-                  <a
-                    href='#about-page'
-                    className='sm-link sm-link_padding-all sm-link1 nav-text-links'
-                  >
-                    <Link className='dropdown-tabs noDropDown' to='/about'><span className='sm-link__label'>About</span></Link>
-                  </a>
-                </div>
-              </div>
-            </li>
-            <li className='links-end-contact'>
-              <div className='section'>
-                <div className='section__item'>
-                  <a
-                    href='#contact-page'
-                    className='sm-link sm-link_padding-all sm-link1 nav-text-links'
-                  >
-                    <Link className='dropdown-tabs noDropDown' to='/contact'><span className='sm-link__label'>Contact</span></Link>
-                  </a>
-                </div>
-              </div>
-            </li>
           </ul>
+
+          <Link className='home-link' to='/'><img src='https://i.imgur.com/kE3ushr.png' ref='' className='home-img' /></Link>
+
           <Route path='/' component={HomePage} exact />
           <Route path='/vehicleEditions' component={VehicleEditions} />
           <Route path='/news' component={News} />
@@ -215,140 +201,3 @@ class Navbar extends Component {
 }
 
 export default Navbar
-
-/*
-    <div className='nav-container'>
-        <div className='name-div'>
-          <a href='#changeMeToARouteLink' id='my-name'>
-            <h1 className='name'>Annabel Lee</h1>
-          </a>
-        </div>
-        <ul className='nav-bullets-container'>
-          <li className='links'>
-            <div className='section'>
-              <div className='section__item'>
-                <div className='dropdown'>
-                  <a
-                    href='#about-page'
-                    className='sm-link sm-link_padding-all sm-link1 nav-text-links'
-                  >
-                    <span className='sm-link__label dropbtn'>Vehicle Editions </span>
-                  </a>
-                  <div className='dropdown-content'>
-                    <a href='#' className='dropdown-tabs'>Grants and Awards</a>
-                    <a href='#' className='dropdown-tabs'>Exhibitions</a>
-                    <a href='#' className='dropdown-tabs'>Available Titles</a>
-                    <a href='#' className='dropdown-tabs'>Out of Print Titles</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li className='links'>
-            <div className='section'>
-              <div className='section__item'>
-                <div className='dropdown'>
-                  <a
-                    href='#about-page'
-                    className='sm-link sm-link_padding-all sm-link1 nav-text-links'
-                  >
-                    <span className='sm-link__label dropbtn'>Publications Consulting  </span>
-                  </a>
-                  <div className='dropdown-content'>
-                    <a href='#' className='dropdown-tabs'>Consulting</a>
-                    <a href='#' className='dropdown-tabs'>Clients</a>
-                    <a href='#' className='dropdown-tabs'>Writing Samples</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li className='links'>
-            <div className='section'>
-              <div className='section__item'>
-                <div className='dropdown'>
-                  <a
-                    href='#about-page'
-                    className='sm-link sm-link_padding-all sm-link1 nav-text-links'
-                  >
-                    <span className='sm-link__label dropbtn'>Writing  </span>
-                  </a>
-                  <div className='dropdown-content'>
-                    <a href='#' className='dropdown-tabs'>Books</a>
-                    <a href='#' className='dropdown-tabs'>Magazines</a>
-                    <a href='#' className='dropdown-tabs'>Anthologies</a>
-                    <a href='#' className='dropdown-tabs'>Poems</a>
-                    <a href='#' className='dropdown-tabs'>Poem Readings</a>
-                    <a href='#' className='dropdown-tabs'>Writing Samples</a>
-                    <a href='#' className='dropdown-tabs'>Other Publications</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li className='links'>
-            <div className='section'>
-              <div className='section__item'>
-                <div className='dropdown'>
-                  <a
-                    href='#about-page'
-                    className='sm-link sm-link_padding-all sm-link1 nav-text-links'
-                  >
-                    <span className='sm-link__label dropbtn'>Music and Art  </span>
-                  </a>
-                  <div className='dropdown-content'>
-                    <a href='#' className='dropdown-tabs'>Music</a>
-                    <a href='#' className='dropdown-tabs'>Art Work</a>
-                    <a href='#' className='dropdown-tabs'>Art Exhibits</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li className='links'>
-            <div className='section'>
-              <div className='section__item'>
-                <a
-                  href='#about-page'
-                  className='sm-link sm-link_padding-all sm-link1 nav-text-links'
-                >
-                  <span className='sm-link__label'>Activism</span>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li className='links'>
-            <div className='section'>
-              <div className='section__item'>
-                <a
-                  href='#about-page'
-                  className='sm-link sm-link_padding-all sm-link1 nav-text-links'
-                >
-                  <span className='sm-link__label'>About</span>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li className='links'>
-            <div className='section'>
-              <div className='section__item'>
-                <a
-                  href='#contact-page'
-                  className='sm-link sm-link_padding-all sm-link1 nav-text-links'
-                >
-                  <span className='sm-link__label'>Contact</span>
-                </a>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div> */
-
-// <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' />
-// <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' />
-// <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' />
-// <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' />
-// <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' />
-// <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' />
-// <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' />
-// <img className='down-arrow' src='https://i.imgur.com/NzAnCOB.png' />
