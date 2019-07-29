@@ -19,7 +19,7 @@ class WritingSamples extends Component {
             </a>
             <p className='dennis-passage-date'>May 31 to June 30, 2018</p>
             <p className='dennis-passage-address'>54 Orchard Street, New York City </p>
-            <p className='dennis-passage-article'>Read the article at <a href='http://www.artcritical.com/2018/06/18/annabel-lee-on-donna-dennis/' target='_blank' rel='noopener noreferrer' className='dennis-passage-gallery-link'>ArtCritical.com</a></p>
+            <p className='dennis-passage-article'>Read the article at<a href='http://www.artcritical.com/2018/06/18/annabel-lee-on-donna-dennis/' target='_blank' rel='noopener noreferrer' className='dennis-passage-gallery-link'> ArtCritical.com </a></p>
           </div>
           <div className='brown-harris-pages'>
             <img src='https://i.imgur.com/asKV8Xn.jpg' alt='' />

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './style.css'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
-import { Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import LearningToListenPoem from '../LearningToListenPoem'
 import TranscedentalSplatterPoem from '../TranscedentalSplatterPoem'
 import WinterPoem from '../WinterPoem'
