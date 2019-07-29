@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import ABookOfSigns from '../ABookOfSigns'
 import ConversationsWithRudy from '../ConversationsWithRudy'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
-import { Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import './style.css'
 
 class AvailableTitles extends Component {

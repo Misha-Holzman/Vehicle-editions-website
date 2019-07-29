@@ -1,0 +1,41 @@
+.resume-img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.car-photo-resume {
+  height: 120px;
+  margin-bottom: 6%;
+  margin-top: 4%;
+}
+
+.resume-page-1-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.resume-page-2-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.resume-main-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 45px;
+  margin-top: 5%;
+  padding-bottom: 2%;
+  color: rgba(0, 0, 0, .8);
+  font-weight: 200;
+  text-align: center;
+  text-shadow: 4px 4px 2px rgba(113, 209, 189, .5);
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  transition: 500ms;
+}
+.resume-main-title:hover {
+  transition: 500ms;
+  text-shadow: 4px 4px 0px rgba(113, 209, 189, 1);
+}
