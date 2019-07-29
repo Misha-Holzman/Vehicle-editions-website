@@ -7,7 +7,7 @@ class WritingSamples extends Component {
       <div className='writing-samples-main-container'>
         <div className='writing-samples-title-div'>
           <h1 className='writing-samples-main-title'>Writing Samples</h1>
-          <img src='https://i.imgur.com/q2NiKoA.jpg' className='writing-samples-car-photo' />
+          <img src='https://i.imgur.com/q2NiKoA.jpg' className='writing-samples-car-photo' alt='' />
         </div>
         <div className='writing-samples-main-div'>
           <div className='donna-dennis-passage-div'>
@@ -22,29 +22,29 @@ class WritingSamples extends Component {
             <p className='dennis-passage-article'>Read the article at <a href='http://www.artcritical.com/2018/06/18/annabel-lee-on-donna-dennis/' target='_blank' className='dennis-passage-gallery-link'>ArtCritical.com</a></p>
           </div>
           <div className='brown-harris-pages'>
-            <img src='https://i.imgur.com/asKV8Xn.jpg' />
-            <img src='https://i.imgur.com/BSttQQ4.jpg' />
-            <img src='https://i.imgur.com/KGwn8bq.jpg' />
-            <img src='https://i.imgur.com/8NfEEYF.jpg' />
-            <img src='https://i.imgur.com/e13XqWy.jpg' />
-            <img src='https://i.imgur.com/JzjqH9W.jpg' />
+            <img src='https://i.imgur.com/asKV8Xn.jpg' alt='' />
+            <img src='https://i.imgur.com/BSttQQ4.jpg' alt='' />
+            <img src='https://i.imgur.com/KGwn8bq.jpg' alt='' />
+            <img src='https://i.imgur.com/8NfEEYF.jpg' alt='' />
+            <img src='https://i.imgur.com/e13XqWy.jpg' alt='' />
+            <img src='https://i.imgur.com/JzjqH9W.jpg' alt='' />
           </div>
           <div className='humbolts-gift-passage'>
-            <img src='https://i.imgur.com/cIYcxwh.jpg' />
-            <img src='https://i.imgur.com/Dh9DT0V.jpg' />
-            <img src='https://i.imgur.com/ZO74a8y.jpg' />
-            <img src='https://i.imgur.com/ZHHVgLe.jpg' />
-            <img src='https://i.imgur.com/CfHkv9k.jpg' />
-            <img src='https://i.imgur.com/KuhEEYp.jpg' />
+            <img src='https://i.imgur.com/cIYcxwh.jpg' alt='' />
+            <img src='https://i.imgur.com/Dh9DT0V.jpg' alt='' />
+            <img src='https://i.imgur.com/ZO74a8y.jpg' alt='' />
+            <img src='https://i.imgur.com/ZHHVgLe.jpg' alt='' />
+            <img src='https://i.imgur.com/CfHkv9k.jpg' alt='' />
+            <img src='https://i.imgur.com/KuhEEYp.jpg' alt='' />
           </div>
           <div className='about-hudson-passage'>
-            <img src='https://i.imgur.com/YeFvf53.jpg' />
+            <img src='https://i.imgur.com/YeFvf53.jpg' alt='' />
           </div>
           <div className='natural-collection-passage'>
-            <img src='https://i.imgur.com/F6hS1e2.png' />
+            <img src='https://i.imgur.com/F6hS1e2.png' alt='' />
           </div>
           <div className='chatham-press-passage'>
-            <img src='https://i.imgur.com/3Ungzk2.jpg' />
+            <img src='https://i.imgur.com/3Ungzk2.jpg' alt='' />
           </div>
         </div>
       </div>

@@ -99,7 +99,4 @@ class Exhibitions extends Component {
 
 export default Exhibitions
 
-
-
-
 // Add images of exhibit at Elaine Benson Gallery (in V.E. folder)

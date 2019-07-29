@@ -7,7 +7,7 @@ class GrantsAndAwards extends Component {
       <div className='grants-and-awards-main-container'>
         <div className='grants-and-awards-title-div'>
           <h1 className='grants-awards-main-title'>Grants and Awards</h1>
-          <img src='https://i.imgur.com/1KMe3ta.png' className='car-photo-vehicle-editions-grants' alt='' />
+          <img src='https://i.imgur.com/1KMe3ta.png' className='car-photo-vehicle-editions-grants' />
         </div>
 
         <div className='grants-and-awards-info-container'>
@@ -21,7 +21,7 @@ class GrantsAndAwards extends Component {
               <p className='grant-name'>Small Press Grant, Fellowship to the Editior</p>
               <h3 className='grant-giver'> - National Endowment for the Arts - </h3>
             </div>
-            
+
             <div className='g-a-info-div'>
               <p className='grant-year'>1978</p>
               <p className='grant-name'>Small Press Grant, Fellowship to the Editior</p>

@@ -1,27 +1,44 @@
 .veh-ed-nav-bullets-div-writing {
-  width: 95%;
+  width: 60%;
   margin: 0 auto;
 }
 
-
 .writing-main-title {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 50px;
-  margin-top: 5%;
-  margin-bottom: 2%;
+  margin-top: 6%;
+  padding-bottom: 1%;
   color: rgba(0, 0, 0, .8);
-  font-weight: 200;
-  width: 20%;
+  font-weight: 600;
   text-align: center;
+  text-shadow: 4px 4px 0px rgba(113, 209, 189, .5);
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  transition: 500ms;
+}
+
+.writing-main-title:hover {
+  transition: 500ms;
+  text-shadow: 4px 4px 0px rgba(113, 209, 189, 1);
 }
 
 .car-photo-writing {
-  width: 40%;
-  margin-bottom: 0%;
+  height: 240px;
   margin-top: -2%;
 }
 
 .car-pic-writing {
   display: flex;
   justify-content: center;
+}
+
+
+.writing-nav-li { 
+  margin: 3% 5% 3% 5%;
+}
+
+.writing-nav-li:hover {
+  border-bottom: none;
+  border-top: 6px solid black;
+  margin-top: 17px;
 }

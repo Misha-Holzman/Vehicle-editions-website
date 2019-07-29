@@ -6,10 +6,13 @@ class VehicleEditions extends Component {
     return (
 
       <div className='grants-and-awards-main-container'>
+
         <div className='grants-and-awards-title-div'>
           <h1 className='veh-ed-main-title'>Vehicle Editions</h1>
         </div>
-
+        <div className='grants-and-awards-title-div'>
+          <img src='https://i.imgur.com/1KMe3ta.png' className='car-photo-vehicle-editions-1' />
+        </div>
         <div className='veh-ed-nav-info-container'>
           <div className='veh-ed-nav-container'>
             <div className='veh-ed-nav-bullets-div'>
@@ -29,9 +32,6 @@ class VehicleEditions extends Component {
               </ul>
             </div>
           </div>
-        </div>
-        <div className='grants-and-awards-title-div'>
-          <img src='https://i.imgur.com/1KMe3ta.png' className='car-photo-vehicle-editions-1' />
         </div>
       </div>
     )

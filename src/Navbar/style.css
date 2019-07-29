@@ -461,10 +461,15 @@ a.sm-link {
   display: block;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
+  
 }
 
 #drop-link-hover:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  color: #cf2320;
+  transition: 100ms;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 /* Change color of dropdown links on hover */
@@ -499,7 +504,7 @@ a.sm-link {
   animation: home-img-opacity  2s 5s both;
 }
 .home-img:hover {
-  /* background-color: rgb(204,104,102); */
+  background-color: rgb(204,104,102);
   border-radius: 50%;
   transform: scale(1.5);
   border: 1px solid black;

@@ -7,7 +7,7 @@ class Magazines extends Component {
       <div className='magazines-main-container'>
         <div className='magazines-title-div'>
           <h1 className='magazines-main-title'>Magazines</h1>
-          <img src='https://i.imgur.com/gZBy00w.png' className='car-photo-magazines' alt='' />
+          <img src='https://i.imgur.com/gZBy00w.png' className='car-photo-magazines' />
         </div>
         <div className='magazines-info-container'>
           <img
@@ -18,7 +18,7 @@ class Magazines extends Component {
           <div className='magazines-container'>
             <div className='magazines-info-container'>
               <p className='magazines-text'>
-                Poetry, prose and essays by Annabel Lee have appeared in many fine journals including: 
+                Poetry, prose and essays by Annabel Lee have appeared in many fine journals including:
                 <span className='magazines-span-italic'> Positive Magnets</span> (edited by Collin Schuster), <br /><br />
                 <span className='magazines-span-italic'>  Have Your Chill</span> (edited by Pete Spence: Melbourne, Australia), <br /><br />
                 <span className='magazines-span-italic'> Dodgems</span> (edited by Eileen Myles), <br /><br />
@@ -40,7 +40,7 @@ class Magazines extends Component {
                 <span className='magazines-span-italic'> Abracadabra</span> (edited by Marcello Angioni: Luxembourg), <br /><br />
                 <span className='magazines-span-italic'> Sperlonga-Manhattan Express</span>
                 (Riva San Vitale, Switzerland), <span className='magazines-span-italic'> Live Mag</span> (edited by Jeff Wright), <br /><br />
-                <span className='magazines-span-italic'> DianeRavitch.net</span> 
+                <span className='magazines-span-italic'> DianeRavitch.net</span>
                 <br /><br /><em>as well as other great magazines and in anthologies.</em>
               </p>
             </div>
@@ -52,11 +52,3 @@ class Magazines extends Component {
 }
 
 export default Magazines
-
-
-/*
-
-
-
-
-*/

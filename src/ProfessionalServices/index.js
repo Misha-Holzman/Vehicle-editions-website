@@ -5,8 +5,11 @@ class ProfessionalServices extends Component {
   render () {
     return (
       <div className='clients-main-container'>
-        <div className='clients-title-div'>
+        <div className='pro-serv-title-div'>
           <h1 className='professional-services-main-title'>Professional Services</h1>
+        </div>
+        <div className='clients-title-div'>
+          <img src='https://i.imgur.com/q2NiKoA.jpg' id='clients-car-photo-1' />
         </div>
         <div className='veh-ed-nav-info-container'>
           <div className='veh-ed-nav-container'>
@@ -27,9 +30,6 @@ class ProfessionalServices extends Component {
               </ul>
             </div>
           </div>
-        </div>
-        <div className='clients-title-div'>
-          <img src='https://i.imgur.com/q2NiKoA.jpg' id='clients-car-photo-1' />
         </div>
       </div>
     )
