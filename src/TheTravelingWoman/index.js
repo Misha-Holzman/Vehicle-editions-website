@@ -21,7 +21,7 @@ class TheTravelingWoman extends Component {
         <p className='light-and-shadow-text'>
           Known for her conceptual art of the seventies, Roberta Allen showed with the John Weber Gallery in New York City for nine years. Her work has been widely exhibited since 1967 in galleries and museums across the U.S., Europe, Canada, Australia and New Zealand. Writing fiction is a recent development, but already her stores have appeared in anthologies such as Wild History and magazines such as Bomb and Between C and D which are at the cutting edge of new art and literation
         </p>
-        <img src='https://i.imgur.com/kjR5UP1.jpg' className='traveling-woman-image' />
+        <img src='https://i.imgur.com/kjR5UP1.jpg' className='traveling-woman-image' alt='' />
         {/* <a href='MoreOnQuilts'>Remembrance of Barbara Guest</a> */}
       </div>
     )

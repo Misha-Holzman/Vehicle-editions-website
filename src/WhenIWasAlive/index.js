@@ -20,7 +20,7 @@ class WhenIWasAlive extends Component {
           correlatives of a sensibility that shuttles riskily between fantasy and reality, literary dandyism and a daily
           life of family, friends and money worries.”
         </p>
-        <img src='https://i.imgur.com/CqxZbcs.jpg' className='quilts-image' />
+        <img src='https://i.imgur.com/CqxZbcs.jpg' className='quilts-image' alt='' />
         {/* <a href='MoreOnQuilts'>Remembrance of Barbara Guest</a> */}
       </div>
     )

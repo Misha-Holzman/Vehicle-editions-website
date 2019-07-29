@@ -24,7 +24,7 @@ class OutOfPrintTitles extends Component {
         <div>
           <div className='no-print-header'>
             <h1 className='unavailable-titles-header-text'>Out of Print Titles</h1>
-            <img src='https://i.imgur.com/1KMe3ta.png' className='unavailable-titles-car-photo' />
+            <img src='https://i.imgur.com/1KMe3ta.png' className='unavailable-titles-car-photo' alt='' />
           </div>
 
           <div className='unavailable-titles-container'>
@@ -157,7 +157,3 @@ class OutOfPrintTitles extends Component {
 
 export default OutOfPrintTitles
 
-{ /*
-line picture
-<img src='https://i.imgur.com/WxOSX5A.png' className='line-img' />
-*/ }

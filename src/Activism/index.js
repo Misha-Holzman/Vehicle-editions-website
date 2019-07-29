@@ -7,7 +7,7 @@ class Activism extends Component {
       <div className='books-main-container'>
         <div className='books-title-div'>
           <h1 className='books-main-title'>Activism</h1>
-          <img src='https://i.imgur.com/y7U8Hoh.png' className='car-photo-activism' />
+          <img src='https://i.imgur.com/y7U8Hoh.png' className='car-photo-activism' alt='' />
         </div>
         <div className='books-container' />
       </div>

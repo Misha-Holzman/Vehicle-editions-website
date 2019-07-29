@@ -7,7 +7,7 @@ class Books extends Component {
       <div className='books-main-container'>
         <div className='books-title-div'>
           <h1 className='books-main-title'>Books</h1>
-          <img src='https://i.imgur.com/gZBy00w.png' className='car-photo-books' />
+          <img src='https://i.imgur.com/gZBy00w.png' className='car-photo-books' alt='' />
         </div>
         <div className='books-container'>
           <div className='books-title-container'>

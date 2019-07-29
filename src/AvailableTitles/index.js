@@ -11,7 +11,7 @@ class AvailableTitles extends Component {
         <div className='available-titles-main-container'>
           <div className='available-titles-title-div'>
             <h1 className='available-titles-main-title'>Available Titles</h1>
-            <img src='https://i.imgur.com/1KMe3ta.png' className='car-photo-vehicle-editions-available' />
+            <img src='https://i.imgur.com/1KMe3ta.png' className='car-photo-vehicle-editions-available' alt='' />
           </div>
           <div className='available-titles-info-container'>
             <div className='available-titles-container'>
@@ -21,7 +21,7 @@ class AvailableTitles extends Component {
                 </Link>
                 <div className='signs-dynamic-div'>
                   <Link className='book-of-signs-link' to='/bookOfSigns'>
-                    <img src='https://i.imgur.com/T0mI8W7.jpg' className='book-of-signs-img' />
+                    <img src='https://i.imgur.com/T0mI8W7.jpg' className='book-of-signs-img' alt='' />
                   </Link>
                   <Route path='/bookOfSigns' component={ABookOfSigns} />
                 </div>
@@ -35,8 +35,8 @@ class AvailableTitles extends Component {
                 <div className='rudy-images-div'>
                   <div className='rudy-dynamic-div'>
                     <Link className='rudy-conversations-link' to='/conversationsWithRudy'>
-                      <img src='https://i.imgur.com/5j5i2ay.jpg' className='convo-with-rudy-img' />
-                      <img src='https://i.imgur.com/q1cg4L3.jpg' className='convo-with-rudy-2-img' />
+                      <img src='https://i.imgur.com/5j5i2ay.jpg' className='convo-with-rudy-img' alt='' />
+                      <img src='https://i.imgur.com/q1cg4L3.jpg' className='convo-with-rudy-2-img' alt='' />
                     </Link>
                     <p className='rudy-photos-description1'>Rudy Burckhadt</p>
                     <p className='rudy-photos-description2'>Photo Credit – Timothy Greenfield-Sanders</p>

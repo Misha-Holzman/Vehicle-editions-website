@@ -34,19 +34,19 @@ class About extends Component {
               </p>
             </div>
             <div className='about-img-container'>
-              <img className='about-profile-img' src='https://i.imgur.com/zQXeLhy.png' />
+              <img className='about-profile-img' src='https://i.imgur.com/zQXeLhy.png' alt='' />
             </div>
           </div>
         </div>
 
         <div className='about-line-container'>
-          <img className='about-line-divider' src='https://i.imgur.com/AZpE0YA.png' />
+          <img className='about-line-divider' src='https://i.imgur.com/AZpE0YA.png' alt='' />
         </div>
 
         <div className='about-container-bottom'>
           <div className='homepage-about-container'>
             <div className='about-car-img-div'>
-              <img src='https://i.imgur.com/SVpQfdl.png' className='car-photo-about' />
+              <img src='https://i.imgur.com/SVpQfdl.png' className='car-photo-about' alt='' />
             </div>
             <div className='about-text-container'>
               <h2 className='about-text-titles'>Vehicle Editions</h2>

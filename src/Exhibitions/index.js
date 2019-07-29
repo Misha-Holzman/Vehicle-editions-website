@@ -8,11 +8,11 @@ class Exhibitions extends Component {
       <div className='exhibitions-main-container'>
         <div className='exhibitions-title-div'>
           <h1 className='exhibitions-main-title'>Exhibitions</h1>
-          <img src='https://i.imgur.com/1KMe3ta.png' className='car-photo-vehicle-editions-exhibitions' />
+          <img src='https://i.imgur.com/1KMe3ta.png' className='car-photo-vehicle-editions-exhibitions' alt='' />
         </div>
         <div className='benson-gallery-div'>
-          <img src='https://i.imgur.com/QKrXcQp.jpg' className='benson-gallery-photo-left' />
-          <img src='https://i.imgur.com/Jp7zDVk.jpg' className='benson-gallery-photo-right' />
+          <img src='https://i.imgur.com/QKrXcQp.jpg' className='benson-gallery-photo-left' alt='' />
+          <img src='https://i.imgur.com/Jp7zDVk.jpg' className='benson-gallery-photo-right' alt='' />
         </div>
         <p className='benson-images-description'>images from an exhibit at Elaine Benson Gallery</p>
 
@@ -66,7 +66,7 @@ class Exhibitions extends Component {
           </div>
 
           <div className='benson-gallery-div-2'>
-            <img src='https://i.imgur.com/RXud8he.jpg' className='train-ride-photo-bottom' />
+            <img src='https://i.imgur.com/RXud8he.jpg' className='train-ride-photo-bottom' alt='' />
           </div>
           <p className='train-ride-photo-description'>Train Ride plate and artwork</p>
 

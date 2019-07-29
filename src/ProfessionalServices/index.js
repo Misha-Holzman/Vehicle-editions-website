@@ -9,7 +9,7 @@ class ProfessionalServices extends Component {
           <h1 className='professional-services-main-title'>Professional Services</h1>
         </div>
         <div className='clients-title-div'>
-          <img src='https://i.imgur.com/q2NiKoA.jpg' id='clients-car-photo-1' />
+          <img src='https://i.imgur.com/q2NiKoA.jpg' id='clients-car-photo-1' alt='' />
         </div>
         <div className='veh-ed-nav-info-container'>
           <div className='veh-ed-nav-container'>

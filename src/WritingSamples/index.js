@@ -11,15 +11,15 @@ class WritingSamples extends Component {
         </div>
         <div className='writing-samples-main-div'>
           <div className='donna-dennis-passage-div'>
-            <a href='' className='link-to-dennis-passage' target='_blank'><h3 className='dennis-passage-title'>Passage: Donna Dennis at Lesley Heller</h3></a>
+            <a href='#' className='link-to-dennis-passage' target='_blank'><h3 className='dennis-passage-title'>Passage: Donna Dennis at Lesley Heller</h3></a>
             <p className='dennis-passage-author'>by Annabel Lee</p>
             <p className='dennis-passage-name-of-show'>Donna Dennis: Ship and Dock/Nights and Days or The Gazer at Lesley Heller Gallery</p>
-            <a href='' target='_blank' className='dennis-passage-gallery-link'>
+            <a href='#' target='_blank' className='dennis-passage-gallery-link'>
               <p className='dennis-passage-gallery'>Lesley Heller Gallery</p>
             </a>
             <p className='dennis-passage-date'>May 31 to June 30, 2018</p>
             <p className='dennis-passage-address'>54 Orchard Street, New York City </p>
-            <p className='dennis-passage-article'>Read the article at <a href='http://www.artcritical.com/2018/06/18/annabel-lee-on-donna-dennis/' target='_blank' className='dennis-passage-gallery-link'>ArtCritical.com</a></p>
+            <p className='dennis-passage-article'>Read the article at <a href='http://www.artcritical.com/2018/06/18/annabel-lee-on-donna-dennis/' target='_blank' rel='noopener noreferrer' className='dennis-passage-gallery-link'>ArtCritical.com</a></p>
           </div>
           <div className='brown-harris-pages'>
             <img src='https://i.imgur.com/asKV8Xn.jpg' alt='' />

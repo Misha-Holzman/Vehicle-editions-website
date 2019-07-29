@@ -14,7 +14,7 @@ class LightAndShadow extends Component {
         <p className='light-and-shadow-text'>• Printed offset at Open Studio Workshop</p>
         <p className='light-and-shadow-text'>• Typeface: Patina</p>
         <p className='light-and-shadow-text'>• Simon Schuchat is also the author of Svelte (Genesis Grasp, 1971) and Blue Skies (Some of Us Press, 1973) and At Baoshan (Coffehouse Press, 1987). Schuchat served in the Foreign Service for over 25 years and is an East Asia expert.</p>
-        <a href='https://www.amazon.com/Light-Shadow-Simon-Schuchat/dp/B000UDBT0C' target='_blank' className='cta'>
+        <a href='https://www.amazon.com/Light-Shadow-Simon-Schuchat/dp/B000UDBT0C' target='_blank' rel='noopener noreferrer' className='cta'>
           <span className='buy-now-text'>Buy Now</span>
           <svg width='13px' height='11px' viewBox='0 0 13 10' className='svg-buy-now'>
             <path d='M1,5 L11,5' />

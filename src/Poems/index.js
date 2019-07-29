@@ -13,7 +13,7 @@ class Poems extends Component {
         <div className='poems-main-container'>
           <div className='poems-title-div'>
             <h1 className='poems-main-title'>Poems</h1>
-            <img src='https://i.imgur.com/gZBy00w.png' className='car-photo-poems' />
+            <img src='https://i.imgur.com/gZBy00w.png' className='car-photo-poems' alt='' />
           </div>
           {/* THIS SHOULD BE LINKS TO NEW PAGES FOR EACH POEM SO THAT THERE IS ROOM. DO NOT DO ROUTES, JUST <a> TAGS */}
           <div className='poems-info-main-div'>

@@ -7,7 +7,7 @@ class Anthologies extends Component {
       <div className='anthologies-main-container'>
         <div className='anthologies-title-div'>
           <h1 className='anthologies-main-title'>Anthologies</h1>
-          <img src='https://i.imgur.com/gZBy00w.png' className='car-photo-anthologies' />
+          <img src='https://i.imgur.com/gZBy00w.png' className='car-photo-anthologies' alt='' />
         </div>
 
         <div className='anthologies-info-container'>

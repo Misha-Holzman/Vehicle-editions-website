@@ -10,8 +10,8 @@ class ABookOfSigns extends Component {
         <p className='text'>96 pages</p>
         <p className='text'>Edition is 1,000 copies.</p>
         <p className='text'>Printed by KC Book Manufacturing (since 1906) in North Kansas City.</p>
-        <p className='text'>Co-publication of Vehicle Editions and <a href='https://www.ilylali.com/' className='ilylali-link' target='_blank'>ilylali</a></p>
-        <a href='https://www.paypal.com/webapps/shoppingcart?flowlogging_id=764459c9539e5&mfid=1563826348997_764459c9539e5#/checkout/openButton' target='_blank' className='cta'>
+        <p className='text'>Co-publication of Vehicle Editions and <a href='https://www.ilylali.com/' className='ilylali-link' target='_blank' rel='noopener noreferrer'>ilylali</a></p>
+        <a href='https://www.paypal.com/webapps/shoppingcart?flowlogging_id=764459c9539e5&mfid=1563826348997_764459c9539e5#/checkout/openButton' target='_blank' rel='noopener noreferrer' className='cta'>
           <span className='buy-now-text'>Buy Now</span>
           <svg width='13px' height='11px' viewBox='0 0 13 10' className='svg-buy-now'>
             <path d='M1,5 L11,5' />

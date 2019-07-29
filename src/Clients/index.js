@@ -7,7 +7,7 @@ class Clients extends Component {
       <div className='clients-main-container'>
         <div className='clients-title-div'>
           <h1 className='clients-main-title'>Clients</h1>
-          <img src='https://i.imgur.com/q2NiKoA.jpg' className='clients-car-photo' />
+          <img src='https://i.imgur.com/q2NiKoA.jpg' className='clients-car-photo' alt='' />
         </div>
         <div className='clients-info-container'>
           {/* <div className='client-pictures-div'>
@@ -269,7 +269,7 @@ class Clients extends Component {
               </div>
             </div>
 
-            <img src='https://i.imgur.com/weOVkAS.jpg' className='clients-car-photo-1' />
+            <img src='https://i.imgur.com/weOVkAS.jpg' className='clients-car-photo-1' alt='' />
 
             <div className='clients-div'>
               <button type='button' data-toggle='modal' data-target='#Modal11' id='button-modal'>
@@ -492,7 +492,7 @@ class Clients extends Component {
               </div>
             </div>
 
-            <img src='https://i.imgur.com/VUrQiwH.jpg' className='clients-car-photo-2' />
+            <img src='https://i.imgur.com/VUrQiwH.jpg' className='clients-car-photo-2' alt='' />
 
             <div className='clients-div'>
               <button type='button' data-toggle='modal' data-target='#' id='button-modal'>
@@ -786,7 +786,7 @@ class Clients extends Component {
               </div>
             </div>
 
-            <img src='https://i.imgur.com/kdE8pCy.jpg' className='clients-car-photo-3' />
+            <img src='https://i.imgur.com/kdE8pCy.jpg' className='clients-car-photo-3' alt='' />
 
             <div className='clients-div'>
               <button type='button' data-toggle='modal' data-target='#Modal34' id='button-modal'>
@@ -1027,7 +1027,7 @@ class Clients extends Component {
               </div>
             </div>
 
-            <img src='https://i.imgur.com/zthUL5f.jpg' className='clients-car-photo-4' />
+            <img src='https://i.imgur.com/zthUL5f.jpg' className='clients-car-photo-4' alt='' />
 
             <div className='clients-div'>
               <button type='button' data-toggle='modal' data-target='#Modal44' id='button-modal'>
@@ -1262,7 +1262,7 @@ class Clients extends Component {
               </div>
             </div>
 
-            <img src='https://i.imgur.com/nk2V53i.jpg' className='clients-car-photo-5' />
+            <img src='https://i.imgur.com/nk2V53i.jpg' className='clients-car-photo-5' alt='' />
 
             <div className='clients-div'>
               <button type='button' data-toggle='modal' data-target='#Modal54' id='button-modal'>
@@ -1557,7 +1557,7 @@ class Clients extends Component {
               </div>
             </div>
 
-            <img src='https://i.imgur.com/re2fBfS.jpg' className='clients-car-photo-6' />
+            <img src='https://i.imgur.com/re2fBfS.jpg' className='clients-car-photo-6' alt='' />
 
             <div className='clients-div'>
               <button type='button' data-toggle='modal' data-target='#Modal67' id='button-modal'>

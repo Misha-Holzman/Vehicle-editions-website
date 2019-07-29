@@ -10,7 +10,7 @@ class Contact extends Component {
         <div className='social-container'>
           <ul className='social-icons'>
             <li className='li-social'>
-              <a href='https://www.linkedin.com/in/annabel-lee-71197316/' target='_blank' className='a-social'>
+              <a href='https://www.linkedin.com/in/annabel-lee-71197316/' target='_blank' rel='noopener noreferrer' className='a-social'>
                 <i className='fa fa-linkedin' />
               </a>
             </li>

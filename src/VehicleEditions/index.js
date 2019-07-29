@@ -11,7 +11,7 @@ class VehicleEditions extends Component {
           <h1 className='veh-ed-main-title'>Vehicle Editions</h1>
         </div>
         <div className='grants-and-awards-title-div'>
-          <img src='https://i.imgur.com/1KMe3ta.png' className='car-photo-vehicle-editions-1' />
+          <img src='https://i.imgur.com/1KMe3ta.png' className='car-photo-vehicle-editions-1' alt='' />
         </div>
         <div className='veh-ed-nav-info-container'>
           <div className='veh-ed-nav-container'>

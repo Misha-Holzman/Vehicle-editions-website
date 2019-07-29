@@ -69,7 +69,7 @@ class ConversationsWithRudy extends Component {
         You know, achieve a body of work and people have to admire it. That’s phony actually.” Rudy Burckhardt 
         is anything but. What he is, is an artist, all the time, even when he talks.
         </p>
-        <a href='https://www.printedmatter.org/catalog/36249/' target='_blank' className='cta'>
+        <a href='https://www.printedmatter.org/catalog/36249/' target='_blank' rel='noopener noreferrer' className='cta'>
           <span className='buy-now-text'>Buy Now</span>
           <svg width='13px' height='11px' viewBox='0 0 13 10' className='svg-buy-now'>
             <path d='M1,5 L11,5' />

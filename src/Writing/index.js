@@ -9,7 +9,7 @@ class Writing extends Component {
           <h1 className='writing-main-title'>Writing</h1>
         </div>
         <div className='car-pic-writing'>
-          <img src='https://i.imgur.com/gZBy00w.png' className='car-photo-writing' />
+          <img src='https://i.imgur.com/gZBy00w.png' className='car-photo-writing' alt='' />
         </div>
         <div className='veh-ed-nav-info-container'>
           <div className='veh-ed-nav-container'>
