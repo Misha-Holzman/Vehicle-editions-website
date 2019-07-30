@@ -33,9 +33,9 @@ class OutOfPrintTitles extends Component {
                       <h3 className='continental34s-title-text'>Continental 34s</h3>
                       <p className='continental34s-author-text'>by Annabel Levitt</p>
                       <p className='continental34s-text'>• ISBN</p>
-                      <p className='continental34s-text'>• 6 3/4 x 5 3/4</p>
+                      <p className='continental34s-text'>• 6 3/4 x 5 3/4</p>
                       <p className='continental34s-text'>• 39 leaves</p>
-                      <p className='continental34s-text'>• Printed by the author at Center for Book Arts, New York, NY</p>
+                      <p className='continental34s-text'>• Printed by the author at Center for Book Arts, New York, NY</p>
                       <p className='continental34s-text'>• logo by Miles Lally</p>
                       <p className='continental34s-text'>• cover design by Deborah S. Freedman</p>
                       <p className='continental34s-text'>• Published in an edition of 430 copies for Vehicle Editions</p>
@@ -63,9 +63,9 @@ class OutOfPrintTitles extends Component {
                       <h3 className='hot-and-cold-title-text'>Hot and Cold</h3>
                       <p className='hot-and-cold-author-text'>by Richard Hell</p>
                       <p className='hot-and-cold-text'>• Preview edition published for the author’s exhibition at Rupert Goldsworthy Gallery, New York, NY October 1998</p>
-                      <p className='hot-and-cold-text'>• Limited edition of 240 copies</p>
+                      <p className='hot-and-cold-text'>• Limited edition of 240 copies</p>
                       <p className='hot-and-cold-text'>• Handbound softcovers and hardcovers</p>
-                      <p className='hot-and-cold-text'>• Printed digitally at Planet Color, Great Barrington, Massachusetts</p>
+                      <p className='hot-and-cold-text'>• Printed digitally at Planet Color, Great Barrington, Massachusetts</p>
                       <p className='hot-and-cold-text'>• Richard Hell was born and grew up in Lexington, KY. He dropped out of high school and came to New York to be a poet at the end of the 60s. He co-founded, played in, sang in and wrote for several influential music groups including Television before forming the Voidoids in the mid-70’s, and was a crucial originator of “punk.” He’s best known for his album Blank Generation (1977) and his novel Go Now (1966). He lives in New York.</p>
                     </div>
                   </div>
@@ -92,8 +92,8 @@ class OutOfPrintTitles extends Component {
                       <p className='just-let-me-do-it-author-text'>by Michael Lally</p>
                       <p className='just-let-me-do-it-text'>$3.50</p>
                       <p className='just-let-me-do-it-text'>• ISBN 0-931428-04-1</p>
-                      <p className='just-let-me-do-it-text'>• 5 1/4 x 7 3/4</p>
-                      <p className='just-let-me-do-it-text'>• Printed in Canada by Coopérative d’Imprimerie Véhicule – Montréal in an edition of 1000 copies of which 26 are hardcovers, signed and numbered. Cover and typesetting by the publisher.</p>
+                      <p className='just-let-me-do-it-text'>• 5 1/4 x 7 3/4</p>
+                      <p className='just-let-me-do-it-text'>• Printed in Canada by Coopérative d’Imprimerie Véhicule – Montréal in an edition of 1000 copies of which 26 are hardcovers, signed and numbered. Cover and typesetting by the publisher.</p>
                     </div>
                   </div>
                 </div>
@@ -284,7 +284,7 @@ class OutOfPrintTitles extends Component {
               </div>
             </div>
             <div className='clients-div'>
-              <button type='button' data-toggle='modal' data-target='#Modal9' id='button-modal-2'>                
+              <button type='button' data-toggle='modal' data-target='#Modal9' id='button-modal-2'>
                 <h1 className='titles-name'>The Day Before Yesterday<span className='titles-author-span' id='titles-author-span-id'>by Leon de Winter // cover by Josje Pollmann</span></h1>
               </button>
             </div>
@@ -356,7 +356,7 @@ class OutOfPrintTitles extends Component {
                       <br />
                       <p className='light-and-shadow-text'><strong>Reviews</strong></p>
                       <p className='light-and-shadow-text'>
-                        “It is an impressive series of prose-poems, wonderfully graphic…a notable job a young writer like Jayne Anne Phillips 
+                        “It is an impressive series of prose-poems, wonderfully graphic…a notable job a young writer like Jayne Anne Phillips
                         who is a talented, promising, and helped along by a publisher of taste.”
                         – Doris Grumbach
                       </p>
@@ -369,7 +369,7 @@ class OutOfPrintTitles extends Component {
               </div>
             </div>
             <div className='clients-div'>
-              <button type='button' data-toggle='modal' data-target='#Modal11' id='button-modal-2'>              
+              <button type='button' data-toggle='modal' data-target='#Modal11' id='button-modal-2'>
                 <h1 className='titles-name'>Fast Lanes<span className='titles-author-span' id='titles-author-span-id'>by Jayne Anne Phillips // drawings by Yvonne Jacquette</span></h1>
               </button>
             </div>
@@ -419,7 +419,7 @@ class OutOfPrintTitles extends Component {
               </div>
             </div>
             <div className='clients-div'>
-              <button type='button' data-toggle='modal' data-target='#Modal12' id='button-modal-2'>              
+              <button type='button' data-toggle='modal' data-target='#Modal12' id='button-modal-2'>
                 <h1 className='titles-name'>Give Me Tomorrow<span className='titles-author-span' id='titles-author-span-id'>by Carter Ratcliff // illustrations by Alex Katz</span></h1>
               </button>
             </div>
@@ -472,7 +472,7 @@ class OutOfPrintTitles extends Component {
               </div>
             </div>
             <div className='clients-div'>
-              <button type='button' data-toggle='modal' data-target='#Modal13' id='button-modal-2'>              
+              <button type='button' data-toggle='modal' data-target='#Modal13' id='button-modal-2'>
                 <h1 className='titles-name'>Train Ride<span className='titles-author-span' id='titles-author-span-id'>by Ted Berrigan // cover by Joe Brainard</span></h1>
               </button>
             </div>

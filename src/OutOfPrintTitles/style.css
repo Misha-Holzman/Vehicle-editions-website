@@ -214,10 +214,6 @@
   flex-direction: row;
 }
 
-.second-half-of-out-of-print {
-  /* margin-top: 3%; */
-}
-
 .titles-author-span {
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
@@ -285,10 +281,10 @@
 .titles-name:hover {
   text-decoration: underline;
 }
-
+/* 
 .smithsonian-cover {
 
 }
 .smithsonian-name {
 
-}
+} */

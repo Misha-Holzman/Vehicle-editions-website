@@ -27,7 +27,7 @@ class Contact extends Component {
           </ul>
         </div>
         <p className='contact-description'>
-        Shoot me an email about any inquiries. I’m always happy to chat!
+        Send me an email about any inquiries. I’m always happy to chat!
         </p>
         <div className='contact-form-container'>
           <ContactForm />

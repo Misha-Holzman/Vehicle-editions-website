@@ -15,11 +15,10 @@ class WritingSamples extends Component {
             <p className='dennis-passage-author dennis-text'>by Annabel Lee</p>
             <p className='dennis-passage-name-of-show dennis-text'>Donna Dennis: Ship and Dock/Nights and Days or The Gazer at Lesley Heller Gallery</p>
             <p className='dennis-passage-gallery dennis-text'><a href='#' target='_blank' className='dennis-passage-gallery-link'>Lesley Heller Gallery</a></p>
-            
             <p className='dennis-passage-date dennis-text'>May 31 to June 30, 2018</p>
             <p className='dennis-passage-address dennis-text'>54 Orchard Street, New York City </p>
             <p className='dennis-passage-article dennis-text'>Read the article at <a href='http://www.artcritical.com/2018/06/18/annabel-lee-on-donna-dennis/' target='_blank' rel='noopener noreferrer' className='dennis-passage-gallery-link'>ArtCritical.com</a></p>
-            <img src='https://i.imgur.com/ir9dzy3.jpg' className='dennis-img-main' alt='' />            
+            <img src='https://i.imgur.com/ir9dzy3.jpg' className='dennis-img-main' alt='' />
             <p className='dennis-text dennis-article-writing'>
               Have you ever wanted to walk inside a painting, sit down and experience the work from the inside? Ship and Dock/Nights
               and Days or The Gazer is like a painting: you have to keep looking at what is before you so you know not only what you’re
