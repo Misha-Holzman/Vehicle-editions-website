@@ -4,6 +4,24 @@
   margin: 0 auto;
 }
 
+.writing-samples-main-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  margin-top: 5%;
+  padding-bottom: 3%;
+  color: rgba(0, 0, 0, .8);
+  font-weight: 200;
+  text-align: center;
+  text-shadow: 3px 3px 0px rgba(113, 209, 189, .5);
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  transition: 500ms;
+}
+.writing-samples-main-title:hover {
+  transition: 500ms;
+  text-shadow: 3px 3px 0px rgba(113, 209, 189, 1);
+}
+
 .writing-samples-car-photo {
   height: 115px;
   margin-bottom: 2%;
@@ -18,18 +36,6 @@
   flex-direction: column;
 }
 
-.writing-samples-main-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 40px;
-  margin-top: 5%;
-  margin-bottom: 2%;
-  color: black;
-  font-weight: 200;
-  /* border-top: 2px solid black;
-  border-bottom: 2px solid black; */
-  width: 45%;
-  text-align: center;
-}
 
 .writing-samples-info-container {
   display: flex;
