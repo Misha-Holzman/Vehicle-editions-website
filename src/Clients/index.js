@@ -10,26 +10,6 @@ class Clients extends Component {
           <img src='https://i.imgur.com/q2NiKoA.jpg' className='clients-car-photo' alt='' />
         </div>
         <div className='clients-info-container'>
-          {/* <div className='client-pictures-div'>
-            <div className='clients-car-photo-1-div'>
-              <img src='https://i.imgur.com/weOVkAS.jpg' className='clients-car-photo-1' />
-            </div>
-            <div className='clients-car-photo-2-div'>
-              <img src='https://i.imgur.com/VUrQiwH.jpg' className='clients-car-photo-2' />
-            </div>
-            <div className='clients-car-photo-3-div'>
-              <img src='https://i.imgur.com/kdE8pCy.jpg' className='clients-car-photo-3' />
-            </div>
-            <div className='clients-car-photo-4-div'>
-              <img src='https://i.imgur.com/zthUL5f.jpg' className='clients-car-photo-4' />
-            </div>
-            <div className='clients-car-photo-5-div'>
-              <img src='https://i.imgur.com/nk2V53i.jpg' className='clients-car-photo-5' />
-            </div>
-            <div className='clients-car-photo-6-div'>
-              <img src='https://i.imgur.com/re2fBfS.jpg' className='clients-car-photo-6' />
-            </div>
-          </div> */}
           <div className='clients-info-main-container'>
             <div className='clients-div'>
               <button type='button' data-toggle='modal' data-target='#Modal1' id='button-modal'>

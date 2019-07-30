@@ -12,13 +12,12 @@
   font-family: "Montserrat", sans-serif;
   font-size: 40px;
   margin-top: 5%;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   color: black;
   font-weight: 200;
   /* border-top: 2px solid black;
   border-bottom: 2px solid black; */
   width: 45%;
-  
 }
 
 .unavailable-titles-car-photo {
@@ -37,57 +36,6 @@
   flex-direction: column;
   width: 40%;
   margin-left: 3%;
-}
-
-.titles-links-left-1 {
-  text-decoration: none;
-  display: flex;
-  flex-flow: column;
-  align-items: flex-start;
-  justify-content: center;
-  align-content: center;
-  width: 90%;
-  padding-left: 1%;
-  margin-left: 24%;
-  margin-top: 15%;
-  margin-bottom: 5%;
-    /* -webkit-box-shadow: 0px 1px 26px -5px rgba(0,0,0,0.41);
-  -moz-box-shadow: 0px 1px 26px -5px rgba(0,0,0,0.41);
-  box-shadow: 0px 1px 26px -5px rgba(0,0,0,0.41); */
-  height: 80%;
-}
-
-.titles-links-left-2 {
-  text-decoration: none;
-  display: flex;
-  flex-flow: column;
-  align-items: flex-start;
-  justify-content: center;
-  align-content: center;
-  width: 100%;
-  padding-left: 1%;
-  margin-left: 24%;
-  margin-top: -5%;
-  margin-bottom: 25%;
-  /* border-radius: 15px; */
-  /* -webkit-box-shadow: 0px 1px 26px -5px rgba(0,0,0,0.41);
-  -moz-box-shadow: 0px 1px 26px -5px rgba(0,0,0,0.41);
-  box-shadow: 0px 1px 26px -5px rgba(0,0,0,0.41);  */
-  height: 80%;
-}
-
-.unavailable-titles-divs {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  align-content: center;
-  flex-flow: column;
-  text-decoration: none;
-  width: 93%;
-  /* border-top: 2px solid black; */
-  /* border-bottom: 1px solid rgb(187, 187, 187); */
-  padding-left: 4%;
-  padding-top: 1%;
 }
 
 /* .last-titles-divs {
@@ -131,15 +79,6 @@
   width: 50%;
 }
 
-.titles-cover {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-  font-size: 15px;
-  margin-top: -1%;
-  color: rgb(95, 94, 94);
-  margin-left: 3%;
-}
 /* 
 .counting-cover {
   padding-left: 3%;
@@ -162,54 +101,7 @@
   margin-left: 2.8%;
 }
 
-/* .smithsonian-cover {
-  padding-left: 3%;
-}  */
 
-
-.titles-name {
-  font-family: "Montserrat", sans-serif;  
-  font-size: 17px;
-  font-weight: 800;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  align-content: center;
-  margin-top: -1%; 
-}
-
-.titles-name-score {
-  font-family: "Montserrat", sans-serif;  
-  font-size: 17px;
-  font-weight: 800;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  align-content: center;
-  margin-top: -1%; 
-}
-
-
-.titles-name-typings {
-  font-family: "Montserrat", sans-serif;  
-  font-size: 17px;
-  font-weight: 800;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  align-content: center;
-  margin-top: -1%; 
-}
-
-.smithsonian-name {
-  margin-top: -2.8%
-}
 
 .titles-author {
   font-family: "Montserrat", sans-serif;
@@ -218,17 +110,6 @@
   font-size: 15px;
 }
 
-.titles-author-span {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-  font-size: 15px;
-  margin-left: 3%;
-  padding-top: 1px;
-  color: rgb(95, 94, 94);
-  text-decoration: none;
-
-}
 
 
 
@@ -240,14 +121,174 @@
   width: 100%;
 }
 
-.titles-name:hover {
-  text-decoration: underline;
-}
-
 #no-link:hover {
   text-decoration: none;
 }
 
+
+
+
+
+
+/* –––––––––––––––––––––––– */
+#button-modal {
+  background: none !important;
+  border: none !important;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+#button-modal-2 {
+  background: none !important;
+  border: none !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+.clients-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.clients-info-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 70%;
+  margin-bottom: 7%;
+}
+
+.unavailable-titles-divs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: center;
+  flex-flow: column;
+  text-decoration: none;
+  width: 93%;
+  /* border-top: 2px solid black; */
+  /* border-bottom: 1px solid rgb(187, 187, 187); */
+  padding-top: 1%;
+}
+
+
+
+.clients-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: .4s ease-in-out;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+#button-modal {
+  width: 100%;
+  background: none !important;
+  border: none !important;
+}
+.button-modal-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.second-half-of-out-of-print {
+  /* margin-top: 3%; */
+}
+
+.titles-author-span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 15px;
+  color: rgb(95, 94, 94);
+  text-decoration: none;
+  margin-left: 1%;
+}
 #titles-author-span-id:hover {
   text-decoration: none;
+}
+
+.titles-name-score {
+  font-family: "Montserrat", sans-serif;  
+  font-size: 17px;
+  font-weight: 800;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: -1%;
+}
+
+.titles-name-typings {
+  font-family: "Montserrat", sans-serif;  
+  font-size: 17px;
+  font-weight: 800;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
+.titles-cover {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 15px;
+  color: rgb(95, 94, 94);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.titles-name {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;  
+  font-size: 17px;
+  font-weight: 800;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  align-content: center;
+}
+.titles-name:hover {
+  text-decoration: underline;
+}
+
+.smithsonian-cover {
+
+}
+.smithsonian-name {
+
 }

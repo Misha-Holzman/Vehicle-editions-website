@@ -5,7 +5,7 @@ class TheTravelingWoman extends Component {
   render () {
     return (
       <div className='light-and-shadow-main-container'>
-        <h3 className='light-and-shadow-title-text'>Quilts</h3>
+        <h3 className='light-and-shadow-title-text'>The Traveling Woman</h3>
         <p className='light-and-shadow-author-text'>by Roberta Allen</p>
         <p className='light-and-shadow-author-text'>illustrations by Roberta Allen</p>
         <p className='light-and-shadow-text'>ISBN 0-931428-14-9</p>
