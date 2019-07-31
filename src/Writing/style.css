@@ -9,9 +9,9 @@
   margin-top: 6%;
   padding-bottom: 1%;
   color: rgba(0, 0, 0, .8);
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
-  text-shadow: 4px 4px 0px rgba(113, 209, 189, .5);
+  text-shadow: 3px 3px 0px rgba(113, 209, 189, .5);
   letter-spacing: 2px;
   word-spacing: 3px;
   transition: 500ms;
@@ -19,7 +19,7 @@
 
 .writing-main-title:hover {
   transition: 500ms;
-  text-shadow: 4px 4px 0px rgba(113, 209, 189, 1);
+  text-shadow: 3px 3px 0px rgba(113, 209, 189, 1);
 }
 
 .car-photo-writing {

@@ -14,25 +14,37 @@
   width: 90%;
 }
 
-.news-title {
-  font-family: "Lekton", sans-serif;
-  font-size: 40px;
-  color: black;
+.news-main-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 45px;
+  margin-top: 5%;
+  color: rgba(0, 0, 0, .8);
   font-weight: 200;
-  margin-top: 10%;
+  text-align: center;
+  text-shadow: 4px 4px 2px rgba(113, 209, 189, .5);
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  transition: 500ms;
 }
+.news-main-title:hover {
+  transition: 500ms;
+  text-shadow: 4px 4px 0px rgba(113, 209, 189, 1);
+}
+
+
+
 .news-boxes-main-container {
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-content: center;
   align-items: center;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 .news-container-boxes {
   margin: 3% 4% 8% 4%;
   padding: 7%;
-  box-shadow: 0px 1px 26px -8px rgba(0,0,0,.4);
+  box-shadow: 0px 1px 26px -8px rgba(113, 209, 189, .6);
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -56,5 +68,22 @@
 
 .news-container-box-text-roxy-festival {
   font-weight: 600;
+  font-style: italic;
+}
+
+.news-train-ride-img {
+  margin-top: 6%;
+  margin-bottom: 6%;
+  height: 250px;
+}
+
+.news-book-of-sign-img {
+  margin-top: 6%;
+  margin-bottom: 6%;
+  height: 300px;
+}
+
+.news-book-of-signs-title {
+  margin-right: 3px;
   font-style: italic;
 }

@@ -15,13 +15,8 @@ class Contact extends Component {
               </a>
             </li>
             <li className='li-social'>
-              <a href='#' target='_blank' className='a-social'>
+              <a href='https://www.instagram.com/basketbeelee/' target='_blank' rel='noopener noreferrer' className='a-social'>
                 <i className='fa fa-instagram' />
-              </a>
-            </li>
-            <li className='li-social'>
-              <a href='#' className='a-social'>
-                <i className='fa fa-facebook' />
               </a>
             </li>
           </ul>

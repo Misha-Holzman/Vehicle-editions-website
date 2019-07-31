@@ -18,15 +18,20 @@
 }
 
 .magazines-main-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 45px;
   margin-top: 5%;
-  color: black;
+  color: rgba(0, 0, 0, .8);
   font-weight: 200;
-  /* border-top: 2px solid black;
-  border-bottom: 2px solid black; */
-  width: 45%;
   text-align: center;
+  text-shadow: 3px 3px 2px rgba(113, 209, 189, .5);
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  transition: 500ms;
+}
+.magazines-main-title:hover {
+  transition: 500ms;
+  text-shadow: 3px 3px 0px rgba(113, 209, 189, 1);
 }
 
 .magazines-info-container {
@@ -67,5 +72,10 @@
 .magazines-span-italic {
   font-style: italic;
   font-weight: 520;
+}
 
+.magazines-span-title-text {
+  font-weight: 400;
+  font-size: 19px;
+  font-style: italic;
 }

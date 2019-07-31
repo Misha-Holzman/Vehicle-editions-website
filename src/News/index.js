@@ -7,7 +7,7 @@ class News extends Component {
       <div className='poem-readings-main-container'>
         <div className='bottom-homepage-container' id='bottom-of-homepage-arrow-link'>
           <div className='news-main-container'>
-            <h1 className='news-title'>News</h1>
+            <h1 className='news-main-title'>News</h1>
             <div className='news-boxes-main-container'>
               <div className='news-container-boxes'>
                 <h3 className='news-container-box-title'>Occupy Wall Street Film</h3>
@@ -35,19 +35,23 @@ class News extends Component {
                 </p>
               </div>
               <div className='news-container-boxes'>
-                <h3 className='news-container-box-title'>A reprint of Train Ride by Ted Berrigan, with cover by Joe Brainard (1,000 copies, offset) is at the printer and will be launched at the New York Art Book Fair at PS 1 in September</h3>
-              </div>
-              <div className='news-container-boxes'>
-                <h3 className='news-container-box-title'>YO</h3>
+                <h3 className='news-container-box-title'>Train Ride by Ted Berrigan</h3>
+                <img src='https://i.imgur.com/sCQoBgB.jpg' className='news-train-ride-img' alt='' />
                 <p className='news-container-box-text'>
-                  Tony Towle: My First Three Books will be published by Vehicle Editions. The book will include an interview with Tony Towle
-                  by Leo Edelstein, photos from the sixties (many at Universal Limited Art Editions, West Islip NY), poems Tony Towle wrote
-                  that are mentioned in the interview and a CD of Tony Towle reading those poems.
+                A reprint of Train Ride by Ted Berrigan, with cover by Joe Brainard (1,000 copies, offset) is at the printer and will be launched at the New York Art Book Fair at PS 1 in September
                 </p>
               </div>
               <div className='news-container-boxes'>
-                <h3 className='news-container-box-title'>YO</h3>
-                <p className='news-container-box-text'>yo</p>
+                <h3 className='news-container-box-title'><span className='news-book-of-signs-title'>Book of Signs</span> sold 1,700 copies in 10 months!</h3>
+                <img src='https://i.imgur.com/T0mI8W7.jpg' className='news-book-of-sign-img' alt='' />
+              </div>
+              <div className='news-container-boxes'>
+                <h3 className='news-container-box-title'>Tony Towle</h3>
+                <p className='news-container-box-text'>
+                  <em>My First Three Books </em> will be published by Vehicle Editions. The book will include an interview with Tony Towle
+                  by Leo Edelstein, photos from the sixties (many at Universal Limited Art Editions, West Islip NY), poems Tony Towle wrote
+                  that are mentioned in the interview and a CD of Tony Towle reading those poems.
+                </p>
               </div>
             </div>
           </div>
