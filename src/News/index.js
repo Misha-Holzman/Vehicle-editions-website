@@ -10,16 +10,40 @@ class News extends Component {
             <h1 className='news-title'>News</h1>
             <div className='news-boxes-main-container'>
               <div className='news-container-boxes'>
-                <h3 className='news-container-box-title'>Trainride is at the printer</h3>
-                <p className='news-container-box-text'>yo</p>
+                <h3 className='news-container-box-title'>Occupy Wall Street Film</h3>
+                <p className='news-container-box-text'>Directedby Annabel Lee</p>
+                <br />
+                <p className='news-container-box-text-roxy-festival'>
+                  Premiered July 30, 2019 in the ROXY UNDERGROUND FILM FESTIVAL at the Roxy Cinema
+                  in Tribeca at 2 Sixth Avenue
+                </p>
+                <br />
+                <p className='news-container-box-text'>Recorded live the weekend of the 28th & 29th of October 2011</p>
+                <p className='news-container-box-text'>featuring Angela Davis & Harry Belafonte</p>
+                <p className='news-container-box-text'>Film score by Elana Belle Carroll</p>
+                <p className='news-container-box-text'><em>(9 minutes 27 seconds)</em></p>
+                <p className='news-container-box-text'><a href='https://www.youtube.com/watch?v=e9Zk0fxD6oc' className='occupy-video-link'>Watch on youtube!</a></p>
+                <br />
+                <p className='news-container-box-text'>
+                  Occupy Wall Street began September 17, 2011 at Zuccotti Park, also known as Liberty Plaza,
+                  and the encampment was evicted by NYPD in riot gear during pre-dawn hours of November 15, 2011 when about 200 people were arrested
+                  including a member of the City Council. By 4:30 am the park was empty.
+                </p>
+                <p className='news-container-box-text'>
+                  Occupy Wall Street was the epicenter of a movement protesting corporate greed and economic equality and there 
+                  were encampments around the world.
+                </p>
+              </div>
+              <div className='news-container-boxes'>
+                <h3 className='news-container-box-title'>A reprint of Train Ride by Ted Berrigan, with cover by Joe Brainard (1,000 copies, offset) is at the printer and will be launched at the New York Art Book Fair at PS 1 in September</h3>
               </div>
               <div className='news-container-boxes'>
                 <h3 className='news-container-box-title'>YO</h3>
-                <p className='news-container-box-text'>yo</p>
-              </div>
-              <div className='news-container-boxes'>
-                <h3 className='news-container-box-title'>YO</h3>
-                <p className='news-container-box-text'>yo</p>
+                <p className='news-container-box-text'>
+                  Tony Towle: My First Three Books will be published by Vehicle Editions. The book will include an interview with Tony Towle
+                  by Leo Edelstein, photos from the sixties (many at Universal Limited Art Editions, West Islip NY), poems Tony Towle wrote
+                  that are mentioned in the interview and a CD of Tony Towle reading those poems.
+                </p>
               </div>
               <div className='news-container-boxes'>
                 <h3 className='news-container-box-title'>YO</h3>

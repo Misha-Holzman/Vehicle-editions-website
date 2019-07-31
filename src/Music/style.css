@@ -1,0 +1,64 @@
+
+.music-main-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 45px;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  margin-left: -1%;
+  padding-left: 0;
+  color: rgba(0, 0, 0, .8);
+  font-weight: 200;
+  text-align: center;
+  text-shadow: 3px 3px 2px rgba(113, 209, 189, .5);
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  transition: 500ms;
+}
+.music-main-title:hover {
+  transition: 500ms;
+  text-shadow: 3px 3px 0px rgba(113, 209, 189, 1);
+}
+
+.car-photo-music {
+  height: 180px;
+  margin-bottom: 7%;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+.hally-wood-title {
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 1px solid rgb(167, 167, 167);  
+  text-align: center;
+  width: 15%;
+  margin: 0 auto;
+  margin-bottom: 1%;
+  margin-top: 3%;
+}
+
+.music-main-container {
+  height: 910px;
+  width: 100%;
+}
+
+.music-title-div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hally-album-photo-left {
+  height: 400px;
+}
+
+.hally-album-photo-right {
+  height: 400px;
+}
+
+.hally-wood-container {
+  padding: 2%;
+  width: 70%;
+
+}

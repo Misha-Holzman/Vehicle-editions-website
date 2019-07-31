@@ -34,7 +34,7 @@ class AvailableTitles extends Component {
                 </Link>
                 <div className='rudy-images-div'>
                   <div className='rudy-dynamic-div'>
-                    <Link className='rudy-conversations-link' to='/conversationsWithRudy'>
+                    <Link className='rudy-conversations-link-2' to='/conversationsWithRudy'>
                       <img src='https://i.imgur.com/5j5i2ay.jpg' className='convo-with-rudy-img' alt='' />
                       <img src='https://i.imgur.com/q1cg4L3.jpg' className='convo-with-rudy-2-img' alt='' />
                     </Link>

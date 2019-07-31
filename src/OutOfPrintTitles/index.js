@@ -66,7 +66,12 @@ class OutOfPrintTitles extends Component {
                       <p className='hot-and-cold-text'>• Limited edition of 240 copies</p>
                       <p className='hot-and-cold-text'>• Handbound softcovers and hardcovers</p>
                       <p className='hot-and-cold-text'>• Printed digitally at Planet Color, Great Barrington, Massachusetts</p>
-                      <p className='hot-and-cold-text'>• Richard Hell was born and grew up in Lexington, KY. He dropped out of high school and came to New York to be a poet at the end of the 60s. He co-founded, played in, sang in and wrote for several influential music groups including Television before forming the Voidoids in the mid-70’s, and was a crucial originator of “punk.” He’s best known for his album Blank Generation (1977) and his novel Go Now (1966). He lives in New York.</p>
+                      <p className='hot-and-cold-text'>
+                        Richard Hell was born and grew up in Lexington, KY. He dropped out of high school and came to New York to be a poet at the end of the 60s.
+                        He co-founded, played in, sang in and wrote for several influential music groups including Television before forming the Voidoids in the
+                        mid-70’s, and was a crucial originator of “punk.” He’s best known for his album Blank Generation (1977) and his novel Go Now (1966).
+                        He lives in New York.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -123,8 +128,9 @@ class OutOfPrintTitles extends Component {
                       <p className='light-and-shadow-text'>• 26 signed and numbered hardcovers</p>
                       <p className='light-and-shadow-text'>• Printed offset at Open Studio Workshop</p>
                       <p className='light-and-shadow-text'>• Typeface: Patina</p>
-                      <p className='light-and-shadow-text'>• Simon Schuchat is also the author of Svelte (Genesis Grasp, 1971) and Blue Skies (Some of Us Press, 1973) and At Baoshan (Coffehouse Press, 1987). Schuchat served in the Foreign Service for over 25 years and is an East Asia expert.</p>
-                      <a href='https://www.amazon.com/Light-Shadow-Simon-Schuchat/dp/B000UDBT0C' target='_blank' rel='noopener noreferrer' className='cta'>
+                      <p className='light-and-shadow-text-last'>• Simon Schuchat is also the author of Svelte (Genesis Grasp, 1971) and Blue Skies (Some of Us Press, 1973) and At Baoshan (Coffehouse Press, 1987). Schuchat served in the Foreign Service for over 25 years and is an East Asia expert.</p>
+                      <br />
+                      <a href='https://www.amazon.com/Light-Shadow-Simon-Schuchat/dp/B000UDBT0C' target='_blank' rel='noopener noreferrer' className='cta' id='buy-now-link'>
                         <span className='buy-now-text'>Buy Now</span>
                         <svg width='13px' height='11px' viewBox='0 0 13 10' className='svg-buy-now'>
                           <path d='M1,5 L11,5' />
@@ -361,8 +367,8 @@ class OutOfPrintTitles extends Component {
                         – Doris Grumbach
                       </p>
                       <p className='light-and-shadow-text'>Winner of the 1978 St. Lawrence Award for Fiction.</p>
-                      <img src='https://i.imgur.com/0ZwKVQc.jpg' className='quilts-image' alt='' />
-                      <img src='https://i.imgur.com/7doMsFc.jpg' className='quilts-image' alt='' />
+                      <img src='https://i.imgur.com/0ZwKVQc.jpg' className='counting-image' alt='' />
+                      <img src='https://i.imgur.com/7doMsFc.jpg' className='counting-image' alt='' />
                     </div>
                   </div>
                 </div>
@@ -480,20 +486,20 @@ class OutOfPrintTitles extends Component {
               <div class='modal-dialog modal-lg modal-dialog-centered' role='document'>
                 <div class='modal-content'>
                   <div class='modal-header'>
-                    <h5 class='modal-title' id='exampleModalLabel'>Harcourt, Brace, Jovanovich Children’s Trade Division</h5>
+                    <h5 class='modal-title' id='exampleModalLabel'>Train Ride</h5>
                     <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
                       <span aria-hidden='true'>&times;</span>
                     </button>
                   </div>
                   <div class='modal-body'>
                     <div className='light-and-shadow-main-container'>
-                      <h3 className='light-and-shadow-title-text'>Train Rides</h3>
+                      <h3 className='light-and-shadow-title-text'>Train Ride</h3>
                       <p className='light-and-shadow-author-text'>by Ted Berrigan</p>
                       <p className='light-and-shadow-author-text'>cover by Joe Brainard</p>
                       <p className='light-and-shadow-text'>ISBN 0-031428-21-1</p>
                       <p className='light-and-shadow-text'>7 x 5 inches</p>
                       <p className='light-and-shadow-text'>48 pages</p>
-                      <p className='light-and-shadow-text'>$10</p>]
+                      <p className='light-and-shadow-text'>$10</p>
                       <p className='light-and-shadow-text'>
                         Printed letterpress in an editions of 1,500 copies. Typeface is monotype (hot lead) Gill Sans.
                         Text paper is Caress. Perfectbound. Covers are printed letterpress on Strathmore Fairfield Bristol Velhum.
@@ -517,8 +523,8 @@ class OutOfPrintTitles extends Component {
                         run & read to take it, with Ted Berrigan, a Great Companion.”
                         – Anselm Hollo
                       </p>
-                      <img src='https://i.imgur.com/hXoWiSw.jpg' className='quilts-image' alt='' />
-                      <img src='https://i.imgur.com/SSzisBT.jpg' className='quilts-image' alt='' />
+                      <img src='https://i.imgur.com/hXoWiSw.jpg' className='train-image' alt='' />
+                      <img src='https://i.imgur.com/SSzisBT.jpg' className='train-image' alt='' />
                     </div>
                   </div>
                 </div>

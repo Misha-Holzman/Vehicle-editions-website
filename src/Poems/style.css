@@ -72,3 +72,53 @@
   font-weight: 200;
   border-bottom: 1px solid black;
 }
+
+
+
+.poems-name {
+  font-family: "Montserrat", sans-serif;  
+  font-weight: 200;
+  font-size: 20px;
+}
+
+#modal-body-images {
+  display: flex;
+  justify-content: center;
+}
+
+.poem-images {
+  height: 500px;
+}
+
+.poem-img-night-and-night {
+  height: 700px;
+}
+
+.poem-img-glamorous {
+  height: 700px;
+}
+
+.poem-img-johnboy {
+  height: 1000px;
+}
+
+.poem-img-scenic-radios {
+  height: 700px;
+}
+
+.poem-img-apoplectic-ride {
+  height: 800px;
+}
+
+.poem-img-queen-maniac {
+  height: 950px;
+}
+
+.poem-img-short-blade {
+  height: 700px;
+}
+
+.poem-img-red-signal {
+  height: 700px;
+}
+

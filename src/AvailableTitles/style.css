@@ -55,7 +55,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 70%;
+  width: 90%;
 }
 
 .available-titles-info-div-signs {
@@ -72,6 +72,7 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 10%;
+  width: 70%;
 }
 
 
@@ -113,11 +114,12 @@
 
 .convo-with-rudy-img {
   height: 300px;
+  margin-right: 4%;
 }
 
 .convo-with-rudy-2-img {
   height: 300px;
-
+  margin-left: 4%;
 }
 
 
@@ -125,11 +127,13 @@
 .signs-dynamic-div {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .rudy-dynamic-div {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 
@@ -150,6 +154,22 @@
 
 .rudy-conversations-link {
   margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.rudy-conversations-link-2 {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 3%;
 }
 
 

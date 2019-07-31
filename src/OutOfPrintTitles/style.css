@@ -288,3 +288,36 @@
 .smithsonian-name {
 
 } */
+
+
+.svg-buy-now {
+  margin-top: -1px;
+}
+
+#buy-now-link {
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.light-and-shadow-main-container {
+  width: 80%;
+  margin-bottom: 5%
+}
+
+.light-and-shadow-text-last {
+  margin-bottom: 6px;
+}
+
+.quilts-image {
+  height: 240px;
+}
+
+.counting-image {
+  height: 240px;
+  margin-right: 3%;
+}
+
+.train-image {
+  height: 240px;
+  margin-right: 3%;
+}
