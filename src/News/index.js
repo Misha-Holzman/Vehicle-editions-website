@@ -28,7 +28,7 @@ class News extends Component {
                 <p className='news-container-box-text'>
                   Occupy Wall Street began September 17, 2011 at Zuccotti Park, also known as Liberty Plaza,
                   and the encampment was evicted by NYPD in riot gear during pre-dawn hours of November 15, 2011 when about 200 people were arrested
-                  including a member of the City Council. By 4:30 am the park was empty.
+                  including a member of the City Council. <br /> By 4:30 am the park was empty.
                 </p>
                 <p className='news-container-box-text'>
                   Occupy Wall Street was the epicenter of a movement protesting corporate greed and economic equality and there 
