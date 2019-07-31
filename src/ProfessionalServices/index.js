@@ -16,16 +16,16 @@ class ProfessionalServices extends Component {
             <div className='veh-ed-nav-bullets-div'>
               <ul className='veh-ed-nav-ul'>
                 <li className='veh-ed-nav-li'>
-                  <a href='/Clients' className='veh-ed-nav-link'><span id='links-pages-style'>Clients</span></a>
+                  <a href='/Resume' className='veh-ed-nav-link'><span id='links-pages-style'>Resume</span></a>
                 </li>
                 <li className='veh-ed-nav-li'>
                   <a href='/EditorialProductionServices' className='veh-ed-nav-link'><span id='links-pages-style'>Editorial & Production Services</span></a>
                 </li>
                 <li className='veh-ed-nav-li'>
-                  <a href='WritingSamples' className='veh-ed-nav-link'><span id='links-pages-style'>Writing Samples</span></a>
+                  <a href='/Clients' className='veh-ed-nav-link'><span id='links-pages-style'>Clients</span></a>
                 </li>
                 <li className='veh-ed-nav-li'>
-                  <a href='Testimonials' className='veh-ed-nav-link'><span id='links-pages-style'>Testimonials</span></a>
+                  <a href='WritingSamples' className='veh-ed-nav-link'><span id='links-pages-style'>Writing Samples</span></a>
                 </li>
               </ul>
             </div>

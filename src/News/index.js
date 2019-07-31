@@ -22,7 +22,8 @@ class News extends Component {
                 <p className='news-container-box-text'>featuring Angela Davis & Harry Belafonte</p>
                 <p className='news-container-box-text'>Film score by Elana Belle Carroll</p>
                 <p className='news-container-box-text'><em>(9 minutes 27 seconds)</em></p>
-                <p className='news-container-box-text'><a href='https://www.youtube.com/watch?v=e9Zk0fxD6oc' className='occupy-video-link'>Watch on youtube!</a></p>
+                <br />
+                <p className='news-container-box-text'><a href='https://www.youtube.com/watch?v=e9Zk0fxD6oc' className='occupy-video-link' target='_blank' rel='noopener noreferrer'>Watch on youtube!</a></p>
                 <br />
                 <p className='news-container-box-text'>
                   Occupy Wall Street began September 17, 2011 at Zuccotti Park, also known as Liberty Plaza,
@@ -36,7 +37,7 @@ class News extends Component {
               </div>
               <div className='news-container-boxes'>
                 <h3 className='news-container-box-title'>Train Ride by Ted Berrigan</h3>
-                <img src='https://i.imgur.com/sCQoBgB.jpg' className='news-train-ride-img' alt='' />
+                <img src='https://i.imgur.com/MV39t6b.jpg' className='news-train-ride-img' alt='' />
                 <p className='news-container-box-text'>
                 A reprint of Train Ride by Ted Berrigan, with cover by Joe Brainard (1,000 copies, offset) is at the printer and will be launched at the New York Art Book Fair at PS 1 in September
                 </p>
