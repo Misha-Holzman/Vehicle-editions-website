@@ -18,19 +18,19 @@ class VehicleEditions extends Component {
             <div className='veh-ed-nav-bullets-div'>
               <ul className='veh-ed-nav-ul'>
                 <li className='veh-ed-nav-li'>
-                  <a href='/News' className='veh-ed-nav-link'><span id='links-pages-style'>News</span></a>
+                  <a href='../News' className='veh-ed-nav-link'><span id='links-pages-style'>News</span></a>
                 </li>
                 <li className='veh-ed-nav-li'>
-                  <a href='/GrantsAndAwards' className='veh-ed-nav-link'><span id='links-pages-style'>Grants and Awards</span></a>
+                  <a href='../GrantsAndAwards' className='veh-ed-nav-link'><span id='links-pages-style'>Grants and Awards</span></a>
                 </li>
                 <li className='veh-ed-nav-li'>
-                  <a href='/Exhibitions' className='veh-ed-nav-link'><span id='links-pages-style'>Exhibitions</span></a>
+                  <a href='../Exhibitions' className='veh-ed-nav-link'><span id='links-pages-style'>Exhibitions</span></a>
                 </li>
                 <li className='veh-ed-nav-li'>
-                  <a href='/AvailableTitles' className='veh-ed-nav-link'><span id='links-pages-style'>Available Titles</span></a>
+                  <a href='../AvailableTitles' className='veh-ed-nav-link'><span id='links-pages-style'>Available Titles</span></a>
                 </li>
                 <li className='veh-ed-nav-li'>
-                  <a href='/OutOfPrintTitles' className='veh-ed-nav-link'><span id='links-pages-style'>Out of Print Titles</span></a>
+                  <a href='../OutOfPrintTitles' className='veh-ed-nav-link'><span id='links-pages-style'>Out of Print Titles</span></a>
                 </li>
               </ul>
             </div>
