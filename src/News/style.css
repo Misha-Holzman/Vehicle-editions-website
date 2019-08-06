@@ -89,7 +89,14 @@
 }
 
 .occupy-video-link {
-  font-size: 20px;
+  font-size: 17px;
+  color: black;
+  border-bottom: 1px solid black;
+}
+.news-container-box-text-link {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: 200;
 }
 
 .book-of-signs-instagram-link {
