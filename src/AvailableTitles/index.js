@@ -39,8 +39,29 @@ class AvailableTitles extends Component {
                       <img src='https://i.imgur.com/q1cg4L3.jpg' className='convo-with-rudy-2-img' alt='' />
                     </Link>
                     <p className='rudy-photos-description1'>Rudy Burckhadt</p>
-                    <p className='rudy-photos-description2'>Photo Credit – Timothy Greenfield-Sanders</p>
+                    <p className='rudy-photos-description2'>Photo by Timothy Greenfield-Sanders</p>
                     <Route path='/conversationsWithRudy' component={ConversationsWithRudy} />
+                  </div>
+                </div>
+              </div>
+              <div className='available-titles-info-div-rudy'>
+                <p className='available-titles-rudy-name'>Typings by Christopher Knowles</p>
+                <div className='rudy-images-div'>
+                  <div className='rudy-dynamic-div'>
+                    <div className='rudy-conversations-link-2'>
+                      <img src='https://i.imgur.com/pXNQi67.jpg' className='convo-with-rudy-img' alt='' />
+                      <img src='https://i.imgur.com/7eKAd9N.jpg' className='convo-with-rudy-2-img' alt='' />
+                    </div>
+                    <p className='rudy-photos-description1'>Christopher Knowles</p>
+                    <p className='rudy-photos-description2'>Photo by Richard Landry</p>
+                    <div className='convos-with-rudy-main-container'>
+                      <br />
+                      <p className='rudy-text'>Hardcover edition: red cloth over boards with green foil stamp</p>
+                      <br />
+                      <p className='rudy-text'>$300 per copy</p>
+                      <br />
+                      <p className='rudy-text-body-1'>Available for purchase from <a href='FIX' className='ilylali-link' target='_blank'>movingvehicle@gmail.com</a></p>
+                    </div>
                   </div>
                 </div>
               </div>

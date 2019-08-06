@@ -19,7 +19,7 @@ class ProfessionalServices extends Component {
                   <a href='/Resume' className='veh-ed-nav-link'><span id='links-pages-style'>Resume</span></a>
                 </li>
                 <li className='veh-ed-nav-li'>
-                  <a href='/EditorialProductionServices' className='veh-ed-nav-link'><span id='links-pages-style'>Editorial & Production Services</span></a>
+                  <a href='/EditorialProductionServices' className='veh-ed-nav-link'><span id='links-pages-style'>Editorial and Production Services</span></a>
                 </li>
                 <li className='veh-ed-nav-li'>
                   <a href='/Clients' className='veh-ed-nav-link'><span id='links-pages-style'>Clients</span></a>

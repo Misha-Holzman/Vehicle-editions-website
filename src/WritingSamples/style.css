@@ -152,3 +152,35 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 .dennis-passage-article {
   font-style: italic;
 }
+
+
+
+
+
+
+.writing-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+.writing-info-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 3%;
+  width: 100%;
+}
+.writing-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: .4s ease-in-out;
+  margin-bottom: 2%;
+  width: 100%;
+}

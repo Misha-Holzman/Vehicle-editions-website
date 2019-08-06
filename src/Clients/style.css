@@ -16,7 +16,7 @@
 }
 .clients-main-title {
   font-family: 'Open Sans', sans-serif;
-  font-size: 48px;
+  font-size: 42px;
   margin-top: 5%;
   margin-bottom: 3%;
   margin-left: -1%;
@@ -34,13 +34,7 @@
   text-shadow: 3px 3px 0px rgba(113, 209, 189, 1);
 }
 
-.clients-info-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-}
+
 .regular-clients-container {
   padding: 0 2% 2% 2%;
   border-radius: 15px;
@@ -50,7 +44,13 @@
   align-items: center;
   width: 70%;
 }
-
+.clients-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
 .clients-info-main-container {
   display: flex;
   flex-direction: column;
@@ -58,14 +58,6 @@
   align-content: center;
   align-items: center;
   margin-top: 3%;
-}
-
-.regular-clients-title-container {
-  margin-top: 2%;
-}
-.regular-clients-title {
-  font-family: "Montserrat", sans-serif;
-  border-bottom: 1px solid rgb(167, 167, 167);  
 }
 .clients-div {
   display: flex;
@@ -75,6 +67,14 @@
   transition: .4s ease-in-out;
   margin-bottom: 2%;
 }
+.regular-clients-title-container {
+  margin-top: 2%;
+}
+.regular-clients-title {
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 1px solid rgb(167, 167, 167);  
+}
+
 
 .clients-car-photo-1 {
   height: 170px;

@@ -1,32 +1,182 @@
-/* .App {
-  text-align: center;
+/* ––––––––– Media Queries –––––––– */
+
+@media only screen and (min-width : 1800px) {
+  
+	
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+@media only screen and (min-width : 1665px) {
+	
+	
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+@media screen and (max-width: 1655px) {
+	
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (max-width: 1620px) {
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+@media screen and (max-width: 1595px) {
+
+}
+
+@media screen and (max-width: 1555px) {
+
+
+}
+
+@media screen and (max-width: 1540px) {
+
+
+}
+
+@media screen and (max-width: 1478px) {
+
+
+}
+
+@media screen and (max-width: 1444px) {
+
+}
+
+
+
+@media screen and (max-width: 1421px) {
+
+}
+
+
+@media screen and (max-width: 1375px) {
+
+
+}
+
+
+
+
+@media screen and (max-width: 1330px) {
+
+}
+
+
+@media screen and (max-width: 1266px) {
+
+}
+
+
+@media screen and (max-width: 1248px) {
+	
+}
+
+
+@media screen and (max-width: 1200px) {
+  /* Large Desktop */
+	
+}
+
+@media screen and (max-width: 1155px) {
+  /* Large Desktop */
+	
+
+}
+
+
+@media screen and (max-width: 1043px) {
+  /* Large Desktop */
+	
+}
+
+@media screen and (max-width: 975px) {
+  /* Large Desktop */
+	
+}
+
+@media screen and (max-width: 954px) {
+	
+}
+
+@media screen and (max-width: 880px) {
+	
+	
+}
+
+
+@media screen and (max-width: 786px) {
+  /* tablet */
+	
+
+}
+
+
+@media screen and (max-width: 747px) {
+	
+}
+
+@media screen and (max-width: 725px) {
+	
+}
+
+
+@media screen and (max-width: 709px) {
+	
+}
+
+@media screen and (max-width: 667px) {
+  /* mobile */
+	
+}
+
+@media screen and (max-width: 535px) {
+  /* mobile */
+	
+
+}
+
+@media screen and (max-width: 480px) {
+  /* mobile */
+}
+
+@media screen and (max-width: 435px) {
+  /* mobile */
+	
+	
+}
+
+@media screen and (max-width: 400px) {
+  /* mobile */
+
+}
+
+
+@media screen and (max-width: 380px) {
+  /* mobile */
+	
+}
+
+@media screen and (max-width: 370px) {
+  /* mobile */
+	
+}
+
+@media screen and (max-width: 326px) {
+  /* mobile */
+	
+
+}
+
+
+@media screen and (max-width: 296px) {
+	/* mobile */
+	
+
+}
+
+
+@media screen and (max-width: 284px) {
+	/* mobile */
+	
+
+}

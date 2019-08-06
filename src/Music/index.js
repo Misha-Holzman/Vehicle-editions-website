@@ -9,36 +9,52 @@ class Music extends Component {
           <h1 className='music-main-title'>Music</h1>
           <img src='https://i.imgur.com/RBHjIXp.png' className='car-photo-music' alt='' />
         </div>
-        <div className='hally-wood-title-container'>
-          <h2 className='hally-wood-title'>Hally Wood</h2>
+        <div className='benson-gallery-div'>
+          <img src='https://i.imgur.com/WGhjD18.jpg' className='hally-album-photo-right' alt='' />
         </div>
+        <p className='benson-images-description'>Ether Frolic Mob performing at Jalopy Theatre, Red Hook, Brooklyn 2010</p>
+        <p className='benson-images-description'>(l-r: Jane Gilday, John Cohen, Annabel Lee, Jean Scofield, Peter Stampfel, Hubby Jenkins)</p>
+        <div className='about-line-container'>
+          <img className='about-line-divider' src='https://i.imgur.com/AZpE0YA.png' alt='' />
+        </div>
+        <div className='hally-wood-title-container'>
+          <h2 className='hally-wood-title'>Hally Wood: Annabel Lee's Aunt</h2>
+        </div>
+
+        <div className='benson-gallery-div'>
+          <img src='https://i.imgur.com/oDzSagt.jpg' className='hally-album-photo-right' alt='' />
+        </div>
+        <p className='benson-images-description'>Hally Wood and Woody Guthrie, at Hally Wood's apartment, New York NY 1959 (photo by A.D. Levitt)</p>
+        <div className='benson-gallery-div'>
+
+          <img src='https://i.imgur.com/UNBUU0L.jpg' className='hally-album-photo-right' alt='' />
+        </div>
+        <p className='benson-images-description'>Poster for People's Songs Artists concert in Chicago. October 10, 1944 <br /> featuring Pete Seeger, Woody Guthrie, Hally Wood and Betty Sanders</p>
+
         <div className='benson-gallery-div'>
           <img src='https://i.imgur.com/04Ew07n.jpg' className='hally-album-photo-left' alt='' />
           <img src='https://i.imgur.com/0tGKmjn.jpg' className='hally-album-photo-right' alt='' />
         </div>
-        <p className='benson-images-description'>Hally Wood Sings Texas Folk Songs</p>
+        <p className='benson-images-description'>Hally Wood Sings Texas Folk Songs front cover of album</p>
 
         <div className='benson-gallery-div'>
           <img src='https://i.imgur.com/457w6QO.jpg' className='hally-album-photo-left' alt='' />
           <img src='https://i.imgur.com/kUDgCtS.jpg' className='hally-album-photo-right' alt='' />
         </div>
-        <p className='benson-images-description'>American Folk Songs of Sadness and Melancholy</p>
-        <p className='benson-images-description'>– O' Lovely Appearance of Death –</p>
+        <p className='benson-images-description'>O' Lovely Appearance of Death front cover</p>
 
         <div className='benson-gallery-div'>
-          <img src='https://i.imgur.com/A6r4PN9.jpg' className='hally-album-photo-left' alt='' />
+          <img src='https://i.imgur.com/T832zfw.jpg' className='hally-album-photo-right' alt='' />
         </div>
-        <p className='benson-images-description'>Me and my grandmother: Irene Nagel Wood</p>
+        <p className='benson-images-description'>Annabel Lee and her grandmother: Irene Nagel Wood</p>
 
         <div className='benson-gallery-div'>
           <img src='https://i.imgur.com/zotRdSG.jpg' className='hally-album-photo-right' alt='' />
         </div>
         <p className='benson-images-description'>Hally Wood, her daughter Cynthia Tannehill Faulk Ryland and Hally’s grandson Cyrus Ryland</p>
 
-        <div className='benson-gallery-div'>
-          <img src='https://i.imgur.com/T832zfw.jpg' className='hally-album-photo-right' alt='' />
-        </div>
-        <p className='benson-images-description'>Me and my grandmother</p>
+        <h4 className='hally-wood-song'><a href='https://www.youtube.com/watch?v=Zyqx4kR4gOo' className='link-to-hally-wood-song'>Listen to Hally Wood and Alan Lomax singing, accompanied by Pete Seeger playing banjo</a></h4>
+
       </div>
     )
   }

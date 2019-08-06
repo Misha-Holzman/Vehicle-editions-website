@@ -28,12 +28,11 @@
 
 .hally-wood-title {
   font-family: "Montserrat", sans-serif;
-  border-bottom: 1px solid rgb(167, 167, 167);  
   text-align: center;
-  width: 15%;
-  margin: 0 auto;
   margin-bottom: 1%;
-  margin-top: 3%;
+  margin-top: 6%;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 .music-main-container {
@@ -51,14 +50,34 @@
 
 .hally-album-photo-left {
   height: 400px;
+  margin-left: 3%;
 }
 
 .hally-album-photo-right {
   height: 400px;
+  margin-left: 3%;
+
 }
 
 .hally-wood-container {
   padding: 2%;
   width: 70%;
 
+}
+
+
+.link-to-hally-wood-song {
+  text-decoration: underline;
+  color: black;
+}
+
+.hally-wood-song {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  font-size: 17px;
+  font-weight: 200;
+  margin-left: -2%;
+  text-decoration: underline;
 }

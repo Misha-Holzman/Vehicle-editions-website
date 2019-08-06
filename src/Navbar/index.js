@@ -93,7 +93,7 @@ class Navbar extends Component {
                   <div className='dropdown-content' id='publications-drop'>
                     <Link className='dropdown-tabs' to='/resume' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Resume</span></Link>
                     <Link className='dropdown-tabs' id='e-and-p-services-link' to='/editorialAndProductionServices' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Editorial and Production Services</span></Link>
-                    <Link className='dropdown-tabs' to='/clients' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Clients</span></Link>
+                    <Link className='dropdown-tabs' to='/clients' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Professional Experience</span></Link>
                     <Link className='dropdown-tabs' to='/writingsamples' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Writing Samples</span></Link>
                     {/* <Link className='dropdown-tabs' to='/testimonials' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Testimonials</span></Link> */}
                   </div>

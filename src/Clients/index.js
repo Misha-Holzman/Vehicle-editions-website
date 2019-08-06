@@ -6,11 +6,109 @@ class Clients extends Component {
     return (
       <div className='clients-main-container'>
         <div className='clients-title-div'>
-          <h1 className='clients-main-title'>Clients</h1>
+          <h1 className='clients-main-title'>Professional Experience</h1>
           <img src='https://i.imgur.com/q2NiKoA.jpg' className='clients-car-photo' alt='' />
         </div>
         <div className='clients-info-container'>
           <div className='clients-info-main-container'>
+            <div className='clients-div'>
+              <button type='button' data-toggle='modal' data-target='#Modal99' id='button-modal'>
+                <p className='clients-name'>WebMD/Medscape</p>
+              </button>
+            </div>
+            <div class='modal fade bd-example-modal-lg' id='Modal99' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+              <div class='modal-dialog modal-lg modal-dialog-centered' role='document'>
+                <div class='modal-content'>
+                  <div class='modal-header'>
+                    <h5 class='modal-title' id='exampleModalLabel'>WebMD/Medscape – Medical Editor</h5>
+                    <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+                      <span aria-hidden='true'>&times;</span>
+                    </button>
+                  </div>
+                  <div class='modal-body'>
+                    <p>Copyediting, proofreading, grammar, use of Stedman’s Medical Dictionary and AMA style across digital platforms for initial scripts, initial builds, brand and MLR feedback to scripts and builds, tagging and tracking codes, and final products</p>
+                    <p>• Handled tasks using Workfront, Box, Proof HQ and other applications</p>
+                    <p>• Text and ISIs for diverse indications, including oncology, hematology, pulmonary, HIV, neurology, dermatology, cardiology, diabetes and others for diverse clients, both global (Germany, Italy and others) and U.S. including Pfizer, Eli Lilly, Sanofi, Bayer, GSK, Novartis, Merck, and others</p>
+                    <p>October 2016–Present, New York, NY</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='clients-div'>
+              <button type='button' data-toggle='modal' data-target='#Modal98' id='button-modal'>
+                <p className='clients-name'>Grey Advertising</p>
+              </button>
+            </div>
+            <div class='modal fade bd-example-modal-lg' id='Modal98' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+              <div class='modal-dialog modal-lg modal-dialog-centered' role='document'>
+                <div class='modal-content'>
+                  <div class='modal-header'>
+                    <h5 class='modal-title' id='exampleModalLabel'>Grey Advertising – Medical Editor</h5>
+                    <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+                      <span aria-hidden='true'>&times;</span>
+                    </button>
+                  </div>
+                  <div class='modal-body'>
+                    <p>Copyedting, proofreading, fact checking, grammar and AMA style for Eli Lilly products, primarily Men's Health: Cialis</p>
+                    <p>December 2015–Ocrober 2016, New York NY</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='clients-div'>
+              <button type='button' data-toggle='modal' data-target='#Modal97' id='button-modal'>
+                <p className='clients-name'>H4B Chelsea/Havas Health</p>
+              </button>
+            </div>
+            <div class='modal fade bd-example-modal-lg' id='Modal97' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+              <div class='modal-dialog modal-lg modal-dialog-centered' role='document'>
+                <div class='modal-content'>
+                  <div class='modal-header'>
+                    <h5 class='modal-title' id='exampleModalLabel'>H4B Chelsea/Havas Health – Senior Editor</h5>
+                    <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+                      <span aria-hidden='true'>&times;</span>
+                    </button>
+                  </div>
+                  <div class='modal-body'>
+                    <p>Copyediting, proofreading, fact checking, grammar and AMA style primarily for Astellas products and for Alcon contact lenses and ophthalmological products</p>
+                    <p>Full-time on staff October 2013–November 2015</p>
+                    <p>Freelance in-house November 2011–October 2013</p>
+                    <p>New York, NY</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='clients-div'>
+              <button type='button' data-toggle='modal' data-target='#Modal96' id='button-modal'>
+                <p className='clients-name'>McGraw-Hill</p>
+              </button>
+            </div>
+            <div className='clients-div'>
+              <button type='button' data-toggle='modal' data-target='#Modal95' id='button-modal'>
+                <p className='clients-name'>Galen Press</p>
+              </button>
+            </div>
+            <div className='clients-div'>
+              <button type='button' data-toggle='modal' data-target='#Modal94' id='button-modal'>
+                <p className='clients-name'>Terra Holdings/Brown Harris Stevens/Halstead</p>
+              </button>
+            </div>
+            <br />
+            <br />
+            <div className='about-line-container'>
+              <img className='about-line-divider' src='https://i.imgur.com/AZpE0YA.png' alt='' />
+            </div>
+            <br />
+            <br />
+            <div className='clients-title-div'>
+              <h1 className='clients-main-title'>Other Clients</h1>
+              <br />
+              <br />
+              <img src='https://i.imgur.com/q2NiKoA.jpg' className='clients-car-photo' alt='' />
+            </div>
+            <br />
+            <br />
+            <br />
             <div className='clients-div'>
               <button type='button' data-toggle='modal' data-target='#Modal1' id='button-modal'>
                 <p className='clients-name'>Persea Books</p>
@@ -30,33 +128,6 @@ class Clients extends Component {
                     <p>Persea, An International Review, Vol. 1, No. 1</p>
                     <p>Proofreading and typesetting</p>
                     <p>1977: Persea Books (Michael and Karen Braziller), Little Italy, New York NY</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className='clients-div'>
-              <button type='button' data-toggle='modal' data-target='#Modal2' id='button-modal'>
-                <p className='clients-name'>Harcourt, Brace, Jovanovich Children’s Trade Division</p>
-              </button>
-            </div>
-            <div class='modal fade bd-example-modal-lg' id='Modal2' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
-              <div class='modal-dialog modal-lg modal-dialog-centered' role='document'>
-                <div class='modal-content'>
-                  <div class='modal-header'>
-                    <h5 class='modal-title' id='exampleModalLabel'>Harcourt, Brace, Jovanovich Children’s Trade Division</h5>
-                    <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
-                      <span aria-hidden='true'>&times;</span>
-                    </button>
-                  </div>
-                  <div class='modal-body'>
-                    <p>The Prince of the Dolomites by Tomie Dipaola</p>
-                    <p>Nobody Stole the Pie by Sonia Levitin</p>
-                    <p>Reprint of F. Scott Fitzgerald Notebooks</p>
-                    <p>Virginia Woolf: Letters Volume III</p>
-                    <p>Virginia Woolf: Women and Writing</p>
-                    <p>Production work, layout and mechanicals</p>
-                    <p>1979-1980 and 1987: Harcourt Brace Jovanovich, Midtown, New York NY</p>
                   </div>
                 </div>
               </div>
@@ -410,14 +481,14 @@ class Clients extends Component {
 
             <div className='clients-div'>
               <button type='button' data-toggle='modal' data-target='#Modal18' id='button-modal'>
-                <p className='clients-name'>New York State</p>
+                <p className='clients-name'>New York State Statistical Guide</p>
               </button>
             </div>
             <div class='modal fade bd-example-modal-lg' id='Modal18' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
               <div class='modal-dialog modal-lg modal-dialog-centered' role='document'>
                 <div class='modal-content'>
                   <div class='modal-header'>
-                    <h5 class='modal-title' id='exampleModalLabel'>New York State</h5>
+                    <h5 class='modal-title' id='exampleModalLabel'>New York State Statistical Guide</h5>
                     <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
                       <span aria-hidden='true'>&times;</span>
                     </button>
@@ -1562,6 +1633,33 @@ class Clients extends Component {
             </div>
 
             <div className='clients-div'>
+              <button type='button' data-toggle='modal' data-target='#Modal2' id='button-modal'>
+                <p className='clients-name'>Harcourt, Brace, Jovanovich Children’s Trade Division</p>
+              </button>
+            </div>
+            <div class='modal fade bd-example-modal-lg' id='Modal2' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+              <div class='modal-dialog modal-lg modal-dialog-centered' role='document'>
+                <div class='modal-content'>
+                  <div class='modal-header'>
+                    <h5 class='modal-title' id='exampleModalLabel'>Harcourt, Brace, Jovanovich Children’s Trade Division</h5>
+                    <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+                      <span aria-hidden='true'>&times;</span>
+                    </button>
+                  </div>
+                  <div class='modal-body'>
+                    <p>The Prince of the Dolomites by Tomie Dipaola</p>
+                    <p>Nobody Stole the Pie by Sonia Levitin</p>
+                    <p>Reprint of F. Scott Fitzgerald Notebooks</p>
+                    <p>Virginia Woolf: Letters Volume III</p>
+                    <p>Virginia Woolf: Women and Writing</p>
+                    <p>Production work, layout and mechanicals</p>
+                    <p>1979-1980 and 1987: Harcourt Brace Jovanovich, Midtown, New York NY</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='clients-div'>
               <button type='button' data-toggle='modal' data-target='#Modal68' id='button-modal'>
                 <p className='clients-name'>People’s Printing Cooperative</p>
               </button>
@@ -1672,7 +1770,7 @@ class Clients extends Component {
             </div>
 
             <div className='clients-div last-client'>
-              <button type='button' data-toggle='modal' data-target='#' id='button-modal'>
+              <button type='button' data-toggle='modal' data-target='#Modal73' id='button-modal'>
                 <p className='clients-name'>Elementary School Teaching</p>
               </button>
             </div>
@@ -1685,7 +1783,9 @@ class Clients extends Component {
                       <span aria-hidden='true'>&times;</span>
                     </button>
                   </div>
-                  <div class='modal-body' />
+                  <div class='modal-body'>
+                    <p><em>Details available on request</em></p>
+                  </div>
                 </div>
               </div>
             </div>
