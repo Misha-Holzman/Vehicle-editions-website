@@ -11,10 +11,10 @@ class Resume extends Component {
         </div>
         <div className='resume-container'>
           <div className='resume-page-1-container'>
-            <img src='https://i.imgur.com/ttx9Zik.jpg' className='resume-img' alt='' />
+            <img src='https://i.imgur.com/NTPbdDj.jpg' className='resume-img' alt='' />
           </div>
           <div className='resume-page-2-container'>
-            <img src='https://i.imgur.com/nsv3tCE.jpg' className='resume-img' alt='' />
+            <img src='https://i.imgur.com/0bXfiIz.jpg' className='resume-img' alt='' />
           </div>
         </div>
       </div>
