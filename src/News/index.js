@@ -18,7 +18,7 @@ class News extends Component {
               </div>
               <div className='news-container-boxes'>
                 <h3 className='news-container-box-title'><span className='news-book-of-signs-title'>Book of Signs</span> sold 1,700 copies in 10 months</h3>
-                <p className='news-container-box-text'><a href='https://www.instagram.com/explore/tags/abookofsigns/' className='book-of-signs-instagram-link'>#abookofsigns</a></p>
+                <p className='news-container-box-text'><a href='https://www.instagram.com/explore/tags/abookofsigns/' className='book-of-signs-instagram-link' target='_blank' rel='noopener noreferrer'>#abookofsigns</a></p>
                 <img src='https://i.imgur.com/T0mI8W7.jpg' className='news-book-of-sign-img' alt='' />
               </div>
               <div className='news-container-boxes'>
@@ -45,7 +45,7 @@ class News extends Component {
                 <p className='news-container-box-text'>featuring Angela Davis & Harry Belafonte</p>
                 <p className='news-container-box-text'>Film score by Elana Belle Carroll</p>
                 <p className='news-container-box-text'><em>(9 minutes 27 seconds)</em></p>
-                <p className='news-container-box-text'><a href='https://vimeo.com/31665177' className='occupy-video-link' target='_blank' rel='noopener noreferrer'>watch it here</a></p>
+                <p className='news-container-box-text-link'><a href='https://vimeo.com/31665177' className='occupy-video-link' target='_blank' rel='noopener noreferrer'>watch it here</a></p>
                 <p className='news-container-box-text'>
                   Occupy Wall Street began September 17, 2011 at Zuccotti Park, also known as Liberty Plaza,
                   and the encampment was evicted by NYPD in riot gear during pre-dawn hours of November 15, 2011 when about 200 people were arrested
