@@ -4,8 +4,8 @@ import './style.css'
 class Writing extends Component {
   render () {
     return (
-      <div className='books-main-container'>
-        <div className='books-title-div'>
+      <div className='writing-main-container'>
+        <div className='writing-title-div'>
           <h1 className='writing-main-title'>Writing</h1>
         </div>
         <div className='car-pic-writing'>
@@ -14,7 +14,7 @@ class Writing extends Component {
         <div className='veh-ed-nav-info-container'>
           <div className='veh-ed-nav-container'>
             <div className='veh-ed-nav-bullets-div-writing'>
-              <ul className='veh-ed-nav-ul'>
+              <ul className='writing-nav-ul'>
                 <li className='writing-nav-li'>
                   <a href='/Books' className='veh-ed-nav-link'><span id='links-pages-style'>Books</span></a>
                 </li>

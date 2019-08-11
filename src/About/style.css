@@ -72,6 +72,10 @@
   display: flex;
   justify-content: center;
 }
+.about-line-divider {
+  height: 70px;
+  opacity: .5;
+}
 
 .about-text-titles {
   font-family: "Montserrat", sans-serif;
@@ -136,7 +140,3 @@
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 
-.about-line-divider {
-  height: 70px;
-  opacity: .5;
-}

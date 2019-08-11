@@ -1,8 +1,20 @@
-.veh-ed-nav-bullets-div-writing {
-  width: 60%;
-  margin: 0 auto;
+.writing-main-container {
+  height: 910px;
+  width: 100%;
+
 }
 
+.veh-ed-nav-bullets-div-writing {
+  width: 100%;
+  margin: 0 auto;
+}
+.writing-title-div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .writing-main-title {
   font-family: 'Open Sans', sans-serif;
   font-size: 50px;
@@ -32,7 +44,13 @@
   justify-content: center;
 }
 
-
+.writing-nav-ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 0;
+}
 .writing-nav-li { 
   margin: 3% 5% 3% 5%;
 }

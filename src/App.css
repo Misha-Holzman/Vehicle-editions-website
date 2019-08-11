@@ -7,7 +7,6 @@
 
 @media only screen and (min-width : 1665px) {
 	
-	
 }
 
 
@@ -80,7 +79,15 @@
 @media screen and (max-width: 1155px) {
   /* Large Desktop */
 	
-
+  .writing-nav-ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+  }
 }
 
 
@@ -95,28 +102,289 @@
 }
 
 @media screen and (max-width: 954px) {
-	
+	.hally-album-photo-left {
+    height: 320px;
+    margin-left: 3%;
+  }
+  .hally-album-photo-right {
+    height: 320px;
+    margin-left: 3%;
+  }
+  .annabel-playing-guitar-photo {
+    height: 350px;
+    margin-left: 3%;
+  }
+  .hally-wood-info-container {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+  }
+  .music-main-title {
+    font-size: 45px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: -1%;
+    padding-left: 0;
+  }
+  .car-photo-music {
+    height: 180px;
+    margin-bottom: 7%;
+    margin-top: 2%;
+    margin-left: 1%;
+  }
 }
 
+@media screen and (max-width: 920px) {
+	.professional-services-main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    margin-top: 5%;
+    padding-bottom: 1px;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgba(113, 209, 189, .5);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    transition: 500ms;
+  }
+  #pro-serv-car-photo-1 {
+    height: 145px;
+    margin-bottom: 2%;
+    margin-top: 4%;
+  }
+  .pro-serv-title-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 2%;
+  }
+  .pro-serv-nav-ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .pro-serv-nav-li { 
+    margin: 2% 4% 2% 4%;
+  }
+
+  
+}
+
+
 @media screen and (max-width: 880px) {
-	
+
+	.veh-ed-main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 43px;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 3px 3px 0px rgba(113, 209, 189, .5);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    transition: 500ms;
+  }
+  .car-photo-vehicle-editions-1 {
+    height: 120px;
+    margin-bottom: 3%;
+    margin-top: 2%;
+  }
+  .veh-ed-nav-ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0 auto;
+    width: 70%;
+  }
+  .veh-ed-nav-li { 
+    text-align: center;
+    margin: 5% 15% 3% 15%;
+  }
+
+
+	.professional-services-main-title {
+    font-size: 43px;
+    margin-top: 5%;
+    padding-bottom: 1%;
+  }
+  #pro-serv-car-photo-1 {
+    height: 125px;
+    margin-bottom: 2%;
+    margin-top: 4%;
+  }
+  .pro-serv-nav-ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .pro-serv-nav-li { 
+    text-align: center;
+    margin: 3% 0% 3% 0%;
+  }
+
+  .writing-main-title {
+    font-size: 50px;
+    margin-top: 6%;
+    padding-bottom: 1%;
+  }
+  .car-photo-writing {
+    height: 220px;
+    margin-top: -2%;
+  }
+  .writing-nav-ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .writing-nav-li { 
+    text-align: center;
+    margin: 3% 0% 3% 0%;
+  }
+  
 	
 }
 
 
 @media screen and (max-width: 786px) {
   /* tablet */
-	
+  .hally-album-photo-left {
+    height: 320px;
+    margin-left: 3%;
+  }
+  .hally-album-photo-right {
+    height: 320px;
+    margin-left: 3%;
+  }
+  .annabel-playing-guitar-photo {
+    height: 340px;
+    margin-left: 3%;
+  }
+  .hally-wood-info-container {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 8%;
+  }
+  .music-main-title {
+    font-size: 45px;
+    margin-top: 8%;
+    margin-bottom: 3%;
+    margin-left: -1%;
+    padding-left: 0;
+  }
+  .car-photo-music {
+    height: 160px;
+    margin-bottom: 7%;
+    margin-top: 2%;
+    margin-left: 1%;
+  }
+  .hally-wood-song-link-container {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 10%;
+  }
+  .hally-wood-song {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 17px;
+    font-weight: 200;
+    margin-left: -2%;
+    text-decoration: none;
+    font-style: italic;
+  }
 
 }
 
 
 @media screen and (max-width: 747px) {
-	
+  .name-link {
+    display: inline;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0% 2% 1px 5.5%;
+    text-decoration: none;
+  }
+  .bm-burger-button {
+    position: fixed;
+    width: 27px;
+    height: 22px;
+    left: 30px;
+    top: 26px;
+  }
+
+
+	.professional-services-main-title {
+    font-size: 40px;
+    margin-top: 5%;
+    padding-bottom: 3%;
+  }
+  #pro-serv-car-photo-1 {
+    height: 115px;
+    margin-bottom: 2%;
+    margin-top: 4%;
+  }
+
 }
 
 @media screen and (max-width: 725px) {
-	
+	.benson-gallery-div-2pics {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 2%;
+  }
+  .hally-album-photo-left {
+    height: 320px;
+    margin-left: 3%;
+    margin-bottom: 2%;
+  }
+  .hally-album-photo-right {
+    height: 320px;
+    margin-left: 3%;
+  }
+  .annabel-playing-guitar-photo {
+    height: 340px;
+    margin-left: 3%;
+  }
+  .hally-wood-info-container {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 8%;
+  }
 }
 
 
@@ -129,54 +397,500 @@
 	
 }
 
+@media screen and (max-width: 617px) {
+  .professional-services-main-title {
+    font-size: 38px;
+    margin-top: 5%;
+    padding-bottom: 3%;
+  }
+  #pro-serv-car-photo-1 {
+    height: 105px;
+    margin-bottom: 2%;
+    margin-top: 4%;
+  }
+
+  .writing-main-title {
+    font-size: 45px;
+    margin-top: 6%;
+    padding-bottom: 0%;
+  }
+  .car-photo-writing {
+    height: 210px;
+    margin-top: -1%;
+    margin-bottom: 2%;
+  }
+
+  .hally-album-photo-left {
+    height: 300px;
+    margin-left: 3%;
+    margin-bottom: 2%;
+  }
+  .hally-album-photo-right {
+    height: 300px;
+    margin-left: 3%;
+  }
+  .annabel-playing-guitar-photo {
+    height: 320px;
+    margin-left: 3%;
+  }
+  .hally-wood-info-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 8%;
+  }
+}
+
+
 @media screen and (max-width: 535px) {
   /* mobile */
 	
+  .name-link {
+    display: inline;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0% 2% 1px 6.5%;
+    text-decoration: none;
+  }
+  .bm-burger-button {
+    position: fixed;
+    width: 27px;
+    height: 22px;
+    left: 30px;
+    top: 26px;
+  }
 
+	.veh-ed-main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 38px;
+    margin-top: 10%;
+    padding-bottom: 7%;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 3px 3px 0px rgba(113, 209, 189, .5);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    transition: 500ms;
+  }
+  .car-photo-vehicle-editions-1 {
+    height: 110px;
+    margin-bottom: 6%;
+    margin-top: 2%;
+  }
+
+  .annabel-playing-guitar-photo {
+    height: 300px;
+    margin-left: 3%;
+  }
 }
 
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 510px) {
+  .pro-serv-title-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 2%;
+  }
+  .professional-services-main-title {
+    font-size: 38px;
+    margin-top: 5%;
+    padding-bottom: 5%;
+  }
+  #pro-serv-car-photo-1 {
+    height: 100px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+
+  .hally-album-photo-left {
+    height: 280px;
+    margin-left: 3%;
+    margin-bottom: 2%;
+  }
+  .hally-album-photo-right {
+    height: 280px;
+    margin-left: 3%;
+  }
+  .annabel-playing-guitar-photo {
+    height: 280px;
+    margin-left: 3%;
+  }
+  .hally-wood-info-container {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 14%;
+  }
+
+  .music-line-divider {
+    height: 60px;
+    opacity: .5;
+  }
+  .music-main-title {
+    font-size: 43px;
+    margin-top: 12%;
+    margin-bottom: 5%;
+    margin-left: -1%;
+    padding-left: 0;
+  }
+  
+}
+
+@media screen and (max-width: 487px) {
   /* mobile */
+  .writing-main-title {
+    font-size: 45px;
+    margin-top: 12%;
+    padding-bottom: 0%;
+  }
+  .car-photo-writing {
+    height: 190px;
+    margin-top: -4%;
+    margin-bottom: 4%;
+  }
+
+  .annabel-playing-guitar-photo {
+    height: 260px;
+    margin-left: 3%;
+  }
+
+  .hally-wood-title-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .music-main-title {
+    font-size: 42px;
+    margin-top: 12%;
+    margin-bottom: 3%;
+    margin-left: -1%;
+    padding-left: 0;
+  }
+  .car-photo-music {
+    height: 140px;
+    margin-bottom: 9%;
+    margin-top: 5%;
+    margin-left: 1%;
+  }
 }
 
 @media screen and (max-width: 435px) {
   /* mobile */
-	
-	
+
+  .professional-services-main-title {
+    font-size: 33px;
+    margin-top: 12%;
+    padding-bottom: 5%;
+  }
+  #pro-serv-car-photo-1 {
+    height: 95px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .pro-serv-nav-ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .pro-serv-nav-li { 
+    text-align: center;
+    margin: 5% 0% 5% 0%;
+  }
+  
+  .annabel-playing-guitar-photo {
+    height: 240px;
+    margin-left: 3%;
+  }
+  .hally-wood-song-link-container {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 10%;
+  }
 }
 
 @media screen and (max-width: 400px) {
   /* mobile */
+  .name-link {
+    display: inline;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0% 2% 1px 8.5%;
+    text-decoration: none;
+  }
+  .bm-burger-button {
+    position: fixed;
+    width: 27px;
+    height: 22px;
+    left: 30px;
+    top: 26px;
+  }
+
+  .veh-ed-main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 33px;
+    margin-top: 10%;
+    padding-bottom: 7%;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 3px 3px 0px rgba(113, 209, 189, .5);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    transition: 500ms;
+  }
+  .car-photo-vehicle-editions-1 {
+    height: 92px;
+    margin-bottom: 6%;
+    margin-top: 2%;
+  }
+
+  .annabel-playing-guitar-photo {
+    height: 200px;
+    margin-left: 3%;
+  }
+  .hally-album-photo-left {
+    height: 250px;
+    margin-left: 3%;
+    margin-bottom: 2%;
+  }
+  .hally-album-photo-right {
+    height: 250px;
+    margin-left: 3%;
+  }
+  .music-line-divider {
+    height: 40px;
+    opacity: .5;
+  }
 
 }
 
 
 @media screen and (max-width: 380px) {
   /* mobile */
-	
+  #pro-serv-car-photo-1 {
+    height: 87px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
 }
 
 @media screen and (max-width: 370px) {
   /* mobile */
-	
+  .writing-main-title {
+    font-size: 40px;
+    margin-top: 12%;
+    padding-bottom: 0%;
+  }
+  .car-photo-writing {
+    height: 170px;
+    margin-top: -4%;
+    margin-bottom: 4%;
+  }
+
+  .annabel-playing-guitar-photo {
+    height: 180px;
+    margin-left: 3%;
+  }
+  .hally-wood-title-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .hally-album-photo-left {
+    height: 230px;
+    margin-left: 3%;
+    margin-bottom: 2%;
+  }
+  .hally-album-photo-right {
+    height: 230px;
+    margin-left: 3%;
+  }
+  .music-main-title {
+    font-size: 40px;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    margin-left: -1%;
+    padding-left: 0;
+  }
+  .car-photo-music {
+    height: 130px;
+    margin-bottom: 15%;
+    margin-top: 8%;
+    margin-left: 1%;
+  }
 }
 
 @media screen and (max-width: 326px) {
   /* mobile */
-	
+  .name-link {
+    display: inline;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0% 2% 1px 9.5%;
+    text-decoration: none;
+  }
+  .bm-burger-button {
+    position: fixed;
+    width: 27px;
+    height: 22px;
+    left: 27px;
+    top: 26px;
+  }
 
+  .veh-ed-nav-ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .veh-ed-nav-li { 
+    text-align: center;
+    margin: 5% 5% 3% 5%;
+  }
+  .veh-ed-main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 10%;
+    padding-bottom: 7%;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 3px 3px 0px rgba(113, 209, 189, .5);
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    transition: 500ms;
+  }
+  .car-photo-vehicle-editions-1 {
+    height: 88px;
+    margin-bottom: 6%;
+    margin-top: 2%;
+  }
+
+  #pro-serv-car-photo-1 {
+    height: 80px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+
+  .music-line-divider {
+    height: 30px;
+    opacity: .5;
+  }
+  .hally-wood-song-link-container {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 10%;
+  }
+
+  .hally-album-photo-left {
+    height: 200px;
+    margin-left: 3%;
+    margin-bottom: 2%;
+  }
+  .hally-album-photo-right {
+    height: 200px;
+    margin-left: 3%;
+  }
+  .hally-wood-info-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 17%;
+  }
 }
 
 
 @media screen and (max-width: 296px) {
 	/* mobile */
-	
+  #pro-serv-car-photo-1 {
+    height: 76px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+
+  .annabel-playing-guitar-photo {
+    height: 170px;
+    margin-left: 3%;
+  }
+
+  .music-main-title {
+    font-size: 40px;
+    margin-top: 14%;
+    margin-bottom: 7%;
+    margin-left: -1%;
+    padding-left: 0;
+  }
+  .car-photo-music {
+    height: 130px;
+    margin-bottom: 18%;
+    margin-top: 8%;
+    margin-left: 1%;
+  }
+
 
 }
 
 
 @media screen and (max-width: 284px) {
 	/* mobile */
-	
+	.name-link {
+    display: inline;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0% 2% 1px 6.5%;
+    text-decoration: none;
+  }
+  .bm-burger-button {
+    position: fixed;
+    width: 27px;
+    height: 22px;
+    left: 22px;
+    top: 26px;
+  }
+
+  .writing-main-title {
+    font-size: 40px;
+    margin-top: 12%;
+    padding-bottom: 0%;
+  }
+  .car-photo-writing {
+    height: 150px;
+    margin-top: -4%;
+    margin-bottom: 4%;
+  }
+  
 
 }

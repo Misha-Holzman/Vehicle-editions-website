@@ -56,13 +56,26 @@
 .hally-album-photo-right {
   height: 400px;
   margin-left: 3%;
+}
 
+.annabel-playing-guitar-photo {
+  height: 400px;
+  margin-left: 3%;
 }
 
 .hally-wood-container {
   padding: 2%;
   width: 70%;
 
+}
+
+.benson-gallery-div-2pics {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 2%;
 }
 
 
@@ -80,4 +93,15 @@
   font-weight: 200;
   margin-left: -2%;
   text-decoration: underline;
+}
+
+
+.music-line-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.music-line-divider {
+  height: 70px;
+  opacity: .5;
 }

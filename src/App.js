@@ -13,19 +13,3 @@ class App extends Component {
 }
 
 export default App
-
-
-//   <Router>
-//     <header className="App-header">
-//       <img src={logo} className="App-logo" alt="logo" />
-//       <h1 className="App-title">Welcome to React</h1>
-//     </header>
-//     <div>
-//       <Route exact path="/" component={Home} />
-//       <Route exact path="/about" component={About} />
-//       <Route exact path="/code" component={Code} />
-//       <Route exact path="/contact" component={Contact} />
-//       <Route exact path="/presence" component={info} />
-//     </div>
-//   </div>
-// </Router>
