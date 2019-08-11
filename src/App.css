@@ -331,8 +331,9 @@
     text-align: center;
     margin: 3% 0% 3% 0%;
   }
-  
-	
+  .app {
+    -webkit-overflow-scrolling: touch;
+  }
 }
 
 
