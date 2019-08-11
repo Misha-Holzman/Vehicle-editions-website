@@ -98,7 +98,76 @@
 
 @media screen and (max-width: 975px) {
   /* Large Desktop */
-	
+  .about-container-top {
+    padding: 2%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    margin:0 auto;
+    padding-bottom: 6%;
+  } 
+  .homepage-about-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+  }
+  .homepage-about-container-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+  }
+  .about-text-container {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+  } 
+  .about-about-text {
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+  }
+  .about-img-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7%;
+  }
+  .about-car-img-div {
+    margin: 0 auto;
+    margin-bottom: 7%;
+  }
+  .car-photo-about {
+    height: 140px;
+  }
+  .about-profile-img {
+    height: 200px;
+  }
+  .about-text-titles {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    margin-bottom: 5%;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 954px) {
@@ -393,7 +462,17 @@
 }
 
 @media screen and (max-width: 667px) {
-  /* mobile */
+  /* mobile */  
+  .about-text-titles {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    margin-bottom: 10%;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+  }
 	
 }
 
@@ -485,6 +564,32 @@
   .annabel-playing-guitar-photo {
     height: 300px;
     margin-left: 3%;
+  }
+
+  .about-about-text {
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+  }
+  .about-img-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7%;
+  }
+  .about-car-img-div {
+    margin: 0 auto;
+    margin-bottom: 7%;
+  }
+  .car-photo-about {
+    height: 125px;
+  }
+  .about-profile-img {
+    height: 185px;
   }
 }
 

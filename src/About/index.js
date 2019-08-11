@@ -44,7 +44,7 @@ class About extends Component {
         </div>
 
         <div className='about-container-bottom'>
-          <div className='homepage-about-container'>
+          <div className='homepage-about-container-bottom'>
             <div className='about-car-img-div'>
               <img src='https://i.imgur.com/SVpQfdl.png' className='car-photo-about' alt='' />
             </div>

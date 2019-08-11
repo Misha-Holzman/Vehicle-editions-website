@@ -83,6 +83,7 @@
   font-size: 25px;
   margin-bottom: 2%;
   font-style: italic;
+  width: 100%;
 }
 
 .about-car-img-div {
@@ -95,6 +96,14 @@
 }
 
 .homepage-about-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: center;
+  justify-content: center;
+}
+.homepage-about-container-bottom {
   width: 100%;
   display: flex;
   flex-direction: row;
