@@ -1,3 +1,9 @@
+.body {
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
 /* ––––––––– Media Queries –––––––– */
 
 @media only screen and (min-width : 1800px) {
@@ -331,10 +337,7 @@
     text-align: center;
     margin: 3% 0% 3% 0%;
   }
-  .body .module {
-    -webkit-overflow-scrolling: touch;
-    overflow-y: scroll;
-  }
+
 }
 
 
