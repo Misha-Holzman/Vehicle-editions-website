@@ -82,6 +82,10 @@
 	
 }
 
+
+
+
+
 @media screen and (max-width: 1155px) {
   /* Large Desktop */
 	
@@ -97,10 +101,19 @@
 }
 
 
+
+
+
 @media screen and (max-width: 1043px) {
   /* Large Desktop */
 	
 }
+
+
+
+
+
+
 
 @media screen and (max-width: 975px) {
   /* Large Desktop */
@@ -176,6 +189,12 @@
   }
 }
 
+
+
+
+
+
+
 @media screen and (max-width: 954px) {
 	.hally-album-photo-left {
     height: 320px;
@@ -207,7 +226,48 @@
     margin-top: 2%;
     margin-left: 1%;
   }
+
+  .benson-gallery-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .benson-images-description {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 4%;
+    text-align: center;
+  }
+  .benson-gallery-photo-left {
+    height: 300px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0;
+  }
+  .benson-gallery-photo-right {
+    height: 300px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0;
+  }
+  .train-ride-photo-bottom {
+    height: 400px;
+  }
+
+
 }
+
+
+
+
+
 
 @media screen and (max-width: 920px) {
 	.professional-services-main-title {
@@ -254,6 +314,11 @@
 
   
 }
+
+
+
+
+
 
 
 @media screen and (max-width: 880px) {
@@ -338,7 +403,68 @@
     margin: 3% 0% 3% 0%;
   }
 
+
+  .news-container-boxes {
+    margin: 15% 4% 8% 4%;
+    padding: 7%;
+    box-shadow: 0px 1px 26px -8px rgba(113, 209, 189, .6);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+  }
+
+  .awards-title {
+    text-align: center;
+  }
+  .grant-title {
+    text-align: center;
+  }
+  .grant-year {
+    text-align: center;
+  }
+  .award-year {
+    text-align: center;
+  }
+  .grant-name {
+    text-align: center;
+  }
+  .award-name {
+    text-align: center;
+  }
+  .grant-giver {
+    text-align: center;
+  }
+  .award-giver {
+    text-align: center;
+  }
+
+  .grants-container {
+    padding: 2%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  .awards-container {
+    padding: 2%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+
 }
+
+
+
+
 
 
 @media screen and (max-width: 786px) {
@@ -392,7 +518,26 @@
     font-style: italic;
   }
 
+
+  .exhibitions-main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    margin-left: -1%;
+    padding-left: 0;
+  }
+  .car-photo-vehicle-editions-exhibitions {
+    height: 95px;
+    margin-bottom: 7%;
+    margin-top: 2%;
+  }
 }
+
+
+
+
+
 
 
 @media screen and (max-width: 747px) {
@@ -429,6 +574,11 @@
 
 }
 
+
+
+
+
+
 @media screen and (max-width: 725px) {
 	.benson-gallery-div-2pics {
     width: 100%;
@@ -462,9 +612,49 @@
 }
 
 
+
+
+
 @media screen and (max-width: 709px) {
-	
+  .grants-container {
+    padding: 2%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+  .awards-container {
+    padding: 2%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  .benson-gallery-photo-left {
+    height: 300px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0;
+  }
+  .benson-gallery-photo-right {
+    height: 300px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0;
+  }
+  .train-ride-photo-bottom {
+    height: 300px;
+    margin-top: 5%;
+  }
 }
+
+
+
 
 @media screen and (max-width: 667px) {
   /* mobile */  
@@ -478,8 +668,24 @@
     text-align: center;
     margin-top: 5%;
   }
+
+  .news-container-boxes {
+    margin: 3% 4% 8% 4%;
+    padding: 7%;
+    box-shadow: 0px 1px 26px -8px rgba(113, 209, 189, .6);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+  }
 	
 }
+
+
+
+
 
 @media screen and (max-width: 617px) {
   .professional-services-main-title {
@@ -527,7 +733,39 @@
     width: 60%;
     margin: 0 auto;
   }
+
+  .news-book-of-sign-img {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    height: 270px;
+  }
+
+  .news-container-box-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: 200;
+    margin-top: 5%;
+  }
+
+
+  .grants-awards-main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 38px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 200;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgba(113, 209, 189, .5);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    transition: 500ms;
+  }
 }
+
+
+
 
 
 @media screen and (max-width: 535px) {
@@ -601,7 +839,41 @@
   .about-profile-img {
     height: 185px;
   }
+
+  .benson-gallery-photo-left {
+    height: 250px;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    padding: 0;
+  }
+  .benson-gallery-photo-right {
+    height: 250px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0;
+  }
+  .train-ride-photo-bottom {
+    height: 250px;
+    margin-top: 5%;
+  }
+
+  .exhibitions-main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 38px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-left: -1%;
+    padding-left: 0;
+  }
+  .car-photo-vehicle-editions-exhibitions {
+    height: 90px;
+    margin-bottom: 7%;
+    margin-top: 2%;
+  }
 }
+
+
+
 
 
 @media screen and (max-width: 510px) {
@@ -657,8 +929,19 @@
     margin-left: -1%;
     padding-left: 0;
   }
+
+  .news-container-box-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    color: black;
+    font-weight: 200;
+  }
   
 }
+
+
+
+
 
 @media screen and (max-width: 487px) {
   /* mobile */
@@ -700,7 +983,18 @@
     width: 70%;
     margin: 0 auto;
   }
+
+  .news-book-of-sign-img {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    height: 220px;
+  }
 }
+
+
+
+
+
 
 @media screen and (max-width: 435px) {
   /* mobile */
@@ -747,7 +1041,84 @@
     font-size: 40px;
     margin-top: 7%;
   }
+
+  .news-main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 200;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgba(113, 209, 189, .5);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    transition: 500ms;
+  }
+
+  .car-photo-vehicle-editions-grants {
+    margin-top: 2%;
+    height: 95px;
+    margin-bottom: 7%;
+  }
+
+  .grant-year {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  .award-year {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  .awards-title {
+    text-align: center;
+    margin-top: 12%;
+    margin-bottom: 5%;
+  }
+  .grant-title {
+    text-align: center;
+    margin-top: 12%;
+    margin-bottom: 5%;
+  }
+
+
+  .benson-gallery-photo-left {
+    height: 200px;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    padding: 0;
+  }
+  .benson-gallery-photo-right {
+    height: 200px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0;
+  }
+  .train-ride-photo-bottom {
+    height: 200px;
+    margin-top: 5%;
+  }
+
+  .exhibitions-main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 38px;
+    margin-top: 8%;
+    margin-bottom: 6%;
+    margin-left: -1%;
+    padding-left: 0;
+  }
+  .car-photo-vehicle-editions-exhibitions {
+    height: 80px;
+    margin-bottom: 9%;
+    margin-top: 5%;
+  }
 }
+
+
+
+
 
 @media screen and (max-width: 400px) {
   /* mobile */
@@ -813,7 +1184,31 @@
     text-align: center;
     padding-top: .5%;
   }
+
+  .news-train-ride-img {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    height: 220px;
+  }
+
+  .grants-awards-main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 200;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgba(113, 209, 189, .5);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    transition: 500ms;
+  }
 }
+
+
+
+
 
 
 @media screen and (max-width: 380px) {
@@ -823,7 +1218,23 @@
     margin-bottom: 5%;
     margin-top: 5%;
   }
+
+  .news-book-of-sign-img {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    height: 190px;
+  }
+  .news-container-box-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 200;
+  }
 }
+
+
+
+
 
 @media screen and (max-width: 370px) {
   /* mobile */
@@ -868,7 +1279,72 @@
     margin-top: 8%;
     margin-left: 1%;
   }
+
+  .news-train-ride-img {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    height: 200px;
+  }
+
+
+  .news-container-box-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: 200;
+    margin-top: 7%;
+  }
+
+
+  .news-container-boxes {
+    margin: 15% 4% 8% 4%;
+    padding: 7%;
+    box-shadow: 0px 1px 26px -8px rgba(113, 209, 189, .6);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 92%;
+  }
+  
+  .grants-awards-main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 200;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgba(113, 209, 189, .5);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    transition: 500ms;
+  }
+
+
+  .benson-gallery-photo-left {
+    height: 175px;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    padding: 0;
+  }
+  .benson-gallery-photo-right {
+    height: 175px;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    padding: 0;
+  }
+  .train-ride-photo-bottom {
+    height: 175px;
+    margin-top: 5%;
+  }
+
 }
+
+
+
+
 
 @media screen and (max-width: 326px) {
   /* mobile */
@@ -968,7 +1444,53 @@
     font-size: 35px;
     margin-top: 7%;
   }
+
+  .news-book-of-sign-img {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    height: 150px;
+  }
+
+  .news-main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 37px;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 200;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgba(113, 209, 189, .5);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    transition: 500ms;
+  }
+
+  .car-photo-vehicle-editions-grants {
+    margin-top: 5%;
+    height: 75px;
+    margin-bottom: 12%;
+  }
+
+  .benson-gallery-photo-left {
+    height: 160px;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    padding: 0;
+  }
+  .benson-gallery-photo-right {
+    height: 160px;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    padding: 0;
+  }
+  .train-ride-photo-bottom {
+    height: 160px;
+    margin-top: 5%;
+  }
 }
+
+
+
 
 
 @media screen and (max-width: 296px) {
@@ -1004,9 +1526,25 @@
     text-align: center;
     padding-top: .5%;
   }
+  
+  .news-train-ride-img {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    height: 190px;
+  }
+
+  .car-photo-vehicle-editions-grants {
+    margin-top: 5%;
+    height: 70px;
+    margin-bottom: 12%;
+  }
 
 
 }
+
+
+
+
 
 
 @media screen and (max-width: 284px) {
@@ -1047,5 +1585,20 @@
     padding-top: .5%;
   }
   
-
+  .benson-gallery-photo-left {
+    height: 150px;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    padding: 0;
+  }
+  .benson-gallery-photo-right {
+    height: 150px;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    padding: 0;
+  }
+  .train-ride-photo-bottom {
+    height: 150px;
+    margin-top: 5%;
+  }
 }
