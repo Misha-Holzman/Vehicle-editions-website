@@ -39,3 +39,70 @@
   transition: 500ms;
   text-shadow: 3px 3px 0px rgba(113, 209, 189, 1);
 }
+
+
+
+/* –––––––– */
+
+
+
+.resume-info-main-container {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.resume-info-chunk {
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.resume-title-div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: baseline;
+  margin-bottom: 1.5px;
+}
+.resume-bold-title {
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-right: 4px;
+}
+.resume-title-city-date {
+  font-size: 15px;
+  margin-bottom: 0;
+  font-style: italic;
+  margin-right: 4.5px;
+}
+.resume-title-city-date-2 {
+  font-size: 15px;
+  margin-bottom: 0;
+  font-style: italic;
+}
+.resume-title-city-date-3 {
+  font-size: 15px;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+.resume-info-div {
+  font-size: 15px;
+}
+.resume-text {
+  margin-bottom: .5%;
+  font-size: 15px;
+}
+/* .resume-bullet-text-container {
+} */
+.resume-bullet-text {
+  font-size: 15px;
+}
+
+
+
+.resume-text-last {
+  margin-top: 3%;
+  margin-bottom: 5%;
+  font-size: 15px;
+}
