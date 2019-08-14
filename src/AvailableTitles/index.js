@@ -49,8 +49,8 @@ class AvailableTitles extends Component {
                 <div className='rudy-images-div'>
                   <div className='rudy-dynamic-div'>
                     <div className='rudy-conversations-link-2'>
-                      <img src='https://i.imgur.com/pXNQi67.jpg' className='convo-with-rudy-img' alt='' />
-                      <img src='https://i.imgur.com/7eKAd9N.jpg' className='convo-with-rudy-2-img' alt='' />
+                      <img src='https://i.imgur.com/pXNQi67.jpg' className='typings-img' alt='' />
+                      <img src='https://i.imgur.com/7eKAd9N.jpg' className='typings-2-img' alt='' />
                     </div>
                     <p className='rudy-photos-description1'>Christopher Knowles</p>
                     <p className='rudy-photos-description2'>Photo by Richard Landry</p>

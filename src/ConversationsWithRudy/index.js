@@ -10,7 +10,7 @@ class ConversationsWithRudy extends Component {
         <p className='rudy-text'>10 x 8 inches</p>
         <p className='rudy-text'>72 pages</p>
         <h3 className='rudy-price'>$20</h3>
-        <div className='buy-now-div'>
+        <div className='buy-now-div2'>
           <a href='https://www.printedmatter.org/catalog/36249/' target='_blank' rel='noopener noreferrer' className='cta' id='buy-now-rudy-link'>
             <span className='buy-now-rudy-text'>Buy Now</span>
             <svg width='13px' height='11px' viewBox='0 0 13 10' className='svg-buy-now'>

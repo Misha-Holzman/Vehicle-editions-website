@@ -10,11 +10,11 @@ class OutOfPrintTitles extends Component {
           <img src='https://i.imgur.com/1KMe3ta.png' className='unavailable-titles-car-photo' alt='' />
         </div>
         <div className='clients-info-container'>
-          <div className='clients-info-main-container'>
-            <div className='clients-div clients-div'>
+          <div className='no-print-info-main-container'>
+            <div className='clients-div' id='no-print-divs'>
               <h1 className='titles-name' id='no-link'>Airmail Postcards <span className='titles-author-span'>by Franco Beltrametti</span></h1>
             </div>
-            <div className='clients-div'>
+            <div className='clients-div' id='no-print-divs' >
               <button type='button' data-toggle='modal' data-target='#Modal1' id='button-modal'>
                 <h1 className='titles-name'>Continental 34s<span className='titles-author-span' id='titles-author-span-id'>by Annabel Levitt</span></h1>
               </button>
@@ -44,7 +44,7 @@ class OutOfPrintTitles extends Component {
                 </div>
               </div>
             </div>
-            <div className='clients-div'>
+            <div className='clients-div' id='no-print-divs'>
               <button type='button' data-toggle='modal' data-target='#Modal2' id='button-modal'>
                 <h1 className='titles-name'>Hot and Cold<span className='titles-author-span' id='titles-author-span-id' >by Richard Hell</span></h1>
               </button>
@@ -77,7 +77,7 @@ class OutOfPrintTitles extends Component {
                 </div>
               </div>
             </div>
-            <div className='clients-div'>
+            <div className='clients-div' id='no-print-divs'>
               <button type='button' data-toggle='modal' data-target='#Modal3' id='button-modal'>
                 <h1 className='titles-name'>Just Let Me Do It<span className='titles-author-span' id='titles-author-span-id' >by Michael Lally</span></h1>
               </button>
@@ -104,7 +104,7 @@ class OutOfPrintTitles extends Component {
                 </div>
               </div>
             </div>
-            <div className='clients-div'>
+            <div className='clients-div' id='no-print-divs'>
               <button type='button' data-toggle='modal' data-target='#Modal4' id='button-modal'>
                 <h1 className='titles-name'>Light and Shadow<span className='titles-author-span' id='titles-author-span-id' >by Simon Schuchat</span></h1>
               </button>
@@ -142,7 +142,7 @@ class OutOfPrintTitles extends Component {
                 </div>
               </div>
             </div>
-            <div className='clients-div'>
+            <div className='clients-div' id='no-print-divs'>
               <button type='button' data-toggle='modal' data-target='#Modal5' id='button-modal'>
                 <h1 className='titles-name'>Quilts<span className='titles-author-span' id='titles-author-span-id' > by Barbara Guest</span></h1>
               </button>
@@ -170,10 +170,10 @@ class OutOfPrintTitles extends Component {
                 </div>
               </div>
             </div>
-            <div className='clients-div'>
+            <div className='clients-div' id='no-print-divs'>
               <h1 className='titles-name'>Score<span className='titles-author-span' id='titles-author-span-id'>by Lazy Madge, Annabel Lee, Douglas Dunn</span></h1>
             </div>
-            <div className='clients-div'>
+            <div className='clients-div' id='no-print-divs'>
               <button type='button' data-toggle='modal' data-target='#Modal6' id='button-modal'>
                 <h1 className='titles-name'>The Traveling Woman<span className='titles-author-span' id='titles-author-span-id' >by Roberta Allen</span></h1>
               </button>
@@ -209,10 +209,10 @@ class OutOfPrintTitles extends Component {
                 </div>
               </div>
             </div>
-            <div className='clients-div'>
+            <div className='clients-div' id='no-print-divs'>
               <h1 className='titles-name-typings'>Typings<span className='titles-author-span' id='titles-author-span-id' >by Christoper Knowles</span></h1>
             </div>
-            <div className='clients-div'>
+            <div className='clients-div' id='no-print-divs'>
               <button type='button' data-toggle='modal' data-target='#Modal7' id='button-modal'>
                 <h1 className='titles-name'>When I Was Alive<span className='titles-author-span' id='titles-author-span-id' >by Alice Notley</span></h1>
               </button>
@@ -250,7 +250,7 @@ class OutOfPrintTitles extends Component {
                 </div>
               </div>
             </div>
-            <div className='clients-div second-half-of-out-of-print'>
+            <div className='clients-div second-half-of-out-of-print' id='no-print-divs'>
               <button type='button' data-toggle='modal' data-target='#Modal8' id='button-modal-2'>
                 <h1 className='titles-name'>Smithsonian Depositions and Subject to a Film<span className='titles-author-span' id='titles-author-span-id' >by Clark Coolidge</span></h1>
               </button>
@@ -289,7 +289,7 @@ class OutOfPrintTitles extends Component {
                 </div>
               </div>
             </div>
-            <div className='clients-div'>
+            <div className='clients-div' id='no-print-divs'>
               <button type='button' data-toggle='modal' data-target='#Modal9' id='button-modal-2'>
                 <h1 className='titles-name'>The Day Before Yesterday<span className='titles-author-span' id='titles-author-span-id'>by Leon de Winter // cover by Josje Pollmann</span></h1>
               </button>
@@ -331,7 +331,7 @@ class OutOfPrintTitles extends Component {
                 </div>
               </div>
             </div>
-            <div className='clients-div'>
+            <div className='clients-div' id='no-print-divs'>
               <button type='button' data-toggle='modal' data-target='#Modal10' id='button-modal-2'>
                 <h1 className='titles-name'>Counting<span className='titles-author-span' id='titles-author-span-id'>by Jayne Anne Phillips // cover by Rae Berolzheimer</span></h1>
               </button>
@@ -374,7 +374,7 @@ class OutOfPrintTitles extends Component {
                 </div>
               </div>
             </div>
-            <div className='clients-div'>
+            <div className='clients-div' id='no-print-divs'>
               <button type='button' data-toggle='modal' data-target='#Modal11' id='button-modal-2'>
                 <h1 className='titles-name'>Fast Lanes<span className='titles-author-span' id='titles-author-span-id'>by Jayne Anne Phillips // drawings by Yvonne Jacquette</span></h1>
               </button>
@@ -424,7 +424,7 @@ class OutOfPrintTitles extends Component {
                 </div>
               </div>
             </div>
-            <div className='clients-div'>
+            <div className='clients-div' id='no-print-divs'>
               <button type='button' data-toggle='modal' data-target='#Modal12' id='button-modal-2'>
                 <h1 className='titles-name'>Give Me Tomorrow<span className='titles-author-span' id='titles-author-span-id'>by Carter Ratcliff // illustrations by Alex Katz</span></h1>
               </button>
@@ -477,7 +477,7 @@ class OutOfPrintTitles extends Component {
                 </div>
               </div>
             </div>
-            <div className='clients-div'>
+            <div className='clients-div' id='no-print-divs'>
               <button type='button' data-toggle='modal' data-target='#Modal13' id='button-modal-2'>
                 <h1 className='titles-name'>Train Ride<span className='titles-author-span' id='titles-author-span-id'>by Ted Berrigan // cover by Joe Brainard</span></h1>
               </button>

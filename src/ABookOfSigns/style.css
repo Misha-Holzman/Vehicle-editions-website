@@ -47,6 +47,12 @@
   font-size: 17px;
 }
 
+.text-last {
+  font-family: 'Cutive Mono', monospace;
+  font-weight: 200;
+  font-size: 17px;
+}
+
 .bold-text {
   font-family: 'Cutive Mono', monospace;
   font-weight: 800;

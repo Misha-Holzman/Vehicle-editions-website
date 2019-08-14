@@ -70,33 +70,38 @@
   padding-top: 5%;
 }
 
-/* .title-text-header {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 200;
-  font-size: 27px;
-  border-bottom: 1px solid black;
-  width: 17%;
-  margin: 0 auto;
-  margin-top: 14%;
-} */
+
+.no-print-info-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 3%;
+  width: 100%;
+}
+.no-print-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: .4s ease-in-out;
+  margin-bottom: 2%;
+}
+
+
 
 .line-img {
   width: 50%;
 }
 
-/* 
-.counting-cover {
-  padding-left: 3%;
-} 
-*/
+
 .train-ride-cover {
   padding-bottom: -1%;
 }
 
 
-/* .give-me-tomorrow-cover {
-  padding-left: 3%;
-} */
+
 
 .fast-lanes-cover {
   margin-left: 2.8%;
