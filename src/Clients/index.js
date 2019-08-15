@@ -94,20 +94,15 @@ class Clients extends Component {
               </button>
             </div>
             <br />
-            <br />
             <div className='about-line-container'>
-              <img className='about-line-divider' src='https://i.imgur.com/AZpE0YA.png' alt='' />
+              <img className='clients-line-divider' src='https://i.imgur.com/AZpE0YA.png' alt='' />
             </div>
-            <br />
             <br />
             <div className='clients-title-div'>
               <h1 className='clients-main-title'>Other Clients</h1>
               <br />
-              <br />
               <img src='https://i.imgur.com/q2NiKoA.jpg' className='clients-car-photo' alt='' />
             </div>
-            <br />
-            <br />
             <br />
             <div className='clients-div'>
               <button type='button' data-toggle='modal' data-target='#Modal1' id='button-modal'>

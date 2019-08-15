@@ -22,7 +22,7 @@ class ProfessionalServices extends Component {
                   <a href='/EditorialProductionServices' className='veh-ed-nav-link'><span id='links-pages-style'>Editorial and Production Services</span></a>
                 </li>
                 <li className='pro-serv-nav-li'>
-                  <a href='/Clients' className='veh-ed-nav-link'><span id='links-pages-style'>Clients</span></a>
+                  <a href='/Clients' className='veh-ed-nav-link'><span id='links-pages-style'>Professional Experience</span></a>
                 </li>
                 <li className='pro-serv-nav-li'>
                   <a href='WritingSamples' className='veh-ed-nav-link'><span id='links-pages-style'>Writing Samples</span></a>

@@ -108,7 +108,7 @@ class WritingSamples extends Component {
                 </div>
               </div>
 
-              <div className='clients-div'>
+              <div className='writing-div'>
                 <button type='button' data-toggle='modal' data-target='#Modal101' id='button-modal'>
                   <p className='clients-name'>Article on Teaching in a Charter School</p>
                 </button>
@@ -371,7 +371,7 @@ class WritingSamples extends Component {
                 </div>
               </div>
 
-              <div className='clients-div'>
+              <div className='writing-div'>
                 <button type='button' data-toggle='modal' data-target='#Modal102' id='button-modal'>
                   <p className='clients-name'>Sample Biographies of Brokers for Brown Harris Stevens</p>
                 </button>
@@ -399,7 +399,7 @@ class WritingSamples extends Component {
                 </div>
               </div>
 
-              <div className='clients-div'>
+              <div className='writing-div'>
                 <button type='button' data-toggle='modal' data-target='#Modal103' id='button-modal'>
                   <p className='clients-name'>Sample Franklin Library Reader's Guide</p>
                 </button>
@@ -427,7 +427,7 @@ class WritingSamples extends Component {
                 </div>
               </div>
 
-              <div className='clients-div'>
+              <div className='writing-div'>
                 <button type='button' data-toggle='modal' data-target='#Modal104' id='button-modal'>
                   <p className='clients-name'>About Hudson: Text for proposed Hudson River Radio site</p>
                 </button>
@@ -447,7 +447,7 @@ class WritingSamples extends Component {
                   </div>
                 </div>
               </div>
-              <div className='clients-div'>
+              <div className='writing-div'>
                 <button type='button' data-toggle='modal' data-target='#Modal105' id='button-modal'>
                   <p className='clients-name'>Two articles for The Chatham Press</p>
                 </button>
@@ -463,10 +463,10 @@ class WritingSamples extends Component {
                     </div>
                     <div class='modal-body'>
                       <div className='natural-collection-passage'>
-                        <img src='https://i.imgur.com/F6hS1e2.png' alt='' />
+                        <img src='https://i.imgur.com/F6hS1e2.png' alt='' className='natural-collection-img' />
                       </div>
                       <div className='chatham-press-passage'>
-                        <img src='https://i.imgur.com/3Ungzk2.jpg' alt='' />
+                        <img src='https://i.imgur.com/3Ungzk2.jpg' alt='' className='chatham-press-img' />
                       </div>
                     </div>
                   </div>

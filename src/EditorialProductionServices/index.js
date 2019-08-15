@@ -14,7 +14,7 @@ class EditorialProductionServices extends Component {
             <ul className='pub-consulting-ul'>
               <li className='pub-consulting-li'>Art reviewing</li>
               <li className='pub-consulting-li'>Book Production</li>
-              <li className='pub-consulting-li'>Copyediting</li>
+              <li className='pub-consulting-li' id='pub-consulting-li-copyediting'>Copyediting</li>
               <li className='pub-consulting-li'>Editing</li>
               <li className='pub-consulting-li'>Hand bookbinding</li>
               <li className='pub-consulting-li'>Letterpress printing</li>
