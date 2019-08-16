@@ -387,12 +387,12 @@ class WritingSamples extends Component {
                     </div>
                     <div class='modal-body'>
                       <div className='brown-harris-pages'>
-                        <img src='https://i.imgur.com/asKV8Xn.jpg' alt='' />
-                        <img src='https://i.imgur.com/BSttQQ4.jpg' alt='' />
-                        <img src='https://i.imgur.com/KGwn8bq.jpg' alt='' />
-                        <img src='https://i.imgur.com/8NfEEYF.jpg' alt='' />
-                        <img src='https://i.imgur.com/e13XqWy.jpg' alt='' />
-                        <img src='https://i.imgur.com/JzjqH9W.jpg' alt='' />
+                        <img src='https://i.imgur.com/asKV8Xn.jpg' alt='' className='brown-harris-img' />
+                        <img src='https://i.imgur.com/BSttQQ4.jpg' alt='' className='brown-harris-img' />
+                        <img src='https://i.imgur.com/KGwn8bq.jpg' alt='' className='brown-harris-img' />
+                        <img src='https://i.imgur.com/8NfEEYF.jpg' alt='' className='brown-harris-img' />
+                        <img src='https://i.imgur.com/e13XqWy.jpg' alt='' className='brown-harris-img' />
+                        <img src='https://i.imgur.com/JzjqH9W.jpg' alt='' className='brown-harris-img' />
                       </div>
                     </div>
                   </div>
@@ -415,12 +415,12 @@ class WritingSamples extends Component {
                     </div>
                     <div class='modal-body'>
                       <div className='humbolts-gift-passage'>
-                        <img src='https://i.imgur.com/cIYcxwh.jpg' alt='' />
-                        <img src='https://i.imgur.com/Dh9DT0V.jpg' alt='' />
-                        <img src='https://i.imgur.com/ZO74a8y.jpg' alt='' />
-                        <img src='https://i.imgur.com/ZHHVgLe.jpg' alt='' />
-                        <img src='https://i.imgur.com/CfHkv9k.jpg' alt='' />
-                        <img src='https://i.imgur.com/KuhEEYp.jpg' alt='' />
+                        <img src='https://i.imgur.com/cIYcxwh.jpg' alt='' className='humbolts-gift-img' />
+                        <img src='https://i.imgur.com/Dh9DT0V.jpg' alt='' className='humbolts-gift-img' />
+                        <img src='https://i.imgur.com/ZO74a8y.jpg' alt='' className='humbolts-gift-img' />
+                        <img src='https://i.imgur.com/ZHHVgLe.jpg' alt='' className='humbolts-gift-img' />
+                        <img src='https://i.imgur.com/CfHkv9k.jpg' alt='' className='humbolts-gift-img' />
+                        <img src='https://i.imgur.com/KuhEEYp.jpg' alt='' className='humbolts-gift-img' />
                       </div>
                     </div>
                   </div>
@@ -442,7 +442,7 @@ class WritingSamples extends Component {
                       </button>
                     </div>
                     <div class='modal-body'>
-                      <img src='https://i.imgur.com/YeFvf53.jpg' alt='' />
+                      <img src='https://i.imgur.com/YeFvf53.jpg' alt='' className='about-hudson-img' />
                     </div>
                   </div>
                 </div>
