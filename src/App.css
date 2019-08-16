@@ -649,6 +649,21 @@
     transition: 500ms;
   }
 
+
+  .books-text {
+    font-weight: 200;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .books-title {
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 0;
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 30px;
+  }
+
 }
 
 
@@ -1309,6 +1324,41 @@
     word-spacing: 3px;
     transition: 500ms;
   }
+
+
+  .car-photo-magazines {
+    height: 180px;
+    margin-bottom: 2%;
+    margin-top: -2%;
+  }
+  .magazines-main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 42px;
+    margin-top: 8%;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 200;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgba(113, 209, 189, .5);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    transition: 500ms;
+  }
+
+  
+  .poems-main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 41px;
+    margin-top: 9%;
+    margin-bottom: 4%;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 200;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgba(113, 209, 189, .5);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    transition: 500ms;
+  }
+
 }
 
 
@@ -1488,6 +1538,27 @@
     -webkit-box-shadow: 0px 0px 15px -6px rgba(0,0,0,0.75);
   }
 
+  .books-title {
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 0;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 25px;
+  }
+
+
+  .car-photo-books {
+    height: 180px;
+    margin-bottom: 4%;
+    margin-top: -2%;
+  }
+  .books-main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    margin-top: 10%;
+    padding-bottom: 0%;
+  }
 }
 
 
@@ -1682,6 +1753,21 @@
     word-spacing: 3px;
     transition: 500ms;
   }
+
+  .books-text {
+    font-weight: 200;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 6%;
+  }
+
+
+  .line {
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 5%;
+  }
+  
 }
 
 
@@ -2128,6 +2214,51 @@
     transition: 500ms;
   }
 
+  .car-photo-books {
+    height: 160px;
+    margin-bottom: 4%;
+    margin-top: -2%;
+  }
+  .books-main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 42px;
+    margin-top: 10%;
+    padding-bottom: 0%;
+  }
+
+
+  .books-title {
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 0;
+    margin-bottom: 13%;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .magazines-span-title-text {
+    font-weight: 400;
+    font-size: 19px;
+    font-style: italic;
+  }
+
+  .car-photo-magazines {
+    height: 160px;
+    margin-bottom: 2%;
+    margin-top: -2%;
+  }
+  .magazines-main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    margin-top: 8%;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 200;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgba(113, 209, 189, .5);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    transition: 500ms;
+  }
 
 }
 
@@ -2560,7 +2691,23 @@
     transition: 500ms;
   }
 
-  
+  .car-photo-magazines {
+    height: 150px;
+    margin-bottom: 2%;
+    margin-top: -2%;
+  }
+  .magazines-main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 38px;
+    margin-top: 12%;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 200;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgba(113, 209, 189, .5);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    transition: 500ms;
+  }
 }
 
 

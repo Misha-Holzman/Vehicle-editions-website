@@ -3,11 +3,7 @@
   width: 100%;
 
 }
-.car-photo-books {
-  height: 200px;
-  margin-bottom: 4%;
-  margin-top: -2%;
-}
+
 
 .books-title-div {
   display: flex;
@@ -16,7 +12,11 @@
   align-items: center;
   flex-direction: column;
 }
-
+.car-photo-books {
+  height: 200px;
+  margin-bottom: 4%;
+  margin-top: -2%;
+}
 .books-main-title {
   font-family: 'Open Sans', sans-serif;
   font-size: 45px;
@@ -50,7 +50,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 70%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -58,12 +58,15 @@
   font-family: "Montserrat", sans-serif;
   border-bottom: 1px solid rgb(167, 167, 167);  
   margin-bottom: 10%;
+  text-align: center;
 }
 
 .book-text-bold {
   font-weight: 600;
+  text-align: center;
 }
 
 .books-text {
   font-weight: 200;
+  text-align: center;
 }

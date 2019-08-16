@@ -6,7 +6,7 @@ class Poems extends Component {
     return (
       <div className='clients-main-container'>
         <div className='clients-title-div'>
-          <h1 className='clients-main-title'>Poems</h1>
+          <h1 className='poems-main-title'>Poems</h1>
           <img src='https://i.imgur.com/q2NiKoA.jpg' className='clients-car-photo' alt='' />
         </div>
         <div className='clients-info-container'>

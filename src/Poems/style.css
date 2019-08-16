@@ -20,15 +20,17 @@
 }
 
 .poems-main-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 45px;
   margin-top: 5%;
-  color: black;
+  margin-bottom: 4%;
+  color: rgba(0, 0, 0, .8);
   font-weight: 200;
-  /* border-top: 2px solid black;
-  border-bottom: 2px solid black; */
-  width: 45%;
   text-align: center;
+  text-shadow: 3px 3px 2px rgba(113, 209, 189, .5);
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  transition: 500ms;
 }
 
 .poems-info-main-div {
@@ -87,38 +89,38 @@
 }
 
 .poem-images {
-  height: 500px;
+  width: 98%;
 }
 
 .poem-img-night-and-night {
-  height: 700px;
+  width: 98%;
 }
 
 .poem-img-glamorous {
-  height: 700px;
+  width: 98%;
 }
 
 .poem-img-johnboy {
-  height: 1000px;
+  width: 98%;
 }
 
 .poem-img-scenic-radios {
-  height: 700px;
+  width: 98%;
 }
 
 .poem-img-apoplectic-ride {
-  height: 800px;
+  width: 98%;
 }
 
 .poem-img-queen-maniac {
-  height: 950px;
+  width: 98%;
 }
 
 .poem-img-short-blade {
-  height: 700px;
+  width: 98%;
 }
 
 .poem-img-red-signal {
-  height: 700px;
+  width: 98%;
 }
 
