@@ -3,11 +3,6 @@
   width: 100%;
 
 }
-.car-photo-magazines {
-  height: 200px;
-  margin-bottom: 2%;
-  margin-top: -2%;
-}
 
 .magazines-title-div {
   display: flex;
@@ -15,6 +10,11 @@
   align-content: center;
   align-items: center;
   flex-direction: column;
+}
+.car-photo-magazines {
+  height: 200px;
+  margin-bottom: 2%;
+  margin-top: -2%;
 }
 
 .magazines-main-title {

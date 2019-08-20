@@ -58,8 +58,26 @@ class AvailableTitles extends Component {
                       <br />
                       <p className='rudy-text'>Hardcover edition: red cloth over boards with green foil stamp</p>
                       <br />
-                      <p className='rudy-text'>$300 per copy</p>
+                      <p className='rudy-text'>Softcover: $300 per copy</p>
+                      <p className='rudy-text'>Hardcover: price on request</p>
+                      <p className='rudy-text-body-1'>Available for purchase from <a href='FIX' className='ilylali-link' target='_blank'>movingvehicle@gmail.com</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='available-titles-info-div-rudy'>
+                <p className='available-titles-rudy-name'>Train Ride by Ted Berrigan</p>
+                <div className='rudy-images-div'>
+                  <div className='rudy-dynamic-div'>
+                    <div className='rudy-conversations-link-2'>
+                      <img src='https://i.imgur.com/sCQoBgB.jpg' className='train-ride-available-img' alt='' />
+                    </div>
+                    <p className='rudy-photos-description1'>Cover by Joe Brainard</p>
+                    <div className='convos-with-rudy-main-container'>
                       <br />
+                      <p className='rudy-text'>Back in print</p>
+                      <p className='rudy-text'>Order yours today</p>
+                      <p className='rudy-text'>$12 per copy softcover</p>
                       <p className='rudy-text-body-1'>Available for purchase from <a href='FIX' className='ilylali-link' target='_blank'>movingvehicle@gmail.com</a></p>
                     </div>
                   </div>

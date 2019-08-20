@@ -472,6 +472,8 @@ a.sm-link {
   border-bottom: 1px solid black;
 }
 
+
+
 /* Change color of dropdown links on hover */
 /* .dropdown-content a:hover {
   text-decoration: underline;
@@ -526,6 +528,13 @@ a.sm-link {
   100% {
     opacity: 1;
   }
+}
+
+
+.nav-white-line {
+  border-bottom: 3px solid white;
+  width: 50%;
+  margin-top: -5%;
 }
 
 
@@ -612,4 +621,26 @@ Note: Beware of modifying this element as it can break the animations - you shou
 #hamburger-link-main-div {
   margin-bottom: 7%;
   margin-top: 3%;
+}
+
+
+#hamburger-link-main-div-bottom {
+  margin-bottom: 12%;
+  margin-top: 16%;
+}
+#hamburger-link-main-div-bottom:focus {
+  text-decoration: none !important;
+  outline: 0;
+}
+
+#drop-link-hover-available-titles {
+  color: white;
+  font-weight: 800;
+  font-size: 17px;
+  font-style: italic;
+}
+#drop-link-hover-available-titles:hover {
+  /* text-decoration: underline; */
+  color: white;
+  transition: 100ms;
 }

@@ -472,6 +472,29 @@ class WritingSamples extends Component {
                   </div>
                 </div>
               </div>
+
+              <div className='writing-div'>
+                <button type='button' data-toggle='modal' data-target='#Modal106' id='button-modal'>
+                  <p className='clients-name'>Review of Dancer Out of Sight by Douglas Dunn</p>
+                </button>
+              </div>
+              <div class='modal fade bd-example-modal-lg' id='Modal106' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+                <div class='modal-dialog modal-lg modal-dialog-centered' role='document'>
+                  <div class='modal-content'>
+                    <div class='modal-header'>
+                      <h5 class='modal-title' id='exampleModalLabel'>– Published in The Poetry Project Newsletter –</h5>
+                      <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+                        <span aria-hidden='true'>&times;</span>
+                      </button>
+                    </div>
+                    <div class='modal-body'>
+                      <div className='natural-collection-passage'>
+                        <img src='https://i.imgur.com/d2tBp8G.jpg' alt='' className='dunn-img' />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

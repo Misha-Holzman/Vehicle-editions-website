@@ -150,6 +150,17 @@ class Navbar extends Component {
                 </a>
               </div>
             </div>
+            <div className='nav-white-line'><hr /></div>
+            <div className='section menu-item' id='hamburger-link-main-div-bottom'>
+              <div className='section__item'>
+                <a
+                  href='#contact-page'
+                  className='sm-link sm-link_padding-all sm-link1 nav-text-links'
+                >
+                  <Link className='dropdown-tabs' to='/availableTitles' onClick={() => this.closeMenu()}><span id='drop-link-hover-available-titles'>Available Books</span></Link>
+                </a>
+              </div>
+            </div>
           </Menu>
 
           <ul className='nav-bullets-container'>

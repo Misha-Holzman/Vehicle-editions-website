@@ -1,25 +1,9 @@
-.resume-img {
-  width: 80%;
-  margin: 0 auto;
-}
+
 
 .car-photo-resume {
   height: 120px;
   margin-bottom: 6%;
   margin-top: 4%;
-}
-
-.resume-page-1-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.resume-page-2-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 5%;
 }
 
 .resume-main-title {
