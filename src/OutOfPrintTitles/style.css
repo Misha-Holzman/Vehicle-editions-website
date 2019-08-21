@@ -318,6 +318,13 @@
   margin-bottom: 6px;
 }
 
+.light-and-shadow-photo-text {
+  font-weight: 200;
+  font-size: 13px;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
 .quilts-image {
   height: 240px;
 }

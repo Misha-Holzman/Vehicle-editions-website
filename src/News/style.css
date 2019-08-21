@@ -63,12 +63,12 @@
   font-size: 15px;
   color: black;
   font-weight: 200;
+  margin-bottom: 0;
 }
 
 
 .news-container-box-text-roxy-festival {
-  font-weight: 600;
-  font-style: italic;
+  font-weight: 200;
 }
 
 .news-train-ride-img {

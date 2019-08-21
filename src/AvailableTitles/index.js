@@ -27,6 +27,7 @@ class AvailableTitles extends Component {
                   <Route path='/bookOfSigns' component={ABookOfSigns} />
                 </div>
               </div>
+              {/* https://i.imgur.com/6GmOutE.jpg */}
 
               {/* SEPERATE THE PHOTO OF RUDY FROM THE BOOK COVER AND PUT THE PHOTO FARTHER DOWN THE PAGE */}
               <div className='available-titles-info-div-rudy'>
@@ -63,7 +64,15 @@ class AvailableTitles extends Component {
                       <br />
                       <p className='rudy-text'>Softcover: $300 per copy</p>
                       <p className='rudy-text'>Hardcover: $500 per copy</p>
-                      <p className='rudy-text-body-1'>Available for purchase from <a href='FIX' className='ilylali-link' target='_blank'>movingvehicle@gmail.com</a></p>
+                      <div className='buy-now-div2'>
+                        <a href='https://www.paypal.com/webapps/shoppingcart?flowlogging_id=764459c9539e5&mfid=1563826348997_764459c9539e5#/checkout/openButton' target='_blank' rel='noopener noreferrer' className='cta' id='buy-now-rudy-link'>
+                          <span className='buy-now-rudy-text'>Buy Now</span>
+                          <svg width='13px' height='11px' viewBox='0 0 13 10' className='svg-buy-now'>
+                            <path d='M1,5 L11,5' />
+                            <polyline points='8 1 12 5 8 9' />
+                          </svg>
+                        </a>
+                      </div>
                       <Route path='/typings' component={Typings} />
                     </div>
                   </div>
@@ -82,8 +91,16 @@ class AvailableTitles extends Component {
                       <p className='rudy-text'>Back in print</p>
                       <p className='rudy-text'>Order yours today</p>
                       <p className='rudy-text'>$12 per copy softcover</p>
-                      <p className='rudy-text-body-1'>Available for purchase from <a href='FIX' className='ilylali-link' target='_blank'>movingvehicle@gmail.com</a></p>
                     </div>
+                  </div>
+                  <div className='buy-now-div2'>
+                    <a href='https://www.paypal.com/webapps/shoppingcart?flowlogging_id=764459c9539e5&mfid=1563826348997_764459c9539e5#/checkout/openButton' target='_blank' rel='noopener noreferrer' className='cta' id='buy-now-rudy-link'>
+                      <span className='buy-now-rudy-text'>Buy Now</span>
+                      <svg width='13px' height='11px' viewBox='0 0 13 10' className='svg-buy-now'>
+                        <path d='M1,5 L11,5' />
+                        <polyline points='8 1 12 5 8 9' />
+                      </svg>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -96,3 +113,5 @@ class AvailableTitles extends Component {
 }
 
 export default AvailableTitles
+
+// https://i.imgur.com/hXoWiSw.jpg

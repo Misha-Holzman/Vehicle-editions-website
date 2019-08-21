@@ -209,9 +209,7 @@ class OutOfPrintTitles extends Component {
                 </div>
               </div>
             </div>
-            <div className='clients-div' id='no-print-divs'>
-              <h1 className='titles-name-typings'>Typings<span className='titles-author-span' id='titles-author-span-id' >by Christoper Knowles</span></h1>
-            </div>
+
             <div className='clients-div' id='no-print-divs'>
               <button type='button' data-toggle='modal' data-target='#Modal7' id='button-modal'>
                 <h1 className='titles-name'>When I Was Alive<span className='titles-author-span' id='titles-author-span-id' >by Alice Notley</span></h1>
@@ -369,6 +367,8 @@ class OutOfPrintTitles extends Component {
                       <p className='light-and-shadow-text'>Winner of the 1978 St. Lawrence Award for Fiction.</p>
                       <img src='https://i.imgur.com/0ZwKVQc.jpg' className='counting-image' alt='' />
                       <img src='https://i.imgur.com/7doMsFc.jpg' className='counting-image' alt='' />
+                      <br />
+                      <p className='light-and-shadow-photo-text'><em>Photo of Rae Berolzheimer by Timothy Greenfield-Sanders</em></p>
                     </div>
                   </div>
                 </div>

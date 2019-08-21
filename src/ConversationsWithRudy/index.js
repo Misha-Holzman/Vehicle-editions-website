@@ -11,7 +11,7 @@ class ConversationsWithRudy extends Component {
         <p className='rudy-text'>72 pages</p>
         <h3 className='rudy-price'>$20</h3>
         <div className='buy-now-div2'>
-          <a href='https://www.printedmatter.org/catalog/36249/' target='_blank' rel='noopener noreferrer' className='cta' id='buy-now-rudy-link'>
+          <a href='https://www.paypal.com/webapps/shoppingcart?flowlogging_id=764459c9539e5&mfid=1563826348997_764459c9539e5#/checkout/openButton' target='_blank' rel='noopener noreferrer' className='cta' id='buy-now-rudy-link'>
             <span className='buy-now-rudy-text'>Buy Now</span>
             <svg width='13px' height='11px' viewBox='0 0 13 10' className='svg-buy-now'>
               <path d='M1,5 L11,5' />

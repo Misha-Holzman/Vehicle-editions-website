@@ -11,13 +11,13 @@ class Books extends Component {
         </div>
         <div className='books-container'>
           <div className='books-title-container'>
-            <h2 className='books-title'>Published Writing by Annabel Lee</h2>
+            <h2 className='books-title'>Books by Annabel Lee</h2>
           </div>
           <div className='books-info-container'>
-            <p className='books-text'><span className='book-text-bold'>Minnesota Drift forthcoming chapbook of poems</span>, Wry, Longmont, Colorado, 2018</p>
-            <p className='books-text'><span className='book-text-bold'>Basket Collection of poems</span>, Accent Editions, Chester NY, 2012</p>
-            <p className='books-text'><span className='book-text-bold'>At the Heart of the World by Blaise Cendrars</span>, translation from the French, O Press, New York NY, 1978</p>
-            <p className='books-text'><span className='book-text-bold'>Continental 34s Collection of poems</span>, Vehicle Editions, New York NY, 1976</p>
+            <p className='books-text'><span className='book-text-bold'><em>Minnesota Drift</em> forthcoming chapbook of poems</span>, Wry, Longmont, Colorado, 2019</p>
+            <p className='books-text'><span className='book-text-bold'><em>Basket</em> collection of poems</span>, Accent Editions, Chester NY, 2012</p>
+            <p className='books-text'><span className='book-text-bold'><em>At the Heart of the World</em> by Blaise Cendrars</span>, translation from the French, O Press, New York NY, 1978</p>
+            <p className='books-text'><span className='book-text-bold'><em>Continental 34s</em> collection of poems</span>, Vehicle Editions, New York NY, 1976</p>
           </div>
         </div>
       </div>
