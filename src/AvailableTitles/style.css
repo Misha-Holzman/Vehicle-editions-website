@@ -199,4 +199,34 @@
 
 
 
+.av-titles-div-modal {
+  font-family: "Montserrat", sans-serif;  
+  font-weight: 800;
+  font-size: 17px;
+  text-decoration: underline;
+}
 
+
+.avail-info-main-container-modal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.train-modal-text {
+  text-align: center;
+}
+
+
+.train-modal-div-link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.train-modal-text-link {
+  text-align: center;
+}
