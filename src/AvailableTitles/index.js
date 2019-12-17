@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import ABookOfSigns from '../ABookOfSigns'
-import ConversationsWithRudy from '../ConversationsWithRudy'
 import Typings from '../Typings'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import './style.css'
@@ -34,6 +33,7 @@ class AvailableTitles extends Component {
                 <a className='rudy-conversations-link' href='/ConversationsWithRudy'>
                   <p className='available-titles-rudy-name'>Conversations with Rudy Burckhardt About Everything</p>
                 </a>
+                <h3 className='rudy-author-name-2'>by Simon Pettet</h3>
                 <div className='rudy-images-div'>
                   <div className='rudy-dynamic-div'>
                     <a className='rudy-conversations-link-2' href='/ConversationsWithRudy'>
@@ -60,11 +60,11 @@ class AvailableTitles extends Component {
                     <p className='rudy-photos-description2'>Photo by Richard Landry</p>
                     <div className='convos-with-rudy-main-container'>
                       <br />
-                      <p className='rudy-text'>Hardcover edition: red cloth over boards with green foil stamp</p>
+                      <p className='typings-text'>Hardcover edition: red cloth over boards with green foil stamp</p>
                       <br />
-                      <p className='rudy-text'>Softcover: $300 per copy</p>
-                      <p className='rudy-text'>Hardcover: $400 per copy</p>
-                      <div className='buy-now-div2'>
+                      <p className='typings-text'>Softcover: $300 per copy</p>
+                      <p className='typings-text'>Hardcover: $400 per copy</p>
+                      <div className='buy-now-div3'>
                         <a href='https://www.paypal.com/webapps/shoppingcart?flowlogging_id=764459c9539e5&mfid=1563826348997_764459c9539e5#/checkout/openButton' target='_blank' rel='noopener noreferrer' className='cta' id='buy-now-rudy-link'>
                           <span className='buy-now-rudy-text'>Buy Now</span>
                           <svg width='13px' height='11px' viewBox='0 0 13 10' className='svg-buy-now'>
@@ -86,11 +86,11 @@ class AvailableTitles extends Component {
                       <img src='https://i.imgur.com/sCQoBgB.jpg' className='train-ride-available-img' alt='' />
                     </div>
                     <p className='rudy-photos-description1'>Cover by Joe Brainard</p>
-                    <div className='convos-with-rudy-main-container'>
+                    <div className='train-ride-main-container'>
                       <br />
-                      <p className='rudy-text'>Back in print</p>
-                      <p className='rudy-text'>Order yours today</p>
-                      <p className='rudy-text'>$12 per copy softcover</p>
+                      <p className='typings-text'>Back in print</p>
+                      <p className='typings-text'>Order yours today</p>
+                      <p className='typings-text'>$12 per copy softcover</p>
                     </div>
 
                     <div className='av-titles-div-modal'>

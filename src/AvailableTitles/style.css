@@ -104,10 +104,22 @@
   font-family: "Montserrat", sans-serif;  
   font-size: 25px;
   font-weight: 500;
-  margin-bottom: 7%; 
+  margin-bottom: 3%; 
   text-decoration: none;
   color: black;
   text-decoration: underline;
+}
+
+
+.train-ride-main-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5%;
 }
 
 .book-of-signs-img {
@@ -167,6 +179,7 @@
   font-size: 13px;
   font-style: italic;
   text-align: center;
+  margin-top: 4%;
 }
 
 .rudy-photos-description2 {
@@ -194,7 +207,6 @@
   justify-content: center;
   align-content: center;
   align-items: center;
-  margin-bottom: 3%;
 }
 
 
@@ -228,5 +240,21 @@
 }
 
 .train-modal-text-link {
+  text-align: center;
+}
+
+
+.rudy-author-name-2 {
+  margin-bottom: 5%;
+  margin-top: -3%;
+  font-weight: 800;
+  text-align: center;
+  font-size: 23px;
+}
+
+.typings-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 17px;
   text-align: center;
 }
