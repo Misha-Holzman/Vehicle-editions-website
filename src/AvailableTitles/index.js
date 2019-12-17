@@ -31,18 +31,18 @@ class AvailableTitles extends Component {
 
               {/* SEPERATE THE PHOTO OF RUDY FROM THE BOOK COVER AND PUT THE PHOTO FARTHER DOWN THE PAGE */}
               <div className='available-titles-info-div-rudy'>
-                <Link className='rudy-conversations-link' to='/ConversationsWithRudy'>
+                <a className='rudy-conversations-link' href='/ConversationsWithRudy'>
                   <p className='available-titles-rudy-name'>Conversations with Rudy Burckhardt About Everything</p>
-                </Link>
+                </a>
                 <div className='rudy-images-div'>
                   <div className='rudy-dynamic-div'>
-                    <Link className='rudy-conversations-link-2' to='/ConversationsWithRudy'>
+                    <a className='rudy-conversations-link-2' href='/ConversationsWithRudy'>
                       <img src='https://i.imgur.com/sa0HnEb.jpg' className='convo-with-rudy-img' alt='' />
                       <img src='https://i.imgur.com/q1cg4L3.jpg' className='convo-with-rudy-2-img' alt='' />
-                    </Link>
+                    </a>
                     <p className='rudy-photos-description1'>Rudy Burckhadt</p>
                     <p className='rudy-photos-description2'>Photo by Timothy Greenfield-Sanders</p>
-                    <Route path='/ConversationsWithRudy' component={ConversationsWithRudy} />
+                    {/* <Route path='/ConversationsWithRudy' component={ConversationsWithRudy} /> */}
                   </div>
                 </div>
               </div>
@@ -120,7 +120,7 @@ class AvailableTitles extends Component {
                                 fellow classmates who, like him, felt somewhat marginalized: poets Ron Padgett and Dick
                                 Gallup. Through them he met two graduate students at the University of Tulsa, the poet Ted
                                 Berrigan and Patricia Mitchell, who would prove to be lifelong friends. Still in high school,
-                                Brainard, Padgett, and Gallup produced <em>The White Dove Review</em>, an art and literary magazine.
+                                Brainard, Padgett, and Gallup produced<em>The White Dove Review</em>, an art and literary magazine.
                                 Joe's drawings, collages, assemblages, and paintings are in the collections of the Museum of
                                 Modern Art, the Metropolitan Museum, the Whitney Museum, the Utah Museum of Fine Arts,
                                 Yale University Art Museum, and the Joe Brainard Archive at the University of California, San
