@@ -24,14 +24,13 @@ class ConversationsWithRudy extends Component {
               </div>
             </div>
           </div>
-          <div className='buy-now-div2'>
-            <a href='https://www.paypal.com/webapps/shoppingcart?flowlogging_id=764459c9539e5&mfid=1563826348997_764459c9539e5#/checkout/openButton' target='_blank' rel='noopener noreferrer' className='cta' id='buy-now-rudy-link'>
-              <span className='buy-now-rudy-text'>Buy Now</span>
-              <svg width='13px' height='11px' viewBox='0 0 13 10' className='svg-buy-now'>
-                <path d='M1,5 L11,5' />
-                <polyline points='8 1 12 5 8 9' />
-              </svg>
-            </a>
+          <div className='buy-now-div3'>
+            <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_blank'>
+              <input type='hidden' name='cmd' value='_s-xclick' />
+              <input type='hidden' name='hosted_button_id' value='84LRLJWJBYE3S' />
+              <input type='image' src='https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif' border='0' name='submit' alt='PayPal - The safer, easier way to pay online!' />
+              <img alt='' border='0' src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif' width='1' height='1' />
+            </form>
           </div>
           <p className='rudy-text-body-1'>Available for purchase from <a href='FIX' className='ilylali-link' target='_blank'>movingvehicle@gmail.com</a> Printed in duotone offset in an edition of 2,000 copes by The Studley Press, Dalton, Massachusetts. 22 photographs included. Text stock is Warren Lustro Dull and endpapers are Curtis Flannel. Text type is Frutiger. Edition is smyth sewn. </p>
           <p className='rudy-text-body'>

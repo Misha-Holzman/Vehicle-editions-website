@@ -9,14 +9,20 @@ class Typings extends Component {
         <br />
         <p className='typings-text'>Softcover: $300 per copy</p>
         <p className='typings-text'>Hardcover: $400 per copy</p>
-        <div className='buy-now-div3'>
-          <a href='https://www.paypal.com/webapps/shoppingcart?flowlogging_id=764459c9539e5&mfid=1563826348997_764459c9539e5#/checkout/openButton' target='_blank' rel='noopener noreferrer' className='cta' id='buy-now-rudy-link'>
-            <span className='buy-now-rudy-text'>Buy Now</span>
-            <svg width='13px' height='11px' viewBox='0 0 13 10' className='svg-buy-now'>
-              <path d='M1,5 L11,5' />
-              <polyline points='8 1 12 5 8 9' />
-            </svg>
-          </a>
+        <div className='buy-now-div4'>
+          <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_top' className='paypal-option-button'>
+            <input type='hidden' name='cmd' value='_s-xclick' />
+            <input type='hidden' name='hosted_button_id' value='HR3GZR2TF4PNJ' />
+            <table>
+              <tr><td><input type='hidden' name='on0' value='Edition Type' />Edition Type</td></tr><tr><td><select name='os0'>
+                <option value='Softcover'>Softcover $300.00 USD</option>
+                <option value='Hardcover'>Hardcover $400.00 USD</option>
+              </select> </td></tr>
+            </table>
+            <input type='hidden' name='currency_code' value='USD' />
+            <input type='image' src='https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif' border='0' name='submit' alt='PayPal - The safer, easier way to pay online!' />
+            <img alt='' border='0' src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif' width='1' height='1' />
+          </form>
         </div>
         <img src='https://i.imgur.com/drvZ7fx.jpg' className='typings-article' />
       </div>

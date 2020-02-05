@@ -26,9 +26,33 @@ class AvailableTitles extends Component {
                   <Route path='/bookOfSigns' component={ABookOfSigns} />
                 </div>
               </div>
-              {/* https://i.imgur.com/6GmOutE.jpg */}
 
-              {/* SEPERATE THE PHOTO OF RUDY FROM THE BOOK COVER AND PUT THE PHOTO FARTHER DOWN THE PAGE */}
+              <div className='available-titles-info-div-rudy'>
+                <p className='available-titles-rudy-name'>My First Three Books by Tony Towle</p>
+                <div className='rudy-images-div'>
+                  <div className='rudy-dynamic-div'>
+                    <div className='rudy-conversations-link-2'>
+                      <img src='https://i.imgur.com/kvwFwRN.png' className='towle-available-img' alt='' />
+                    </div>
+                    <div className='train-ride-main-container'>
+                      <br />
+                      <p className='typings-text'>Interview by Leo Edelstein</p>
+                      <p className='typings-text'>18 Photos, 12 Poems, CD</p>
+                      <p className='typings-text'>Preface by John Yau</p>
+                      <p className='typings-text'>$32 per copy</p>
+                    </div>
+                  </div>
+                  <div className='buy-now-div2'>
+                    <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_blank'>
+                      <input type='hidden' name='cmd' value='_s-xclick' />
+                      <input type='hidden' name='hosted_button_id' value='FM4CJL3YB3EVA' />
+                      <input type='image' src='https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif' border='0' name='submit' alt='PayPal - The safer, easier way to pay online!' />
+                      <img alt='' border='0' src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif' width='1' height='1' />
+                    </form>
+                  </div>
+                </div>
+              </div>
+
               <div className='available-titles-info-div-rudy'>
                 <a className='rudy-conversations-link' href='/ConversationsWithRudy'>
                   <p className='available-titles-rudy-name'>Conversations with Rudy Burckhardt About Everything</p>
@@ -42,7 +66,6 @@ class AvailableTitles extends Component {
                     </a>
                     <p className='rudy-photos-description1'>Rudy Burckhadt</p>
                     <p className='rudy-photos-description2'>Photo by Timothy Greenfield-Sanders</p>
-                    {/* <Route path='/ConversationsWithRudy' component={ConversationsWithRudy} /> */}
                   </div>
                 </div>
               </div>
@@ -155,13 +178,12 @@ class AvailableTitles extends Component {
                   </div>
 
                   <div className='buy-now-div2'>
-                    <a href='https://www.paypal.com/webapps/shoppingcart?flowlogging_id=764459c9539e5&mfid=1563826348997_764459c9539e5#/checkout/openButton' target='_blank' rel='noopener noreferrer' className='cta' id='buy-now-rudy-link'>
-                      <span className='buy-now-rudy-text'>Buy Now</span>
-                      <svg width='13px' height='11px' viewBox='0 0 13 10' className='svg-buy-now'>
-                        <path d='M1,5 L11,5' />
-                        <polyline points='8 1 12 5 8 9' />
-                      </svg>
-                    </a>
+                    <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_blank' className='paypal-form'>
+                      <input type='hidden' name='cmd' value='_s-xclick' />
+                      <input type='hidden' name='hosted_button_id' value='NDQHZ4MPW3AFW' />
+                      <input type='image' src='https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif' border='0' name='submit' alt='PayPal - The safer, easier way to pay online!' />
+                      <img alt='' border='0' src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif' width='1' height='1' />
+                    </form>
                   </div>
                 </div>
               </div>
@@ -175,4 +197,3 @@ class AvailableTitles extends Component {
 
 export default AvailableTitles
 
-// https://i.imgur.com/hXoWiSw.jpg

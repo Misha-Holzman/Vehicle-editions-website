@@ -154,6 +154,10 @@
   height: 300px;
 }
 
+.towle-available-img {
+  height: 400px;
+}
+
 .typings-2-img {
   height: 300px;
   margin-left: 4%;
@@ -257,4 +261,25 @@
   font-weight: 200;
   font-size: 17px;
   text-align: center;
+}
+
+.buy-now-div2 {
+  width: 22%;
+  display: flex;
+  justify-content: center;
+}
+
+.buy-now-div1 {
+  width: 22%;
+  display: flex;
+  justify-content: left;
+}
+
+.buy-now-div3 {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  margin-top: -1% !important;
+  margin-bottom: 5% !important;
+  margin-left: 0% !important;
 }
