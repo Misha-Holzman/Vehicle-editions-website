@@ -16,7 +16,7 @@ import Books from '../Books'
 import Magazines from '../Magazines'
 import Anthologies from '../Anthologies'
 import Poems from '../Poems'
-import News from '../News'
+// import News from '../News'
 import Resume from '../Resume'
 import PoemReadings from '../PoemReadings'
 import WritingSamples from '../WritingSamples'
@@ -72,7 +72,7 @@ class Navbar extends Component {
                     <span className='sm-link__label dropbtn menu-item'><Link className='top-link menu-item' to='/vehicleEditions' onClick={() => this.closeMenu()}>Vehicle Editions</Link></span>
                   </a>
                   <div className='dropdown-content menu-item' id='vehicle-tab-drop'>
-                    <Link className='dropdown-tabs' to='/news' onClick={() => this.closeMenu()}><span id='drop-link-hover'>News</span></Link>
+                    {/* <Link className='dropdown-tabs' to='/news' onClick={() => this.closeMenu()}><span id='drop-link-hover'>News</span></Link> */}
                     <Link className='dropdown-tabs' to='/grantsAndAwards' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Grants and Awards</span></Link>
                     <Link className='dropdown-tabs' to='/exhibitions' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Exhibitions</span></Link>
                     <Link className='dropdown-tabs' to='/availableTitles' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Available Titles</span></Link>
@@ -170,7 +170,7 @@ class Navbar extends Component {
 
           <Route path='/' component={HomePage} exact />
           <Route path='/vehicleEditions' component={VehicleEditions} />
-          <Route path='/news' component={News} />
+          {/* <Route path='/news' component={News} /> */}
           <Route path='/resume' component={Resume} />
           <Route path='/professionalServices' component={ProfessionalServices} />
           <Route path='/writing' component={Writing} />
