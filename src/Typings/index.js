@@ -7,7 +7,7 @@ class Typings extends Component {
       <div className='typings-main-container'>
         <p className='typings-text'>Hardcover edition: red cloth over boards with green foil stamp</p>
         <br />
-        <p className='typings-text'>Softcover: $300 per copy</p>
+        {/* <p className='typings-text'>Softcover: $300 per copy</p> */}
         <p className='typings-text'>Hardcover: $400 per copy</p>
         <div className='buy-now-div4'>
           <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_top' className='paypal-option-button'>
@@ -15,7 +15,7 @@ class Typings extends Component {
             <input type='hidden' name='hosted_button_id' value='HR3GZR2TF4PNJ' />
             <table>
               <tr><td><input type='hidden' name='on0' value='Edition Type' />Edition Type</td></tr><tr><td><select name='os0'>
-                <option value='Softcover'>Softcover $300.00 USD</option>
+                {/* <option value='Softcover'>Softcover $300.00 USD</option> */}
                 <option value='Hardcover'>Hardcover $400.00 USD</option>
               </select> </td></tr>
             </table>
