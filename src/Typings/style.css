@@ -4,8 +4,11 @@
 
 .buy-now-div4 {
   width: 100%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 .paypal-option-button {
@@ -13,4 +16,29 @@
   margin-top: 5%;
   margin-bottom: 10%;
   border-top: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.typings-img-alt {
+  height: 300px;
+  margin-bottom: 3%;
+}
+
+.typings-additional-imgs {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.typings-2-img-alt {
+  height: 445px;
+  margin-top: 3%;
 }

@@ -11,9 +11,9 @@ class ConversationsWithRudy extends Component {
             <h3 className='rudy-author-name'>by Simon Pettet</h3>
             <div className='rudy-images-div'>
               <div className='rudy-not-dynamic-div'>
-                <div className='rudy-conversations-link-2'>
-                  <img src='https://i.imgur.com/sa0HnEb.jpg' className='convo-with-rudy-img' alt='' />
-                  <img src='https://i.imgur.com/q1cg4L3.jpg' className='convo-with-rudy-2-img' alt='' />
+                <div className='rudy-conversations-link-3'>
+                  <img src='https://i.imgur.com/5HcMQD4.jpg' className='convo-with-rudy-img-alt' alt='' />
+                  <img src='https://i.imgur.com/4u9QGOK.jpg' className='convo-with-rudy-2-img-alt' alt='' />
                 </div>
                 <p className='rudy-photos-description1'>Rudy Burckhadt</p>
                 <p className='rudy-photos-description2'>Photo by Timothy Greenfield-Sanders</p>

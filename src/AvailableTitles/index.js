@@ -61,8 +61,8 @@ class AvailableTitles extends Component {
                 <div className='rudy-images-div'>
                   <div className='rudy-dynamic-div'>
                     <a className='rudy-conversations-link-2' href='/ConversationsWithRudy'>
-                      <img src='https://i.imgur.com/sa0HnEb.jpg' className='convo-with-rudy-img' alt='' />
-                      <img src='https://i.imgur.com/q1cg4L3.jpg' className='convo-with-rudy-2-img' alt='' />
+                      <img src='https://i.imgur.com/5HcMQD4.jpg' className='convo-with-rudy-img' alt='' />
+                      <img src='https://i.imgur.com/4u9QGOK.jpg' className='convo-with-rudy-2-img' alt='' />
                     </a>
                     <p className='rudy-photos-description1'>Rudy Burckhadt</p>
                     <p className='rudy-photos-description2'>Photo by Timothy Greenfield-Sanders</p>
@@ -76,8 +76,10 @@ class AvailableTitles extends Component {
                 <div className='rudy-images-div'>
                   <div className='rudy-dynamic-div'>
                     <div className='rudy-conversations-link-2'>
-                      <img src='https://i.imgur.com/bJxoOkl.png' className='typings-img' alt='' />
-                      <img src='https://i.imgur.com/7eKAd9N.jpg' className='typings-2-img' alt='' />
+                      <Link className='rudy-conversations-link-2' to='/typings'>
+                        <img src='https://i.imgur.com/Lsq3uT8.jpg' className='typings-img' alt='' />
+                        <img src='https://i.imgur.com/3zuzYsW.jpg' className='typings-2-img' alt='' />
+                      </Link>
                     </div>
                     <p className='rudy-photos-description1'>Christopher Knowles</p>
                     <p className='rudy-photos-description2'>Photo by Richard Landry</p>
@@ -93,7 +95,8 @@ class AvailableTitles extends Component {
                 <div className='rudy-images-div'>
                   <div className='rudy-dynamic-div'>
                     <div className='rudy-conversations-link-2'>
-                      <img src='https://i.imgur.com/sCQoBgB.jpg' className='train-ride-available-img' alt='' />
+                      <img src='https://i.imgur.com/3Y8W2wA.jpg' className='train-ride-available-img' alt='' />
+                      <img src='https://i.imgur.com/KnH4eWm.jpg' className='train-ride-available-img' alt='' />
                     </div>
                     <p className='rudy-photos-description1'>Cover by Joe Brainard</p>
                     <div className='train-ride-main-container'>
@@ -154,6 +157,9 @@ class AvailableTitles extends Component {
                                 One could go on cataloging the delights of the ride: one would be wiser to simply urge
                                 all who can run &amp; read to take it, with Ted Berrigan, a Great Companion.&quot;
                                 --Anselm Hollo</p>
+                            <div className='train-ride-modal-img'>
+                              <img src='https://i.imgur.com/KnH4eWm.jpg' className='train-ride-available-img-alt' alt='' />
+                            </div>
                             <p className='train-modal-text'>PUB DATE: 15 November 2019</p>
                             <p className='train-modal-text'>ANTICIPATED ARRIVAL DATE AT SPD: 15 December 2019</p>
                             <p className='train-modal-text'>PUBLISHER: Vehicle Editions</p>

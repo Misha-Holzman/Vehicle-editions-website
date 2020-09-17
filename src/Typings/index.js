@@ -24,7 +24,11 @@ class Typings extends Component {
             <img alt='' border='0' src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif' width='1' height='1' />
           </form>
         </div>
-        <img src='https://i.imgur.com/drvZ7fx.jpg' className='typings-article' />
+        <div className='typings-additional-imgs'>
+          <img src='https://i.imgur.com/7eKAd9N.jpg' className='typings-img-alt' alt='' />
+          <img src='https://i.imgur.com/drvZ7fx.jpg' className='typings-article' />
+          <img src='https://i.imgur.com/3zuzYsW.jpg' className='typings-2-img-alt' alt='' />
+        </div>
       </div>
     )
   }
