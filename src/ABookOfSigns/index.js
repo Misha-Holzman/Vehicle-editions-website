@@ -24,13 +24,3 @@ class ABookOfSigns extends Component {
 }
 
 export default ABookOfSigns
-
-{ /*
-<a href='https://www.paypal.com/webapps/shoppingcart?flowlogging_id=764459c9539e5&mfid=1563826348997_764459c9539e5#/checkout/openButton' target='_blank' rel='noopener noreferrer' className='cta'>
-  <span className='buy-now-text'>Buy Now</span>
-  <svg width='13px' height='11px' viewBox='0 0 13 10' className='svg-buy-now'>
-    <path d='M1,5 L11,5' />
-    <polyline points='8 1 12 5 8 9' />
-  </svg>
-</a>
-*/ }

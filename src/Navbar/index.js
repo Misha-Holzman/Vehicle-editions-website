@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-
 import HomePage from '../HomePage'
 import VehicleEditions from '../VehicleEditions'
 import ProfessionalServices from '../ProfessionalServices'
@@ -166,7 +165,7 @@ class Navbar extends Component {
             </li>
           </ul>
 
-          <Link className='home-link' to='/'><img src='https://i.imgur.com/kE3ushr.png' ref='' className='home-img' /></Link>
+          <Link className='home-link' to='/'><img src='https://i.imgur.com/kE3ushr.png' ref='' className='home-img' alt='' /></Link>
 
           <Route path='/' component={HomePage} exact />
           <Route path='/vehicleEditions' component={VehicleEditions} />
