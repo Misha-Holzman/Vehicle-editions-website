@@ -65,7 +65,7 @@ class Navbar extends Component {
               <div className='section__item menu-item' id='hamburger-link-secondary-div'>
                 <div className='dropdown menu-item' id='hamburger-link-third-div'>
                   <a
-                    href=''
+                    href='/#'
                     className='sm-link sm-link_padding-all sm-link1 nav-text-links menu-item'
                   >
                     <span className='sm-link__label dropbtn menu-item'><Link className='top-link menu-item' to='/vehicleEditions' onClick={() => this.closeMenu()}>Vehicle Editions</Link></span>

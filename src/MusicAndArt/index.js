@@ -13,13 +13,13 @@ class MusicAndArt extends Component {
             <div className='veh-ed-nav-bullets-div'>
               <ul className='veh-ed-nav-ul'>
                 <li className='veh-ed-nav-li'>
-                  <a href='#' className='veh-ed-nav-link'><span id='links-pages-style'>Music</span></a>
+                  <a href='/#' className='veh-ed-nav-link'><span id='links-pages-style'>Music</span></a>
                 </li>
                 <li className='veh-ed-nav-li'>
-                  <a href='#' className='veh-ed-nav-link'><span id='links-pages-style'>Art Work</span></a>
+                  <a href='/#' className='veh-ed-nav-link'><span id='links-pages-style'>Art Work</span></a>
                 </li>
                 <li className='veh-ed-nav-li'>
-                  <a href='#' className='veh-ed-nav-link'><span id='links-pages-style'>Art Exhibits</span></a>
+                  <a href='/#' className='veh-ed-nav-link'><span id='links-pages-style'>Art Exhibits</span></a>
                 </li>
               </ul>
             </div>

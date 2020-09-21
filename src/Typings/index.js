@@ -26,7 +26,7 @@ class Typings extends Component {
         </div>
         <div className='typings-additional-imgs'>
           <img src='https://i.imgur.com/7eKAd9N.jpg' className='typings-img-alt' alt='' />
-          <img src='https://i.imgur.com/drvZ7fx.jpg' className='typings-article' />
+          <img src='https://i.imgur.com/drvZ7fx.jpg' className='typings-article' alt='' />
           <img src='https://i.imgur.com/3zuzYsW.jpg' className='typings-2-img-alt' alt='' />
         </div>
       </div>

@@ -22,7 +22,8 @@
     "react-push-menu": "^1.0.2",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "^3.0.1"
+    "react-scripts": "^3.0.1",
+    "yarn": "^1.22.5"
   },
   "resolutions": {
     "babel-jest": "24.8.0"
