@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import ABookOfSigns from '../ABookOfSigns'
 import Typings from '../Typings'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import ReactPlayer from 'react-player'
 import './style.css'
 
 class AvailableTitles extends Component {
@@ -33,6 +34,13 @@ class AvailableTitles extends Component {
                   <div className='rudy-dynamic-div'>
                     <div className='rudy-conversations-link-2'>
                       <img src='https://i.imgur.com/kvwFwRN.png' className='towle-available-img' alt='' />
+                    </div>
+                    <div className='tony-video'>
+                      <ReactPlayer
+                        url='https://vimeo.com/514104562'
+                        width='840px'
+                        height='442px'
+                      />
                     </div>
                     <div className='train-ride-main-container'>
                       <br />
@@ -202,4 +210,3 @@ class AvailableTitles extends Component {
 }
 
 export default AvailableTitles
-

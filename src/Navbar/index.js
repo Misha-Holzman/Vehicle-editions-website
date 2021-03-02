@@ -26,6 +26,8 @@ import Activism from '../Activism'
 import About from '../About'
 import Contact from '../Contact'
 import Testimonials from '../Testimonials'
+import AboutAnnabelLee from '../AboutAnnabelLee'
+import AboutVehicleEditions from '../AboutVehicleEditions'
 
 import './style.css'
 
@@ -131,12 +133,18 @@ class Navbar extends Component {
             </div>
             <div className='section menu-item' id='hamburger-link-main-div'>
               <div className='section__item'>
-                <a
-                  href='#about-page'
-                  className='sm-link sm-link_padding-all sm-link1 nav-text-links'
-                >
-                  <Link className='dropdown-tabs noDropDown' to='/about' onClick={() => this.closeMenu()}><span className='sm-link__label'>About</span></Link>
-                </a>
+                <div className='dropdown'>
+                  <a
+                    href='#about-page'
+                    className='sm-link sm-link_padding-all sm-link1 nav-text-links'
+                  >
+                    <span className='sm-link__label dropbtn' onClick={() => this.closeMenu()}><Link className='top-link' to='/about' onClick={() => this.closeMenu()}>About</Link></span>
+                  </a>
+                  <div className='dropdown-content' id='writing-drop'>
+                    <Link className='dropdown-tabs' to='/aboutAnnabelLee' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Annabel Lee</span></Link>
+                    <Link className='dropdown-tabs' to='/aboutVehicleEditions' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Vehicle Editions</span></Link>
+                  </div>
+                </div>
               </div>
             </div>
             <div className='section menu-item' id='hamburger-link-main-div'>
@@ -192,6 +200,8 @@ class Navbar extends Component {
           <Route path='/artExhibits' component={ArtExhibits} />
           <Route path='/activism' component={Activism} />
           <Route path='/about' component={About} />
+          <Route path='/aboutAnnabelLee' component={AboutAnnabelLee} />
+          <Route path='/aboutVehicleEditions' component={AboutVehicleEditions} />
           <Route path='/contact' component={Contact} />
         </div>
       </Router>
