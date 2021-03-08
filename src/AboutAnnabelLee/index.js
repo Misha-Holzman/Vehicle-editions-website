@@ -67,7 +67,7 @@ class AboutAnnabelLee extends Component {
               </p>
               <div className='poetics-link-div'>
                 <p className='poetics-link-text'>Order a copy</p>
-                <a className='poetics-link' target='_blank' href='https://uglyducklingpresse.org/publications/a-poetics-of-the-press/'>here</a>
+                <a className='poetics-link' target='_blank' rel='noopener noreferrer' href='https://uglyducklingpresse.org/publications/a-poetics-of-the-press/'>here</a>
               </div>
 
               <p className='poetics-body-3'>
