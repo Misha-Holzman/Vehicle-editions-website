@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+
+.about-line-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5%;
+}
+.about-line-divider {
+  height: 100px;
+  opacity: .8;
+}
+
+.poetics-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin-bottom: 6%;
+}
+.poetics-header {
+  font-family: 'Cardo', serif; font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 0%;
+  font-style: italic;
+  color: #ed7783;
+}
+.poetics-subheader {
+  font-family: 'Cardo', serif; font-weight: 500;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.poetics-header-img {
+  width: 65%;
+}
+
+.poetics-body-1 {
+  font-family: 'Cardo', serif; font-weight: 500;
+  font-size: 20px;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  width: 65%;
+}
+.poetics-book-and-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  flex-flow: row;
+  width: 80%;
+}
+.poetics-book-img {
+  width: 35%;
+  margin-right: 2%;
+}
+.poetics-book-inner-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  flex-flow: column;
+}
+.poetics-body-2 {
+  font-family: 'Cardo', serif; font-weight: 500;
+  font-size: 19px;
+  margin-bottom: 3%;
+}
+.poetics-link-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+  flex-flow: row;
+  width: 100%;
+}
+.poetics-link-text {
+  font-family: 'Cardo', serif; font-weight: 500;
+  font-size: 22px;
+  color: #ed7783;
+  font-weight: 600;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+.poetics-link {
+  font-family: 'Cardo', serif; font-weight: 500;
+  font-size: 22px;
+  padding-left: .5%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  font-weight: 600;
+  text-decoration: underline !important;
+}
+.poetics-body-3 {
+  font-family: 'Cardo', serif; font-weight: 500;
+  font-size: 19px;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}

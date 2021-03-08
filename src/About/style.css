@@ -50,9 +50,9 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 75%;
+  width: 85%;
   margin:0 auto;
-  padding-bottom: 6%;
+  padding-bottom: 2%;
 } 
 
 .about-container-bottom {
@@ -68,15 +68,7 @@
   padding-bottom: 12%;
 } 
 
-.about-line-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.about-line-divider {
-  height: 70px;
-  opacity: .5;
-}
+
 
 .about-text-titles {
   font-family: "Montserrat", sans-serif;
@@ -136,8 +128,7 @@
 }
 
 .about-img-container {
-  width: 30%;
-  margin-left: 4%;
+  width: 40%;
   margin-top: 5%;
 }
 .about-profile-img {

@@ -386,7 +386,19 @@
     margin-top: 5%;
   }
 
+  .poetics-book-and-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-flow: column;
+    width: 80%;
+  }
 
+  .poetics-book-img {
+    width: 40%;
+    margin-bottom: 5%;
+  }
 }
 
 
