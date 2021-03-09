@@ -111,12 +111,12 @@ class Navbar extends Component {
                     <span className='sm-link__label dropbtn' onClick={() => this.closeMenu()}><Link className='top-link' to='/writing' onClick={() => this.closeMenu()}>Writing</Link></span>
                   </a>
                   <div className='dropdown-content' id='writing-drop'>
+                    <Link className='dropdown-tabs' to='/writingSamples' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Writing</span></Link>
                     <Link className='dropdown-tabs' to='/books' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Books</span></Link>
                     <Link className='dropdown-tabs' to='/magazines' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Magazines</span></Link>
                     {/* <Link className='dropdown-tabs' to='/anthologies' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Anthologies</span></Link> */}
                     <Link className='dropdown-tabs' to='/poems' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Poems</span></Link>
                     {/* <Link className='dropdown-tabs' to='/poemReadings' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Poem Readings</span></Link> */}
-                    <Link className='dropdown-tabs' to='/writingSamples' onClick={() => this.closeMenu()}><span id='drop-link-hover'>Writing Samples</span></Link>
                   </div>
                 </div>
               </div>

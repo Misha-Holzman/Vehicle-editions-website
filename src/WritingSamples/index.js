@@ -6,12 +6,90 @@ class WritingSamples extends Component {
     return (
       <div className='writing-samples-main-container'>
         <div className='writing-samples-title-div'>
-          <h1 className='writing-samples-main-title'>Writing Samples</h1>
+          <h1 className='writing-samples-main-title'>Writing</h1>
           <img src='https://i.imgur.com/q2NiKoA.jpg' className='writing-samples-car-photo' alt='' />
         </div>
         <div className='writing-samples-main-div'>
           <div className='writing-info-container'>
             <div className='writing-info-main-container'>
+              <div className='writing-div'>
+                <button type='button' data-toggle='modal' data-target='#Modal100' id='button-modal'>
+                  <p className='clients-name'>Corona Transmissions – 2021</p>
+                </button>
+              </div>
+              <div class='modal fade bd-example-modal-lg' id='Modal100' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+                <div class='modal-dialog modal-lg modal-dialog-centered' role='document'>
+                  <div class='modal-content'>
+                    <div class='modal-header'>
+                      <h5 class='modal-title' id='exampleModalLabel'>Corona Transmissions – 2021</h5>
+                      <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+                        <span aria-hidden='true'>&times;</span>
+                      </button>
+                    </div>
+                    <div class='modal-body'>
+                      <div className='donna-dennis-passage-div'>
+                        <h3 className='dennis-passage-title dennis-text'>
+                          Alternatives for Engaging with COVID-19 <br /> – from the Physical to the Metaphysical
+                        </h3>
+                        <p className='dennis-passage-author dennis-text'>
+                          Includes contributions from 35 well-known authors,
+                          doctors, herbalists, First Nations teachers, economists,
+                          astrologers, and others, such as Richard Strozzi-Heckler,
+                          Annabel Lee, Matthew Wood, Gabriel Cousens, M.D., Rob Brezsny,
+                          and Robert Simmons
+                        </p>
+                        <p className='dennis-passage-name-of-show dennis-text'>
+                          All royalties for this book go to the Land Peace foundation, serving First Nations tribes in Maine
+                        </p>
+                        <p className='dennis-passage-article dennis-text'>Learn more and purchase the book at <a href='https://www.simonandschuster.com/books/The-Corona-Transmissions/Sherri-Mitchell/9781644113073#' target='_blank' rel='noopener noreferrer' className='dennis-passage-gallery-link'>simonandschuster.com</a></p>
+                        <img src='https://i.imgur.com/NOoZl1p.jpg' className='dennis-img-main' alt='' />
+                        <p className='dennis-text dennis-article-writing'>
+                          A collection of new perspectives on COVID-19 from authoritative voices outside the mainstream
+                        </p>
+                        <p className='dennis-text dennis-article-writing'>
+                        • Includes contributions from 35 well-known authors, doctors, herbalists, First Nations teachers,
+                        economists, astrologers, and others, such as Richard Strozzi-Heckler, Annabel Lee, Matthew Wood,
+                        Gabriel Cousens, M.D., Rob Brezsny, and Robert Simmons
+                        </p>
+                        <p className='dennis-text dennis-article-writing'>
+                        The pandemic of Coronavirus Disease 2019 (COVID-19) is the biggest event of our lifetimes.
+                        This global experience has affected human history, ecology, epidemiology, and supply chains
+                        with the suddenness of 9/11, yet with a far greater extent, duration, and toll--the end of
+                        which is not yet in sight.
+
+                        </p>
+                        <p className='dennis-text dennis-article-writing'>
+                          Exploring a broad spectrum of new perspectives on COVID-19, from the physical to the metaphysical,
+                          from ecological to political, from apocalyptic to proto-utopian, and from scientific facts and
+                          health tips to imaginings, visionings, poems, and awakenings, this anthology offers an antidote
+                          to the barrage of data and speculation from the mainstream. The 35 contributors, including Laura
+                          Aversano, Charles Eisenstein, Zoe Brezsny, Meryl Nass, M.D., Bobby Byrd, and Joel and Michelle
+                          Levey, address the virus as a fellow being, allowing it to speak to us and through us. They attempt
+                          to describe, understand, interpret, and decipher the virus at biological, serological, epidemiological,
+                          social, political, astrological, and ontological levels.
+
+                        </p>
+                        <p className='dennis-text dennis-article-writing'>
+                          The virus is explored in terms of cultural critique, divination, prophecy, warning, elucidation,
+                          and opportunity. Medical doctors, herbalists, naturopaths, indigenous healers, and homeopathic
+                          physicians tell us about coronavirus history, treatments, and prevention protocols; yoga teachers
+                          about cultivating inner balance and harmony; and economists, poets, psychotherapists, and First
+                          Nations teachers about the vast effects of the virus and the way forward. They explore how the
+                          disease speaks directly and how it meticulously addresses our relationship to Gaia, to its animal,
+                          plant, and mineral kingdoms, to each other, and to the economies and dystopia we have created.
+
+                        </p>
+                        <p className='dennis-text dennis-article-writing'>
+                          As a visionary whole, The Corona Transmissions asks you to respond, to engage your wisdom and creative
+                          imagination, to resist easy categorization and resolutions, and to participate in a collective dance
+                          and chant for healing, peace, equality, and a habitable future. Viruses do not live except by virtue
+                          of us carrying them. We are the living ones and our bodies, minds, hearts, and spirits will prevail.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className='writing-div'>
                 <button type='button' data-toggle='modal' data-target='#Modal100' id='button-modal'>
                   <p className='clients-name'>Art Review on artcritical.com</p>

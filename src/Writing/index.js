@@ -16,6 +16,9 @@ class Writing extends Component {
             <div className='veh-ed-nav-bullets-div-writing'>
               <ul className='writing-nav-ul'>
                 <li className='writing-nav-li'>
+                  <a href='/WritingSamples' className='veh-ed-nav-link'><span id='links-pages-style'>Writing</span></a>
+                </li>
+                <li className='writing-nav-li'>
                   <a href='/Books' className='veh-ed-nav-link'><span id='links-pages-style'>Books</span></a>
                 </li>
                 <li className='writing-nav-li'>
@@ -23,9 +26,6 @@ class Writing extends Component {
                 </li>
                 <li className='writing-nav-li'>
                   <a href='/Poems' className='veh-ed-nav-link'><span id='links-pages-style'>Poems</span></a>
-                </li>
-                <li className='writing-nav-li'>
-                  <a href='/WritingSamples' className='veh-ed-nav-link'><span id='links-pages-style'>Writing Samples</span></a>
                 </li>
               </ul>
             </div>
