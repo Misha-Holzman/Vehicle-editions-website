@@ -101,3 +101,37 @@
   margin-top: 2%;
   margin-bottom: 3%;
 }
+
+
+
+.about-line-container-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+}
+.about-line-divider-bottom {
+  height: 100px;
+  opacity: .8;
+}
+.occupy-film-title-1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}
+.occupy-film-title-2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  margin-bottom: 4%;
+  width: 100%;
+  text-align: center;
+}
+.occupy-video-container {
+  margin-top: 1%;
+}
+.occupy-film {
+  margin: 0 auto;
+}
