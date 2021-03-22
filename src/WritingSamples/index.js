@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
+import ReactPlayer from 'react-player'
 import './style.css'
+const sequesteredLink = 'https://player.vimeo.com/video/482901329?title=0&byline=0&portrait=0'
 
 class WritingSamples extends Component {
   render () {
@@ -575,6 +577,28 @@ class WritingSamples extends Component {
               </div>
             </div>
           </div>
+        </div>
+        <div className='about-line-container-bottom'>
+          <img className='about-line-divider-bottom' src='https://i.imgur.com/AZpE0YA.png' alt='' />
+        </div>
+        <div className='sequestered-video-container'>
+          <h2 className='sequestered-film-title'>Sunday morning sequestered in America</h2>
+          <iframe src={sequesteredLink} title='sequestered in america' width='740' height='416' frameborder='0' allow='autoplay; fullscreen; picture-in-picture' allowfullscreen />
+        </div>
+        <div className='about-line-container-bottom'>
+          <img className='about-line-divider-bottom' src='https://i.imgur.com/AZpE0YA.png' alt='' />
+        </div>
+        <div className='dafoe-video-container'>
+          <h2 className='sequestered-film-title-1'>Robert Wilson and Willem Dafoe with Charles Shafaieh:</h2>
+          <h2 className='sequestered-film-title-2'>New Social Environment</h2>
+          <ReactPlayer
+            url='https://www.youtube-nocookie.com/embed/KqcSdBZZR4A?controls=0'
+            width='740px'
+            height='555px'
+            className='dafoe-film'
+            controls='true'
+            muted='true'
+          />
         </div>
       </div>
     )
