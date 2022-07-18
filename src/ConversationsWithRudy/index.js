@@ -15,12 +15,12 @@ class ConversationsWithRudy extends Component {
                   <img src='https://i.imgur.com/5HcMQD4.jpg' className='convo-with-rudy-img-alt' alt='' />
                   <img src='https://i.imgur.com/4u9QGOK.jpg' className='convo-with-rudy-2-img-alt' alt='' />
                 </div>
-                <p className='rudy-photos-description1'>Rudy Burckhadt</p>
-                <p className='rudy-photos-description2'>Photo by Timothy Greenfield-Sanders</p>
-                <p className='rudy-text-1'>ISBN 0-931428-20-3</p>
-                <p className='rudy-text'>10 x 8 inches</p>
-                <p className='rudy-text'>72 pages</p>
-                <h3 className='rudy-price'>$20</h3>
+                  <p className='rudy-photos-description1'>Rudy Burckhadt</p>
+                  <p className='rudy-photos-description2'>Photo by Timothy Greenfield-Sanders</p>
+                  <h3 className='rudy-price'>$20 per copy</h3>
+                  <p className='rudy-text-1'>ISBN 0-931428-20-3</p>
+                  <p className='rudy-text'>10 x 8 inches</p>
+                  <p className='rudy-text'>72 pages</p>
               </div>
             </div>
           </div>
@@ -28,8 +28,7 @@ class ConversationsWithRudy extends Component {
             <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_blank'>
               <input type='hidden' name='cmd' value='_s-xclick' />
               <input type='hidden' name='hosted_button_id' value='84LRLJWJBYE3S' />
-              <input type='image' src='https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif' border='0' name='submit' alt='PayPal - The safer, easier way to pay online!' />
-              <img alt='' border='0' src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif' width='1' height='1' />
+              <input type='image' className='paypal-button' img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/buy-logo-large.png" alt="Buy now with PayPal" name='submit' />
             </form>
           </div>
           <p className='rudy-text-body-1'>Available for purchase from <a href='FIX' className='ilylali-link' target='_blank'>movingvehicle@gmail.com</a> Printed in duotone offset in an edition of 2,000 copes by The Studley Press, Dalton, Massachusetts. 22 photographs included. Text stock is Warren Lustro Dull and endpapers are Curtis Flannel. Text type is Frutiger. Edition is smyth sewn. </p>

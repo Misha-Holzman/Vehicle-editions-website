@@ -5,7 +5,8 @@ class ABookOfSigns extends Component {
   render () {
     return (
       <div className='book-of-signs-main-container'>
-        <h3 className='bold-text'>Retail price: $5, includes shipping</h3>
+        <h3 className='bold-text'>Retail price: $5</h3>
+        <p className='text'>Includes shipping</p>
         <p className='text'>Size 4 in. x 5 in.</p>
         <p className='text'>96 pages</p>
         <p className='text'>Now in its third printing</p>

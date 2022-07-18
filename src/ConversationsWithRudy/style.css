@@ -68,15 +68,15 @@
 
 .rudy-text {
   font-family: "Montserrat", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 17px;
 }
 
 .rudy-text-1 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 17px;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .rudy-text-body-1 {
@@ -100,7 +100,10 @@
 
 
 .rudy-price {
-  margin-bottom: -10%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 2%;
 }
 
 

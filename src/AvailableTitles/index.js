@@ -16,17 +16,71 @@ class AvailableTitles extends Component {
           </div>
           <div className='available-titles-info-container'>
             <div className='available-titles-container'>
-              <div className='available-titles-info-div-signs'>
-                <Link className='book-of-signs-link' to='/bookOfSigns'>
-                  <p className='available-titles-signs-name'>A Book of Signs</p>
-                </Link>
-                <div className='signs-dynamic-div'>
-                  <Link className='book-of-signs-link' to='/bookOfSigns'>
-                    <img src='https://i.imgur.com/T0mI8W7.jpg' className='book-of-signs-img' alt='' />
-                  </Link>
-                  <Route path='/bookOfSigns' component={ABookOfSigns} />
+
+
+
+
+            <div className='available-titles-info-div-rudy'>
+                <p className='available-titles-rudy-name'>The Corona Transmissions</p>
+                <div className='rudy-images-div'>
+                  <div className='rudy-dynamic-div'>
+                    <div className='rudy-conversations-link-2'>
+                      <img src='https://i.imgur.com/waL3sta.jpg' className='available-img' alt='' />
+                    </div>
+                    <div className='train-ride-main-container'>
+                      <br />
+                      <h3 className='tony-bold-text'>$19.99 per copy</h3>
+                      <p className='tony-text'>Alternatives for Engaging with COVID-19—from the Physical to the Metaphysical</p>
+                      <p className='tony-text'>Edited by Sherri Mitchell, Richard Grossinger and Kathy Glass</p>
+                    </div>
+                  </div>
+                  <div className='minnesota-button-div'>
+                    <a href="https://www.simonandschuster.com/books/The-Corona-Transmissions/Sherri-Mitchell/9781644113073" target='_blank' rel='noopener noreferrer' className='minnesota-button'>Purchase Here</a>
+                  </div>
                 </div>
               </div>
+
+
+              <div className='available-titles-info-div-rudy'>
+                <p className='available-titles-rudy-name'>A Poetics of the Press: <br /> Interviews with Poets, Printers, and Publishers</p>
+                <div className='rudy-images-div'>
+                  <div className='rudy-dynamic-div'>
+                    <div className='rudy-conversations-link-2'>
+                      <img src='https://i.imgur.com/W5LyFcG.jpg' className='available-img' alt='' />
+                    </div>
+                    <div className='train-ride-main-container'>
+                      <br />
+                      <h3 className='tony-bold-text'>$8 per copy</h3>
+                      <p className='tony-text'>Art, Criticism, Interviews, Nonfiction, Poetics</p>
+                      <p className='tony-text'>Edited by Kyle Schlesinger</p>
+                    </div>
+                  </div>
+                  <div className='minnesota-button-div'>
+                    <a href="https://uglyducklingpresse.org/publications/a-poetics-of-the-press/" target='_blank' rel='noopener noreferrer' className='minnesota-button'>Purchase Here</a>
+                  </div>
+                </div>
+              </div>
+
+              <div className='available-titles-info-div-rudy'>
+                <p className='available-titles-rudy-name'>Minnesota Drift by Annabel Lee</p>
+                <div className='rudy-images-div'>
+                  <div className='rudy-dynamic-div'>
+                    <div className='rudy-conversations-link-2'>
+                      <img src='https://i.imgur.com/KQBXd11.png' className='available-img' alt='' />
+                    </div>
+                    <div className='train-ride-main-container'>
+                      <br />
+                      <h3 className='tony-bold-text'>$8 per copy</h3>
+                      <p className='tony-text'>published by Wry Press, 2021</p>
+                    </div>
+                  </div>
+                  <div className='minnesota-button-div'>
+                    <a href="https://wryawry.bigcartel.com/product/annabel-lee-minnesota-drift" target='_blank' rel='noopener noreferrer' className='minnesota-button'>Purchase Here</a>
+                  </div>
+                </div>
+              </div>
+
+              
 
               <div className='available-titles-info-div-rudy'>
                 <p className='available-titles-rudy-name'>My First Three Books by Tony Towle</p>
@@ -34,27 +88,55 @@ class AvailableTitles extends Component {
                   <div className='rudy-dynamic-div'>
                     <div className='rudy-conversations-link-2'>
                       <img src='https://i.imgur.com/kvwFwRN.png' className='towle-available-img' alt='' />
+                      <div className='tony-video'>
+                        <ReactPlayer
+                          url='https://vimeo.com/514104562'
+                          width='300px'
+                          height='400px'
+                        />
                     </div>
-                    <div className='tony-video'>
-                      <ReactPlayer
-                        url='https://vimeo.com/514104562'
-                        width='840px'
-                        height='442px'
-                      />
                     </div>
                     <div className='train-ride-main-container'>
                       <br />
-                      <p className='typings-text'>Interview by Leo Edelstein</p>
-                      <p className='typings-text'>18 Photos, 12 Poems, CD</p>
-                      <p className='typings-text'>Preface by John Yau</p>
-                      <p className='typings-text'>$32 per copy</p>
+                      <h3 className='tony-bold-text'>$32 per copy</h3>
+                      <p className='tony-text'>Interview by Leo Edelstein</p>
+                      <p className='tony-text'>18 Photos, 12 Poems, CD</p>
+                      <p className='tony-text-last'>Preface by John Yau</p>
                     </div>
                   </div>
                   <div className='buy-now-div2'>
                     <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_blank'>
                       <input type='hidden' name='cmd' value='_s-xclick' />
                       <input type='hidden' name='hosted_button_id' value='FM4CJL3YB3EVA' />
-                      <input type='image' src='https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif' border='0' name='submit' alt='PayPal - The safer, easier way to pay online!' />
+                      <input type='image' className='paypal-button' img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/buy-logo-large.png" alt="Buy now with PayPal" name='submit' />
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className='available-titles-info-div-signs'>
+                {/* <Link className='book-of-signs-link' to='/bookOfSigns'> */}
+                  <p className='available-titles-signs-name'>A Book of Signs</p>
+                {/* </Link> */}
+                <div className='signs-dynamic-div'>
+                  {/* <Link className='book-of-signs-link' to='/bookOfSigns'> */}
+                    <img src='https://i.imgur.com/T0mI8W7.jpg' className='book-of-signs-img' alt='' />
+                  {/* </Link> */}
+                  {/* <Route path='/bookOfSigns' component={ABookOfSigns} /> */}
+                </div>
+                <div className='book-of-signs-main-container'>
+                  <h3 className='bold-text'>Retail price: $5</h3>
+                  <p className='text'>Includes shipping</p>
+                  <p className='text'>Size 4 in. x 5 in.</p>
+                  <p className='text'>96 pages</p>
+                  <p className='text'>Now in its third printing</p>
+                  <p className='text-last'>Co-publication of Vehicle Editions and <a href='https://www.ilylali.com/' className='ilylali-link' target='_blank' rel='noopener noreferrer'>ilylali</a></p>
+                  <div className='buy-now-div1'>
+                    <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_blank' className='paypal-form'>
+                      <input type='hidden' name='cmd' value='_s-xclick' />
+                      <input type='hidden' name='hosted_button_id' value='GQGQ7ZV7CDFDL' />
+                      <input type='image' className='paypal-button' img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/buy-logo-large.png" alt="Buy now with PayPal" name='submit' />
                       <img alt='' border='0' src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif' width='1' height='1' />
                     </form>
                   </div>
@@ -74,6 +156,17 @@ class AvailableTitles extends Component {
                     </a>
                     <p className='rudy-photos-description1'>Rudy Burckhadt</p>
                     <p className='rudy-photos-description2'>Photo by Timothy Greenfield-Sanders</p>
+                    <h3 className='rudy-price'>$20 per copy</h3>
+                    <p className='rudy-text-1'>ISBN 0-931428-20-3</p>
+                    <p className='rudy-text'>10 x 8 inches</p>
+                    <p className='rudy-text'>72 pages</p>
+                    <div className='buy-now-div4'>
+                      <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_blank'>
+                        <input type='hidden' name='cmd' value='_s-xclick' />
+                        <input type='hidden' name='hosted_button_id' value='84LRLJWJBYE3S' />
+                        <input type='image' className='paypal-button' img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/buy-logo-large.png" alt="Buy now with PayPal" name='submit' />
+                      </form>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -92,6 +185,26 @@ class AvailableTitles extends Component {
                     <p className='rudy-photos-description1'>Christopher Knowles</p>
                     <p className='rudy-photos-description2'>Photo by Richard Landry</p>
                     <div className='convos-with-rudy-main-container'>
+                    <div className='typings-main-container'>
+                      <p className='typings-text-price'>Hardcover: $400 per copy</p>
+                      <p className='typings-text'>Hardcover edition: red cloth over boards with green foil stamp</p>
+                      <br />
+                      {/* <p className='typings-text'>Softcover: $300 per copy</p> */}
+                      <div className='buy-now-div4'>
+                        <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_top' className='paypal-option-button'>
+                          <input type='hidden' name='cmd' value='_s-xclick' />
+                          <input type='hidden' name='hosted_button_id' value='HR3GZR2TF4PNJ' />
+                          <table>
+                            <tr><td><input type='hidden' name='on0' value='Edition Type' />Edition Type</td></tr><tr><td><select name='os0'>
+                              {/* <option value='Softcover'>Softcover $300.00 USD</option> */}
+                              <option value='Hardcover'>Hardcover $400.00 USD</option>
+                            </select> </td></tr>
+                          </table>
+                          <input type='hidden' name='currency_code' value='USD' />
+                          <input type='image' className='paypal-button' img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/buy-logo-large.png" alt="Buy now with PayPal" name='submit'/>
+                        </form>
+                      </div>
+                    </div>
                       <br />
                       <Route path='/typings' component={Typings} />
                     </div>
@@ -106,12 +219,12 @@ class AvailableTitles extends Component {
                       <img src='https://i.imgur.com/3Y8W2wA.jpg' className='train-ride-available-img' alt='' />
                       <img src='https://i.imgur.com/KnH4eWm.jpg' className='train-ride-available-img' alt='' />
                     </div>
-                    <p className='rudy-photos-description1'>Cover by Joe Brainard</p>
+                    <p className='train-ride-cover-text'>Cover by Joe Brainard</p>
                     <div className='train-ride-main-container'>
                       <br />
-                      <p className='typings-text'>Back in print</p>
-                      <p className='typings-text'>Order yours today</p>
-                      <p className='typings-text'>$12 per copy softcover</p>
+                      <p className='train-ride-text-price'>$12 per copy – softcover</p>
+                      <p className='train-ride-text'>Back in print</p>
+                      <p className='train-ride-text'>Order yours today</p>
                     </div>
 
                     <div className='av-titles-div-modal'>
@@ -191,12 +304,11 @@ class AvailableTitles extends Component {
                     </div>
                   </div>
 
-                  <div className='buy-now-div2'>
+                  <div className='buy-now-div5'>
                     <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_blank' className='paypal-form'>
                       <input type='hidden' name='cmd' value='_s-xclick' />
                       <input type='hidden' name='hosted_button_id' value='NDQHZ4MPW3AFW' />
-                      <input type='image' src='https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif' border='0' name='submit' alt='PayPal - The safer, easier way to pay online!' />
-                      <img alt='' border='0' src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif' width='1' height='1' />
+                      <input type='image' className='paypal-button' img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/buy-logo-large.png" alt="Buy now with PayPal" name='submit' />
                     </form>
                   </div>
                 </div>

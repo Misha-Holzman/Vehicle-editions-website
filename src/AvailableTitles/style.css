@@ -102,12 +102,13 @@
 
 .available-titles-rudy-name {
   font-family: "Montserrat", sans-serif;  
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 500;
   margin-bottom: 3%; 
   text-decoration: none;
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
+  text-align: center;
 }
 
 
@@ -165,9 +166,22 @@
 
 .towle-available-img {
   height: 400px;
+  padding-left: 4%;
 }
+
+.available-img {
+  height: 400px;
+}
+
+
+
+
 .tony-video {
-  margin-top: 5%;
+  margin-right: 0;
+  display: flex;
+  justify-content: right;
+  align-content: right;
+  align-items: right;
 }
 
 .typings-2-img {
@@ -186,13 +200,15 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 
 .rudy-photos-description1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 13px;
-  font-style: italic;
+  font-size: 20px;
+  font-weight: 600;
   text-align: center;
   margin-top: 4%;
 }
@@ -267,11 +283,59 @@
   font-size: 23px;
 }
 
+.typings-text-price {
+  font-family: "Montserrat", sans-serif;  
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 2%;
+}
 .typings-text {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;  
   font-weight: 400;
   font-size: 17px;
   text-align: center;
+  margin-bottom: -2%;
+}
+
+.typings-text-last {
+  font-family: "Montserrat", sans-serif;  
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.typings-bold-text {
+  font-family: "Montserrat", sans-serif;  
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.tony-text {
+  font-family: "Montserrat", sans-serif;  
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.tony-text-last {
+  font-family: "Montserrat", sans-serif;  
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.tony-bold-text {
+  font-family: "Montserrat", sans-serif;  
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 3%;
 }
 
 .buy-now-div2 {
@@ -283,7 +347,7 @@
 .buy-now-div1 {
   width: 22%;
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 
 .buy-now-div3 {
@@ -293,4 +357,91 @@
   margin-top: -1% !important;
   margin-bottom: 5% !important;
   margin-left: 0% !important;
+}
+
+.buy-now-div4 {
+  width: 100%;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  align-content: center !important;
+  margin-top: 3% !important;
+  margin-bottom: 5% !important;
+  margin-left: 0% !important;
+}
+
+.buy-now-div5 {
+  width: 22%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+
+
+/* .paypal-button {
+  padding: 7px 20px 7px 20px;
+  background-color: rgb(204,104,102);
+  color: white;
+  border: none;
+  border-radius: 600px;
+  font-size: 20px;
+  box-shadow: 0px 1px 16px -2px rgba(0,0,0,0.21);
+  transition: 500ms;
+}
+
+
+.paypal-button:hover {
+  transition: 500ms;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.21);
+  background-color: #cc6695;
+} */
+
+
+.train-ride-cover-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 2%;
+  font-style: italic;
+}
+
+.train-ride-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.train-ride-text-price {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.minnesota-button-div {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.minnesota-button {
+  padding: 10px 22px 10px 22px;
+  background-color: rgb(204,104,102);
+  color: white;
+  border: none;
+  border-radius: 600px;
+  font-size: 20px;
+  box-shadow: 0px 1px 16px -2px rgba(0,0,0,0.21);
+  transition: 500ms;
+}
+
+.minnesota-button:hover {
+  transition: 500ms;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.21);
+  background-color: #cc6695;
+  color: white;
 }
